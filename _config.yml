@@ -68,6 +68,8 @@ theme: 200ok
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
+  type:
   type: git
   repo: https://github.com/techlahoma/200ok-site
-  message: Site deployment
+  branch: gh-pages
+  message: [message]
