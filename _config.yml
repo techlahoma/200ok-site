@@ -69,3 +69,6 @@ theme: 200ok
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+  type: git
+  repo: https://github.com/techlahoma/200ok-site
+  message: Site deployment
