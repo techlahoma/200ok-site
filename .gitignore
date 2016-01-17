@@ -3,3 +3,5 @@ OGV
 WEBM
 public
 db.json
+.deploy_git
+node_modules
