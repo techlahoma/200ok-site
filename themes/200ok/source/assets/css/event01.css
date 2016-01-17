@@ -453,11 +453,18 @@ header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:
 
 header#fullwidth .header-text {position: relative;z-index: 20;padding: 10% 5% 0;height: 100%;}
 
-
 @media (max-width: 768px) { 
-header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:21px;background:#ff1744;color:#FFF;margin-top:40%}
-header#fullwidth h2 {text-transform:uppercase; font-weight:400; font-size:28px}
-header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:12px}
+	header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:21px;background:#ff1744;color:#FFF;margin-top:40%}
+	header#fullwidth h2 {text-transform:uppercase; font-weight:400; font-size:28px}
+	header#fullwidth .sm-title {
+		text-transform:uppercase;
+		font-weight:700;
+		font-size:12px;
+	}
+	header#fullwidth h3 span.date {
+		display: block;
+		line-height: 2;
+	}
 }
 
 @media only screen 
@@ -472,7 +479,7 @@ header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:
 @media (max-width: 640px) {
 header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:21px;background:#ff1744;color:#FFF;margin-top:40%}
 header#fullwidth h2 {text-transform:uppercase; font-weight:400; font-size:24px}
-header#fullwidth .header-text {position: relative;z-index: 20;padding: 10% 0% 0;height: 100%;}
+header#fullwidth .header-text {position: relative;z-index: 20;padding: 30% 0% 0;height: 100%;}
 } 
 
 /* Small Hero Header */

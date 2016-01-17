@@ -1,5 +1,25 @@
+body {
+  font-size:16px;
+}
 @media (min-width:768px) {
   .navbar-brand img {
-      width: 96px;
+    width: 96px;
   }
+}
+#sponsors a {
+  text-decoration: underline;
+  color: #14a2b2;
+}
+#sponsors a:hover {
+  text-decoration: none;
+  color: #14a2b2;
+}
+article h3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0.2em;
+	margin-top:1.5em;
+  font-size: 1.8em;
+}
+article li {
+  line-height: 1.8;
 }
