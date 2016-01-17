@@ -1,6 +1,6 @@
 ---
 title: 'Sponsorship Prospectus'
-subtitle: 'Help bring together South-by-Midwest web professionals for a day of talks on pushing the boundaries of what the web can do.'
+subtitle: 'Help bring together South-by-Midwest web professionals for a day of talks on pushing the boundaries of what the web can do'
 ---
 ### `<title>` Sponsor - $3,000
 #### Limited to a single company
