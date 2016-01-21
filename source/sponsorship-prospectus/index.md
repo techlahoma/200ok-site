@@ -24,7 +24,6 @@ subtitle: 'Help bring together South-by-Midwest web professionals for a day of t
 * Company collateral placement at registration table
 
 ### `<h1>` Sponsor - $2,000
-#### Limited to 3 companies
 * Logo on website
 * Logo on program/schedule
 * Logo on shirt
@@ -34,7 +33,6 @@ subtitle: 'Help bring together South-by-Midwest web professionals for a day of t
 * 2 tickets included
 
 ### `<h2>` Sponsor - $1,000
-#### Limited to 3 companies
 * Logo on website
 * Logo on program/schedule
 * Tweet/Facebook announcement
