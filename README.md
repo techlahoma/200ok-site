@@ -25,8 +25,8 @@ Then go to http://localhost:4000
 
 ### Deploy Changes
 
-Run
-
-  hexo deploy
+```
+hexo deploy
+```
 
 This will generate the static files and deploy to github pages.
