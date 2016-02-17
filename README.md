@@ -8,7 +8,6 @@ This is a static website deployed on gh-pages, built with [hexo](https://hexo.io
 git clone git@github.com:techlahoma/200ok-site.git
 cd 200ok-site
 npm install
-npm install -g hexo
 ```
 
 ### File Structure
@@ -18,7 +17,7 @@ All the copy documents are in `/source`, the theme is `/themes/200ok`, and the o
 ### Working locally on the site
 
 ```
-hexo serve
+./node_modules/.bin/hexo serve
 ```
 
 Then go to http://localhost:4000
