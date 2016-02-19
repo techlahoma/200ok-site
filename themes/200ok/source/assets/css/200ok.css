@@ -6,11 +6,11 @@ body {
     width: 96px;
   }
 }
-#sponsors a {
+.section-title a {
   text-decoration: underline;
   color: #14a2b2;
 }
-#sponsors a:hover {
+.section-title a:hover {
   text-decoration: none;
   color: #14a2b2;
 }
