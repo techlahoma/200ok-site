@@ -48,7 +48,7 @@ hr.border {border-color: #ff1744;border-width: 1px;}
 hr.border-light {border-color: #ffc1cd;border-width: 1px;}
 hr.border-sm {width:50px;border-color: #ff1744;border-width: 3px;}
 hr.border-thick { margin:50px auto;border-color: #eee;border-width: 3px;}
-a {color: #141414;text-decoration: none;}
+a {color: #337ab7;text-decoration: underline;}
 a:hover, a:focus {color: #ff1744;text-decoration: none;}
 /* ========== Colours ========== */
 .white {color:#FFF}
