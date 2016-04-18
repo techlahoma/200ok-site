@@ -1,10 +1,8 @@
 body {
   font-size:16px;
 }
-@media (min-width:768px) {
-  .navbar-brand img {
-    width: 96px;
-  }
+.navbar-brand img {
+  height: 40px;
 }
 .section-title a {
   text-decoration: underline;
