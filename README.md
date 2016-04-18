@@ -25,8 +25,8 @@ Then go to http://localhost:4000
 ### Deploy Changes
 
 ```
-hexo generate
-hexo deploy
+./node_modules/.bin/hexo generate
+./node_modules/.bin/hexo deploy
 ```
 
 This will generate the static files and deploy to github pages.
