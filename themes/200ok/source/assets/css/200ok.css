@@ -21,3 +21,11 @@ article h3 {
 article li {
   line-height: 1.8;
 }
+
+.sponsor-row {
+  padding: 2em;
+}
+
+.sponsor-row-description {
+  padding: 1em;
+}
