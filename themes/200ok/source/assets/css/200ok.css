@@ -21,24 +21,19 @@ article h3 {
 article li {
   line-height: 1.8;
 }
-
 .sponsor-row {
-  padding: 2em;
+  padding: 0em;
 }
-
 .sponsor-row-description {
   padding: 1em;
 }
-
 .schedule-time {
   text-align: center;
   background: #EE3924;
 }
-
 .schedule-event {
   text-align: center;
 }
-
 .talk-title {
   margin: 1em;
 }

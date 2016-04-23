@@ -216,64 +216,25 @@
 
     <!-- Speakers List -->
     <div class="row">
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/gregavola.png" width="230" height="230" alt="" />
-        <h4>Greg Avola<br/>CTO<br/>Untappd / Next Glass</h4>
-        <p></p>
-</div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/janeprusakova.jpeg" width="230" height="230" alt="" />
-        <h4>Jane Prusaokva<br/>Principal Consultant<br/>Improving Enterprises</h4>
-        <p></p>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/gregtatum.jpeg" width="230" height="230" alt="" />
-        <h4>Greg Tatum<br/>Firefox Developer Tools Engineer<br/>Mozilla</h4>
-        <p></p>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/robcarr.jpg" width="230" height="230" alt="" />
-        <h4>Rob Carr<br/>Accessibility Coordinator<br/>Oklahoma ABLE Tech</h4>
-        <p></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/ryanhoegg.jpeg" width="230" height="230" alt="" />
-        <h4>Ryan Hoegg<br/>Software Consultant<br/>Community Leader</h4>
-        <p></p>
-</div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/carlosangon.jpeg" width="230" height="230" alt="" />
-        <h4>Carlos Angon</h4>
-        <p></p>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/tatianarozzell.jpeg" width="230" height="230" alt="" />
-        <h4>Tatiana Rozzell<br/>Founder &amp; CEO, Learn To Code<br/>Founder &amp; Director, Girls Who Code Tulsa</h4>
-        <p></p>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/frankevans.jpeg" width="230" height="230" alt="" />
-        <h4>Frank Evans<br/>Data Scientist<br/>Exaptive</h4>
-        <p></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/jaygraber.png" width="230" height="230" alt="" />
-        <h4>Jay Graber<br/>Software Engineer<br/>Skuchain</h4>
-        <p></p>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-        <img class="img-responsive center-block" src="assets/media/speakers/carmenlong.jpeg" width="230" height="230" alt="" />
-        <h4>Carmen Long<br/>Ionic Developer<br/>RaiseMore</h4>
-        <p></p>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 mrgn-20-top-btm">
-      </div>
+      <% site.pages.each(function(page){ if(page.speaker) { %>
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="speaker-item"> <a href="<%- page.path %>">
+            <figure class="speaker accent-bg">
+              <img src="<%- page.photo %>" alt="Speaker" class="img-responsive center-block" height="300" width="300">
+              <figcaption>
+                <p class="text-uppercase accent"><%- page.talk %></p>
+                <p><%- page.time %></p>
+              </figcaption>
+            </figure>
+            </a>
+            <p>
+              <span class="speaker-accent"><%- page.speaker %>&nbsp;</span><br>
+              <span class="speaker-position"><%- page.position %>&nbsp;</span><br>
+              <span class="speaker-company"><%- page.company %>&nbsp;</span>
+            </p>
+          </div>
+        </div>
+      <% }}) %>
     </div>
     <!-- /.Speakers List -->
 </div>

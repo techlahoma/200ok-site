@@ -1,0 +1,32 @@
+<!-- Hero Header Header -->
+<header id="hero" class="blankbg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <!-- Heading Title Area -->
+        <div class="header-text white text-center text-uppercase">
+          <h1><%- page.title %></h1>
+          <h2><%- page.subtitle %></h2>
+        </div>
+        <!-- /.Heading Title Area -->
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+</header>
+<!-- /.Hero Header Header -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <article id="<%= page.layout %>-<%= page.slug %>" class="article article-type-<%= page.layout %>">
+        <div class="article-inner">
+
+          <div class="article-entry" itemprop="articleBody">
+              <%- page.content %>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
