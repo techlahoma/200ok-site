@@ -52,9 +52,9 @@
     <!-- Sponsors List -->
     <div class="row sponsor-row text-center">
       <h2 class="sponsor-row-description">&lt;h1&gt;</h2>
-        <a href='http://www.gkff.org/' target='_blank'>
-          <img class="img-responsive center-block" src="assets/media/sponsors/gkff.png" width="368" height="150" alt="George Kaiser Family Foundation" />
-        </a>
+      <a href='http://www.gkff.org/' target='_blank'>
+        <img class="img-responsive center-block" src="assets/media/sponsors/gkff.png" width="368" height="150" alt="George Kaiser Family Foundation" />
+      </a>
     </div>
     <div class="row sponsor-row text-center">
       <h2 class="sponsor-row-description">&lt;h2&gt;</h2>
@@ -71,10 +71,9 @@
     </div>
     <div class="row sponsor-row text-center">
       <h2 class="sponsor-row-description">Partners</h2>
-        <a href='http://www.36degreesnorth.co/' target='_blank'>
-          <img class="img-responsive center-block" src="assets/media/sponsors/36degreesnorth.jpg" width="368" height="150" alt="" style='padding-top:3%;'/>
-        </a>
-      </div>
+      <a href='http://www.36degreesnorth.co/' target='_blank'>
+        <img class="img-responsive center-block" src="assets/media/sponsors/36degreesnorth.jpg" width="368" height="150" alt="" style='padding-top:3%;'/>
+      </a>
     </div>
     <!-- /.Sponsors List -->
 
@@ -113,97 +112,121 @@
       </div>
     </div>
 
-  <div class="row">
-  <div class="col-md-12">
-    <!--
-    <p class="text-center">Click on any schedule item to see details about the talk.</p>
-    -->
+    <div class="row">
+      <div class="col-lg-12">
 
-    <div class="schedule-time">
-        <time>8:00am-8:40am</time>
+        <!-- Schedule  -->
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div class="tab-content">
+              <div class="tab-pane fade active in" id="day1">
+
+                <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">8:00am</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Registration</p>
+                    <p>Get checked in, mingle, and grab a bite to eat.</p>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+                <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">8:40am</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Opening Announcements</p>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+                <% site.pages.each(function(page){ if(page.speaker === "Ryan Hoegg") { %>
+                  <%- partial("_partial/schedule-speaker", {page: page}) %>
+                <% }}) %>
+
+                <% site.pages.each(function(page){ if(page.speaker === "Greg Tatum") { %>
+                  <%- partial("_partial/schedule-speaker", {page: page}) %>
+                <% }}) %>
+
+                <% site.pages.each(function(page){ if(page.speaker === "Jane Prusakova") { %>
+                  <%- partial("_partial/schedule-speaker", {page: page}) %>
+                <% }}) %>
+
+                <!-- Lunch Break -->
+                <div class="food-break white">
+                  <div class="row">
+                    <p>12:00pm-1:20pm<br>
+                      Lunch Break</p>
+                  </div>
+                </div>
+                <!-- /.Lunch Break -->
+                <hr class="border-light">
+
+                <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">1:20pm-2:10pm</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Lightning Talks</p>
+                    <% site.pages.each(function(page){ if(page.lightning) { %>
+                      <div style='overflow:hidden; border-top:1px solid #ccc; padding:1em 0'>
+                        <img src="<%- page.photo %>"
+                             alt="Speaker"
+                             class="img-responsive img-circle img-speaker"
+                             style="float:left; margin: 0.1em 1em;">
+                          <p class="text-bold"><a href="<%- page.path %>"><%- page.talk %></a></p>
+                        <p style="font-size:90%;"><%- page.speaker %></p>
+                      </div>
+                    <% }}) %>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+                <% site.pages.each(function(page){ if(page.speaker === "Rob Carr") { %>
+                  <%- partial("_partial/schedule-speaker", {page: page}) %>
+                <% }}) %>
+
+                <% site.pages.each(function(page){ if(page.speaker === "Greg Avola") { %>
+                  <%- partial("_partial/schedule-speaker", {page: page}) %>
+                <% }}) %>
+
+                <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">4:20pm</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Closing Remarks</p>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+                <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">4:30pm-5:00pm</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Socializing/Networking</p>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- /. Schedule  -->
+      </div>
     </div>
-    <div class="schedule-event">
-        <p>Registration</p>
-    </div>
-    <div class="schedule-time">
-        <time>8:40am-9:00am</time>
-    </div>
-    <div class="schedule-event">
-        <p>Opening Announcements</p>
-    </div>
-    <div class="schedule-time">
-        <time>9:00am-9:50am</time>
-    </div>
-    <div class="schedule-event">
-        <h3 class="talk-title">Introduction to Continuous Delivery</h3>
-        <h4>Ryan Hoegg</h4>
-    </div>
-    <div class="schedule-time">
-        <time>10:00am-10:50am</time>
-    </div>
-    <div class="schedule-event">
-        <h3 class="talk-title">Memory in JavaScript</h3>
-        <h4>Greg Tatum</h4>
-    </div>
-    <div class="schedule-time">
-        <time>10:00am-11:50am</time>
-    </div>
-    <div class="schedule-event">
-        <h3 class="talk-title">Privacy in the Digital Age: Can you Keep a Secret?</h3>
-        <h4>Jane Prusakova</h4>
-    </div>
-    <div class="schedule-time">
-        <time>12:00pm-1:20pm</time>
-    </div>
-    <div class="schedule-event">
-        <p>Lunch</p>
-    </div>
-    <div class="schedule-time">
-        <time>1:20pm-2:10pm</time>
-    </div>
-    <div class="schedule-event">
-        <h3 class="talk-title">Lightning Talks</h3>
-        <h4>Continuous Self-Optimization</h4>
-        <h5>Carlos Angon</h5>
-        <h4>Developing Future Generations of Coders</h4>
-        <h5>Tatiana Rozzell</h5>
-        <h4>Bootcamps and Learning How to Code</h4>
-        <h5>Jay Graber</h5>
-        <h4>How to Get Started in Data Science from Scratch</h4>
-        <h5>Frank Evans</h5>
-        <h4>Building your first Ionic App in 5 Minutes</h4>
-        <h5>Carmen Long</h5>
-    </div>
-    <div class="schedule-time">
-        <time>2:20pm-3:10pm</time>
-    </div>
-    <div class="schedule-event">
-        <h3 class="talk-title">Creating a Truly Open Web: Accessibility in Design and Function</h3>
-        <h4>Rob Carr</h4>
-    </div>
-    <div class="schedule-time">
-        <time>3:20pm-4:10pm</time>
-    </div>
-    <div class="schedule-event">
-        <h3 class="talk-title">Untappd: One Beer to Rule Them All</h3>
-        <h4>Greg Avola</h4>
-    </div>
-    <div class="schedule-time">
-        <time>4:20pm-4:30pm</time>
-    </div>
-    <div class="schedule-event">
-        <p>Closing Remarks</p>
-    </div>
-    <div class="schedule-time">
-        <time>4:30pm-5:00pm</time>
-    </div>
-    <div class="schedule-event">
-        <p>Socializing/Networking</p>
-    </div>
-  </div>
   </div>
 </section>
-
 <section id="speakers">
   <div class="container">
     <div class="row">
