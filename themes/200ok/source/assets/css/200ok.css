@@ -39,3 +39,7 @@ article li {
 }
 .food-break {background: url(/assets/media/image-backgrounds/food-break.jpg);background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}
 .food-break p {text-transform:uppercase; font-size:21px; font-weight:500; padding:40px 0 30px; text-align:center}
+
+.btn-primary {
+  background-color: #14A2B2;
+}
