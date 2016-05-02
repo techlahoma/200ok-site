@@ -122,35 +122,28 @@
 
     <div class="row">
       <div class="col-lg-12">
-
         <!-- Schedule  -->
-        <div class="row">
-          <div class="col-lg-10 col-lg-offset-1">
-            <div class="tab-content">
-              <div class="tab-pane fade active in" id="day1">
 
-                <div class="row">
-                  <div class="col-xs-4 col-sm-2 text-center">
-                    <p class="text-big text-bold">8:00am</p>
-                  </div>
-                  <div class="col-xs-8 col-sm-10">
-                    <p class="text-big text-bold text-uppercase">Registration</p>
-                    <p>Get checked in, mingle, and grab a bite to eat.</p>
-                  </div>
-                </div>
+          <!-- Nav tabs -->
+            <ul id="toolkit" class="nav nav-tabs nav-justified" role="tablist">
+              <li class="active"><a href="#conference" role="tab" data-toggle="tab"><span class="accent text-bold text-big">Conference</span><br/><span class="small">Community Hall</span></a></li>
+              <li>
+                <a href="#workshop" role="tab" data-toggle="tab">
+                    <img src="assets/media/sponsors/okcoders-tight-logo.png" alt="OK Coders" class="img-responsive" width="101" height="20" style="display: inline; margin-bottom: .17em;" />
+                    <span class="accent text-bold text-big">Workshop</span>
+                    <br/>
+                    <span class="small">Classroom</span>
+                </a>
+              </li>
+            </ul>
+          <!-- /.Nav tabs -->
 
-                <hr class="border-light">
+        <div class="tab-content">
 
-                <div class="row">
-                  <div class="col-xs-4 col-sm-2 text-center">
-                    <p class="text-big text-bold">8:40am</p>
-                  </div>
-                  <div class="col-xs-8 col-sm-10">
-                    <p class="text-big text-bold text-uppercase">Opening Announcements</p>
-                  </div>
-                </div>
+      <!-- Conference Schedule -->
+        <div id="conference" class="tab-pane fade active in">
 
-                <hr class="border-light">
+<%- partial("_partial/schedule-registration-opening") %>
 
                 <% site.pages.each(function(page){ if(page.speaker === "Ryan Hoegg") { %>
                   <%- partial("_partial/schedule-speaker", {page: page}) %>
@@ -164,36 +157,9 @@
                   <%- partial("_partial/schedule-speaker", {page: page}) %>
                 <% }}) %>
 
-                <!-- Lunch Break -->
-                <div class="food-break white">
-                  <div class="row">
-                    <p>12:00pm-1:20pm<br>
-                      Lunch Break</p>
-                  </div>
-                </div>
-                <!-- /.Lunch Break -->
-                <hr class="border-light">
+<%- partial("_partial/schedule-lunch") %>
 
-                <div class="row">
-                  <div class="col-xs-4 col-sm-2 text-center">
-                    <p class="text-big text-bold">1:20pm-2:10pm</p>
-                  </div>
-                  <div class="col-xs-8 col-sm-10">
-                    <p class="text-big text-bold text-uppercase">Lightning Talks</p>
-                    <% site.pages.each(function(page){ if(page.lightning) { %>
-                      <div style='overflow:hidden; border-top:1px solid #ccc; padding:1em 0'>
-                        <img src="<%- page.photo %>"
-                             alt="Speaker"
-                             class="img-responsive img-circle img-speaker"
-                             style="float:left; margin: 0.1em 1em;">
-                          <p class="text-bold"><a href="<%- page.path %>"><%- page.talk %></a></p>
-                        <p style="font-size:90%;"><%- page.speaker %></p>
-                      </div>
-                    <% }}) %>
-                  </div>
-                </div>
-
-                <hr class="border-light">
+<%- partial("_partial/schedule-lightning-talks") %>
 
                 <% site.pages.each(function(page){ if(page.speaker === "Rob Carr") { %>
                   <%- partial("_partial/schedule-speaker", {page: page}) %>
@@ -203,36 +169,67 @@
                   <%- partial("_partial/schedule-speaker", {page: page}) %>
                 <% }}) %>
 
-                <div class="row">
-                  <div class="col-xs-4 col-sm-2 text-center">
-                    <p class="text-big text-bold">4:20pm</p>
-                  </div>
-                  <div class="col-xs-8 col-sm-10">
-                    <p class="text-big text-bold text-uppercase">Closing Remarks</p>
-                  </div>
-                </div>
+<%- partial("_partial/schedule-closing-socializing") %>
 
-                <hr class="border-light">
 
-                <div class="row">
-                  <div class="col-xs-4 col-sm-2 text-center">
-                    <p class="text-big text-bold">4:30pm-5:00pm</p>
-                  </div>
-                  <div class="col-xs-8 col-sm-10">
-                    <p class="text-big text-bold text-uppercase">Socializing/Networking</p>
-                  </div>
-                </div>
+            </div> <!-- tab-pane -->
+        <!-- /. Conference Schedule -->
 
-                <hr class="border-light">
+        <!-- Workshop Schedule -->
+            <div id="workshop" class="tab-pane fade">
 
-              </div>
+<%- partial("_partial/schedule-registration-opening") %>
 
-            </div>
-          </div>
-        </div>
-        <!-- /. Schedule  -->
+<div class="row">
+  <div class="col-xs-4 col-sm-2 text-center">
+    <p class="text-big text-bold">9:00am - 11:50am</p>
+    <p><img src="assets/media/speakers/SergeiGolimbievsky.jpg" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
+  </div>
+  <div class="col-xs-8 col-sm-10">
+    <p class="text-big text-bold text-uppercase">
+        Workshop
+    </p>
+    <p>
+      Sergei Golimbievsky<br/>
+      <span style='color:#666;'>Building an asteroids-like game with HTML5 &lt;canvas&gt;</span>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">
+
+<%- partial("_partial/schedule-lunch") %>
+
+<%- partial("_partial/schedule-lightning-talks") %>
+
+<div class="row">
+  <div class="col-xs-4 col-sm-2 text-center">
+    <p class="text-big text-bold">2:20pm - 4:20pm</p>
+    <p><img src="assets/media/speakers/SergeiGolimbievsky.jpg" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
+  </div>
+  <div class="col-xs-8 col-sm-10">
+    <p class="text-big text-bold text-uppercase">
+        Workshop
+    </p>
+    <p>
+      Sergei Golimbievsky<br/>
+      <span style='color:#666;'>Building an asteroids-like game with HTML5 &lt;canvas&gt;</span>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">
+
+<%- partial("_partial/schedule-closing-socializing") %>
+
+            </div> <!-- tab-pane -->
+        <!-- /. Workshop Schedule -->
+
+        </div> <!-- tab-content -->
+
       </div>
     </div>
+    <!-- /. Schedule  -->
   </div>
 </section>
 <section id="speakers">
