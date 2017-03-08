@@ -6,11 +6,11 @@ body {
 }
 .section-title a {
   text-decoration: underline;
-  color: #14a2b2;
+  color: #2E83C4;
 }
 .section-title a:hover {
   text-decoration: none;
-  color: #14a2b2;
+  color: #2E83C4;
 }
 article h3 {
 	border-bottom: 1px solid #ccc;
@@ -41,5 +41,5 @@ article li {
 .food-break p {text-transform:uppercase; font-size:21px; font-weight:500; padding:40px 0 30px; text-align:center}
 
 .btn-primary {
-  background-color: #14A2B2;
+  background-color: #2E83C4;
 }

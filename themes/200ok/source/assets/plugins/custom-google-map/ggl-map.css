@@ -22,7 +22,7 @@
   position: relative;
   width: 100%;
   padding: 1em;
-  background-color: #EE3924;
+  background-color: #EF483C;
   color: #fff;
   font-size: 13px;
   font-size: 1.2rem;
@@ -49,7 +49,7 @@
   width: 32px;
   cursor: pointer;
   margin-left: 10px;
-  background-color: #EE3924;
+  background-color: #EF483C;
   background-repeat: no-repeat;
   background-size: 32px 64px;
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-controller.svg)
