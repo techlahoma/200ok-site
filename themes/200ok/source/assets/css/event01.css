@@ -490,7 +490,7 @@ header#hero-sm .header-text {padding-top: 150px;padding-bottom: 100px;}
 }
 
 /* ========== Hero Backgrounds ========== */
-.homepage {background-image: url(../media/image-backgrounds/fullwidth-header.jpg);}
+/*.homepage {background-image: url(../media/image-backgrounds/fullwidth-header.jpg);}*/
 .schedulebg {background-image: url(../media/image-backgrounds/schedulebg.jpg);}
 .speakersbg {background-image: url(../media/image-backgrounds/speakersbg.jpg);}
 .latest-news {background-image: url(../media/image-backgrounds/latest-newsbg.jpg);}
