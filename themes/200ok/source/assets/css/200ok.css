@@ -43,3 +43,20 @@ article li {
 .btn-primary {
   background-color: #2E83C4;
 }
+.main-header {
+  font-size: 1.5em;
+  text-transform: none;
+}
+
+@media screen and (max-width: 640px) {
+  .main-header {
+    font-size: 0.9em;
+  }
+  .main-header-date {
+      margin: 1.2em 0;
+  }
+  .main-header-date > span {
+    line-height: 1.4 !important;
+    padding: 0.5em !important;
+  }
+}
