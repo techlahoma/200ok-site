@@ -38,6 +38,51 @@
 </header>
 <!-- /.Header -->
 
+<!-- Section Speakers -->
+<section id="speakers">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h2 class="text-center"><span>Speakers</span></h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Speakers List -->
+    <div class="row">
+      <% site.pages.each(function(page){ if(page.speaker) { %>
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="speaker-item"> <a href="<%- page.path %>">
+            <figure class="speaker accent-bg">
+              <img src="<%- page.photo %>" alt="Speaker" class="img-responsive center-block" height="300" width="300">
+              <figcaption>
+                <p class="text-uppercase accent"><%- page.talk %></p>
+                <p><%- page.time %></p>
+              </figcaption>
+            </figure>
+            </a>
+            <p>
+              <span class="speaker-accent"><%- page.speaker %>&nbsp;</span><br>
+              <span class="speaker-position"><%- page.position %>&nbsp;</span><br>
+              <span class="speaker-company"><%- page.company %>&nbsp;</span>
+            </p>
+          </div>
+        </div>
+      <% }}) %>
+    </div>
+    <!-- /.Speakers List -->
+</div>
+<!-- /.container -->
+</section>
+<!-- /.Section Speakers -->
+
+<section id="tickets">
+  <p class="text-center">
+    <a href="https://ti.to/techlahoma/200ok-2017" class="btn btn-primary btn-lg">Buy Tickets</a>
+  </p>
+</section>
+
 <!-- Section Sponsors -->
 <section id="sponsors">
   <div class="container">
@@ -180,6 +225,7 @@
 <!-- /.container -->
 </section>
 <!-- /.Section Sponsors -->
+
 
 <!-- Section Location -->
 <section id="location">
