@@ -1,4 +1,6 @@
 ---
+position: Principal Software Engineer
+company: Oracle
 speaker: Vance Lucas
 twitter: https://twitter.com/vlucas
 website: http://vancelucas.com/

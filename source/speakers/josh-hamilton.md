@@ -4,7 +4,6 @@ position: Full Stack Engineer
 company: Made By Munsters
 twitter: https://twitter.com/nearbycoder
 github: https://github.com/nearbycoder
-website: http://nearbycoder.tk
 photo: /assets/media/speakers/joshhamilton.png
 time: Lightning Talk
 lightning: true

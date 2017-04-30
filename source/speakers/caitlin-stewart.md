@@ -1,13 +1,13 @@
 ---
 speaker: Caitlin Stewart
-position: ""
-company: NXB
-twitter: ""
+position: Mobile Developer
+company: NXB Mobile
+twitter: https://twitter.com/CaitlinPlusPlus
 github: ""
-photo: /assets/media/speakers/blank.jpg
+photo: /assets/media/speakers/caitlinstewart.jpg
 time: Lightning Talk
 lightning: true
 talk: "All your user base are belong to us: Website localization"
 bio: "Caitlin is a full stack developer working at NXB, a mobile dispatch software company using fun stuff like google maps."
 ---
-Programming is an incredibly useful skill, and going back to school is not necessarily the best way to learn. If you’re considering doing a coding bootcamp or teaching yourself how to code, there are more resources out there than ever before. It’s a long road from not knowing how to code to landing your first apprentice-level developer job, but I’ll share the tips and strategies of how I did it in less than a year.
+Have you ever wondered how websites work for non-english speakers? Do you have to maintain multiple codebases to have your website in multiple languages? In this talk we’ll take a look at one way to localize your website without using any extra libraries or plugins and why it’s important to do so.
