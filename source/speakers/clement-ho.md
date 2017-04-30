@@ -1,7 +1,7 @@
 ---
 speaker: Clement Ho
 twitter: https://twitter.com/clemmakesapps
-github: https://github.com/ClemMakesApps
+gitlab: https://gitlab.com/clemmakesapps
 photo: /assets/media/speakers/clementho.jpg
 talk: Why should you contribute to open source?
 time: Full Talk
