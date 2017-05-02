@@ -4,9 +4,9 @@ var downloadLnk = document.getElementById('download')
 var card_preview = new Vue({
 	el: '#card-wrapper',
 	data: {
-		image_url: '',
-		name: '',
-		topic: ''
+		image_url: 'http://placehold.it/270x400.jpg',
+		name: 'John Smith',
+		topic: 'Speaker Topic'
 	}
 })
 
