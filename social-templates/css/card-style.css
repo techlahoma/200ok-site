@@ -1,14 +1,10 @@
-html {
-	box-sizing: border-box;
-}
-
-*, *:before, *:after {
-	box-sizing: inherit;
-}
+/* Container */
 
 body {
-	background: #000;
+	/*background: #000;*/
 	font-size: 16px;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -52,7 +48,8 @@ body {
 /* Layout */
 
 .card {
-	margin: 10%;
+	margin: 0;
+	box-sizing: border-box;
 	width: 800px;
 	height: 450px;
 	background: #58585a;

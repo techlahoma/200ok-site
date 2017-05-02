@@ -1,38 +1,63 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <title>200ok Speaker Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>200ok Speaker Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/normalize.min.css">
+		<link rel="stylesheet" href="css/page-style.css">
+	</head>
 
-<body>
-	<div class="card speaker">
-		<div class="photo-wrapper">
-			<div class="photo">
-				<!-- Replace image here  -->
-				<img src='//placehold.it/270x400/DA87F3/000000'/>
-			</div>
+	<body>
+        <canvas id="canvas" width="800" height="450"></canvas>
+        <div class="title-wrapper">
+            <h1>200ok Speaker Card Maker</h1>
+        </div>
+		<div id="card-wrapper">
+    		<div id="card-display" class="">
+                <link rel="stylesheet" href="css/card-style.css">
+    			<div class="card speaker">
+        			<div class="photo-wrapper">
+        				<div class="photo">
+        					<!-- Replace image here  -->
+        					<img v-bind:src="image_url" alt="">
+        				</div>
+        			</div>
+        			<div class="content-wrapper ">
+        				<img class="logo" src='images/logo.svg' />
+        				<div class="speaker-content-wrapper">
+        					<div class="speaker-content">
+        						<div class="subhead">Come Hear</div>
+        						<!-- Speaker Name -->
+        						<div class="headline">{{ name }}</div>
+        						<div class="subhead">Speak About</div>
+        						<!-- Talk Name -->
+        						<div class="headline red">{{ topic }}</div>
+        					</div>
+        				</div>
+        				<div class="date">June 2, 2017 <span>Tulsa, OK</span></div>
+        			</div>
+    			</div>
+                <!-- Form -->
+    			<form>
+    				<label>Speaker Name</label>
+    				<input type="text" v-model="name" placeholder="John Smith">
+    				<label>Speaker Topic</label>
+                    <input v-model="topic" type="text" placeholder="Hello World!">
+    				<label>Image URL</label>
+    				<input type="text" v-model="image_url" placeholder="http://placehold.it/270x400.jpg">
+    			</form>
+    		</div>
 		</div>
-		<div class="content-wrapper">
-			<img class="logo" src='images/logo.svg'/>
-			<div class="speaker-content-wrapper">
-				<div class="speaker-content">
-					<div class="subhead">Come Hear</div>
-                    <!-- Speaker Name -->
-					<div class="headline">Greg Avola</div>
-					<div class="subhead">Speak About</div>
-                    <!-- Talk Name -->
-					<div class="headline red">Untppd, One Beer to rule them all</div>
-				</div>
-			</div>
-			<div class="date">June 2, 2017 <span>Tulsa, OK</span></div>
-
-		</div>
-	</div>
-</body>
+        <!-- Results-->
+        <div class="download-wrapper">
+            <a id="download" download="card.png" class="button">Generate Image</a>
+        </div>
+		<script src="node_modules/rasterizehtml/dist/rasterizeHTML.allinone.js" charset="utf-8"></script>
+		<script src="node_modules/vue/dist/vue.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
 
 </html>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "rasterizehtml": "^1.2.4",
+    "vue": "^2.3.0"
+  }
+}
