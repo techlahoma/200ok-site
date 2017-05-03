@@ -4,7 +4,7 @@ twitter: https://twitter.com/clemmakesapps
 github: https://github.com/ClemMakesApps
 photo: /assets/media/speakers/clementho.jpg
 talk: Why should you contribute to open source?
-time: Full Talk
+time: 3:20pm Full Talk
 position: Frontend Engineer
 company: GitLab
 bio: "Clement is a frontend engineer at GitLab. He is a maintainer of GitLab's frontend code and a merge request coach for community contributed code. Prior to GitLab, he worked at HP and received a CIO Excellence award. He also had a brief stint as a cofounder of a startup."

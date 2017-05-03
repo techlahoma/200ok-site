@@ -5,7 +5,7 @@ company: IOpipe
 twitter: https://twitter.com/nodebotanist
 github: https://github.com/nodebotanist
 talk: Severless Architecture in Node.JS
-time: Full Talk
+time: 11:00am Full Talk
 photo: /assets/media/speakers/kassandraperch.jpg
 bio: "a.k.a the Nodebotanist. Developer Relations Engineer at IOpipe. Serverless aficionado, bot builder, NodeBots author/addict. Austinite. Electrical Engineering student. They/them preferred pronouns. "
 ---

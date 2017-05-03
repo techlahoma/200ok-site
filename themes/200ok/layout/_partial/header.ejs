@@ -11,7 +11,9 @@
   <%
   var title = page.title;
 
-  if (is_archive()){
+  if (is_home()) {
+    title = '200 OK | Tulsa\'s Web Developer Conference';
+  } else if (is_archive()){
     title = 'Archives';
 
     if (is_month()){
@@ -35,5 +37,5 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet" type="text/css">
   <link href="/assets/css/200ok.css" rel="stylesheet">
-  
+
 </head>

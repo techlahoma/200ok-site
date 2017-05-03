@@ -6,7 +6,7 @@ twitter: https://twitter.com/presidentkanat
 github: https://github.com/Bekt
 website: https://blog.bekt.net/
 photo: /assets/media/speakers/kanatbekt.jpg
-time: Full Talk
+time: 2:20pm Full Talk
 talk: Our Journey With Microservices
 bio: "Kanat a lead infrastructure engineer of SupplyPike in Fayetteville, AR. Among many hats he wears, he is particularly interested in building the right culture, both technical and non-technical, in the fast growing environment. As a true hacker at heart, Kanat constantly builds and explores various technologies. Previously, he has started a technology company and worked for companies like Google, AWS, Amazon. Feel free to reach out to him to talk all and everything about technology."
 ---

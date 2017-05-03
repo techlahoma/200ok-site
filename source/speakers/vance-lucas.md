@@ -7,7 +7,7 @@ website: http://vancelucas.com/
 github: https://github.com/vlucas
 photo: /assets/media/speakers/vancelucas.png
 talk: Effective Browser JavaScript Debugging
-time: Full Talk
+time: 10:00am Full Talk
 bio: "Vance Lucas is a seasoned programmer with nearly two decades of web programming experience dating back to 1998. Vance is a full stack polyglot programmer who currently uses JavaScript/Node.js, PHP, and Ruby. Vance created and maintains the very popular phpdotenv package, Spot ORM, Valitron, and Frisby.js open-source projects, among many others. Vance is the co-founder of the Techlahoma Foundation, Oklahoma City JavaScript User Group (OKC.js), and co-organizer of the annual ThunderPlains Developer Conference.
 "
 ---
