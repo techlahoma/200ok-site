@@ -1,6 +1,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="assets/js/bootstrap.min.js"></script> 
 <script src="assets/js/event01.js"></script> 
+<script src="assets/js/jqcloud-1.0.4.min.js"></script>
 
 <!-- Custom styles for Google Map --> 
 <script src="https://maps.googleapis.com/maps/api/js"></script> 
@@ -15,10 +16,19 @@
 <!-- Background Video --> 
 <script src="assets/plugins/bgvideo/backgroundVideo.min.js"></script> 
 <script>
+  const companies = [
+    {text: "Libiny Solutions", weight: 3, link: "http://libiny.com/"},
+    {text: "codesy", weight: 2, link: "https://www.codesy.io"},
+    {text: "CaseStack", weight: 1, link: "http://casestack.io/"},
+    {text: "BigWing", weight: 3, link: "https://bigwing.com/"},
+    {text: "Station8", weight: 2, link: "http://station8branding.com/"},
+    {text: "SportSmith", weight: 2, link: "https://www.sportsmith.net/"}
+  ];
   $(document).ready(function() {
       $('#bgvideo').backgroundVideo({
           pauseVideoOnViewLoss: false
       });
+      $('#supporting-companies-cloud').jQCloud(companies);
   });
 </script>
 </body>
