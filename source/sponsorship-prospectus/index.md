@@ -13,7 +13,7 @@ After the main event, we provide tickets for attendees to nearby restaurants to 
 Our sponsors help us provide this high-quality conference for professionals in our region while keeping our ticket prices accessible to a wide audience.
 
 #### Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.
-
+<!--
 ### `<title>` Sponsor - $3,000
 #### Limited to a single company
 * Logo listed exclusively on top of website sponsor area
@@ -48,6 +48,7 @@ Our sponsors help us provide this high-quality conference for professionals in o
 * 2 tickets included
 #### Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.
 
+-->
 ### `<h2>` Sponsor - $1,000
 #### Limited to 3 companies
 * Logo on website
