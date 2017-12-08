@@ -60,3 +60,7 @@ article li {
     padding: 0.5em !important;
   }
 }
+
+.article-inner {
+  margin-top: 2em;
+}

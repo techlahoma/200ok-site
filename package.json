@@ -2,7 +2,7 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
-  "run": {
+  "scripts": {
     "start": "hexo server",
     "build": "hexo generate",
     "deploy": "hexo deploy"
