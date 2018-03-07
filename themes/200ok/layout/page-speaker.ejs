@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-sm-3">
           <div class="speaker-item"> <a href="#">
-            <figure class="speaker accent-bg"> <img src="<%- page.photo %>" alt="Speaker" class="img-responsive center-block" height="500" width="500">
+            <figure class="speaker accent-bg"> <img src="/assets/media/speakers/<%- page.photo %>" alt="Speaker" class="img-responsive center-block" height="500" width="500">
               <figcaption>
                 <p class="text-uppercase accent"><%- page.time %></p>
                 <!-- <p>04/10/2016 - 3PM</p> -->
@@ -15,9 +15,9 @@
             </figure>
             </a>
             <ul class="list-inline social-buttons">
-              <% if (page.twitter) { %><li> <a class="fa fa-twitter fa-lg" href="<%- page.twitter %>" target="_blank"></a></li> <% } %>
+              <% if (page.twitter) { %><li> <a class="fa fa-twitter fa-lg" href="https://twitter.com/<%- page.twitter %>" target="_blank"></a></li> <% } %>
               <% if (page.website) { %><li> <a class="fa fa-external-link fa-lg" href="<%- page.website %>" target="_blank"></a></li> <% } %>
-              <% if (page.github) { %><li> <a class="fa fa-github fa-lg" href="<%- page.github %>" target="_blank"></a></li> <% } %>
+              <% if (page.github) { %><li> <a class="fa fa-github fa-lg" href="https://github.com/<%- page.github %>" target="_blank"></a></li> <% } %>
               <% if (page.gitlab) { %><li> <a class="fa fa-gitlab fa-lg" href="<%- page.gitlab %>" target="_blank"></a></li> <% } %>
             </ul>
           </div>

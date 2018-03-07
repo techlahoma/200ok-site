@@ -1,8 +1,8 @@
 ---
-name: Nir Kaufman
+speaker: Nir Kaufman
 position:
 company:
-twitter: @nirkaufman
+twitter: nirkaufman
 github: nirkaufman
 lightning:
 web: http://ngnir.life/

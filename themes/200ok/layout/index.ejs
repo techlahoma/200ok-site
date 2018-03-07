@@ -212,11 +212,30 @@
         </div>
       </div>
     </div>
+
+    <!-- Speakers List -->
     <div class="row">
-      <div class="col-md-12" style='text-align: center; font-size: 20px;'>
-        <a href="https://cfp.techlahoma.org/events/200ok-2018">Call for papers is open!</a>
-      </div>
+      <% site.pages.each(function(page){ if(page.speaker) { %>
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="speaker-item"> <a href="<%- page.path %>">
+            <figure class="speaker accent-bg">
+              <img src="/assets/media/speakers/<%- page.photo %>" alt="Speaker" class="img-responsive center-block" height="300" width="300">
+              <figcaption>
+                <p class="text-uppercase accent"><%- page.talk %></p>
+                <p><%- page.time %></p>
+              </figcaption>
+            </figure>
+            </a>
+            <p>
+              <span class="speaker-accent"><%- page.speaker %>&nbsp;</span><br>
+              <span class="speaker-position"><%- page.position %>&nbsp;</span><br>
+              <span class="speaker-company"><%- page.company %>&nbsp;</span>
+            </p>
+          </div>
+        </div>
+      <% }}) %>
     </div>
+    <!-- /.Speakers List -->
   </div>
 </section>
 

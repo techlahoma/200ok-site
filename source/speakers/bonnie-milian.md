@@ -1,8 +1,8 @@
 ---
-name: Bonnie Milián
+speaker: Bonnie Milián
 position: Research Assistant
 company: Innovation Lab @ UG
-twitter: @BonnieMilianB
+twitter: BonnieMilianB
 github: BonnieMilian
 lightning:
 web:

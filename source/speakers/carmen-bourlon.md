@@ -1,8 +1,8 @@
 ---
-name: Carmen Bourlon
+speaker: Carmen Bourlon
 position:
 company:
-twitter: @carmalou
+twitter: carmalou
 github: carmalou
 lightning: true
 web: http://carmalou.com/

@@ -1,8 +1,8 @@
 ---
-name: Lee Brandt
+speaker: Lee Brandt
 position:
 company:
-twitter: @leebrandt
+twitter: leebrandt
 github: leebrandt
 lightning:
 web: http://leebrandt.me/

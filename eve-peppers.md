@@ -1,5 +1,5 @@
 ---
-name: Eve Peppers
+speaker: Eve Peppers
 position:
 company:
 twitter:
@@ -8,5 +8,5 @@ lightning: true
 web:
 talk: Anti-Resume
 bio:
-photo:	Eve Peppers
+photo: blank.jpg
 ---
