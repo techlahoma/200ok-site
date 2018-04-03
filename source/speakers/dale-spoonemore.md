@@ -7,6 +7,6 @@ github:
 lightning: true
 web: https://www.seedtospoon.net/
 talk: Code the Change You Want to See in the World
-bio: I've spent most of my 12 years in software thinking of schemes to break things. I've tested applications built using pretty much every language/framework out there across desktop/web/mobile and I currently lead the QA efforts at Surgical Care Affiliates where I spend most of my time writing automated tests for our Angular web apps using Protractor. I'm also an avid gardener/"urban farmer" and I blog about our journey towards growing as much food as possible for our family of 6 at seedtospoon.net
+bio: Dale Spoonemore is the creator of [From Seed to Spoon](http://www.seedtospoon.net), an iOS & Android mobile app that helps people grow food and manage pests in their garden. He's a member of the Surgical Care Affiliates software development team and lives in Oklahoma City with his wife and 4 children.
 photo: dalespoonemore.png
 ---
