@@ -205,41 +205,260 @@
 </section>
 </section>
 
-<section id="speakers">
+<section id="schedule">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="section-title">
-          <h2 class="text-center"><span>Speakers</span></h2>
+          <h2 class="text-center"><span>Schedule</span></h2>
         </div>
       </div>
     </div>
 
-    <!-- Speakers List -->
     <div class="row">
-      <% site.pages.each(function(page){ if(page.speaker) { %>
-        <div class="col-md-3 col-sm-6 text-center">
-          <div class="speaker-item"> <a href="<%- page.path %>">
-            <figure class="speaker accent-bg">
-              <img src="/assets/media/speakers/<%- page.photo %>" alt="Speaker" class="img-responsive center-block" height="300" width="300">
-              <figcaption>
-                <p class="text-uppercase accent"><%- page.talk %></p>
-                <p><%- page.time %></p>
-              </figcaption>
-            </figure>
-            </a>
-            <p>
-              <span class="speaker-accent"><%- page.speaker %>&nbsp;</span><br>
-              <span class="speaker-position"><%- page.position %>&nbsp;</span><br>
-              <span class="speaker-company"><%- page.company %>&nbsp;</span>
-            </p>
-          </div>
+      <div class="col-lg-12">
+        <!-- Conference Schedule -->
+        <div id="conference" class="tab-pane fade active in">
+                          <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">8:00am</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Registration</p>
+                    <p>Get checked in, mingle, and grab a bite to eat.</p>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+                <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">8:50am</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Opening Announcements</p>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+
+
+            
+              <div class="row">
+  <div class="col-xs-4 col-sm-2 text-center">
+    <p class="text-big text-bold">9:00am Full Talk</p>
+    <p><img src="/assets/media/speakers/arthurdoler.jpg" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
+  </div>
+  <div class="col-xs-8 col-sm-10">
+    <p class="text-big text-bold text-uppercase">
+      
+      <a href="/speakers/arthur-doler.html">The Developer's Guide to Learning Effectively</a>
+    </p>
+    <p>
+      Arthur Doler<br/>
+      <span style='color:#666;'>Senior Software Engineer</span><br/>
+      <span style='color:#666'>Aviture</span>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">
+
+            
+
+            
+              <div class="row">
+  <div class="col-xs-4 col-sm-2 text-center">
+    <p class="text-big text-bold">10:00am Full Talk</p>
+    <p><img src="/assets/media/speakers/leebrandt.jpg" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
+  </div>
+  <div class="col-xs-8 col-sm-10">
+    <p class="text-big text-bold text-uppercase">
+      
+      <a href="/speakers/lee-brandt.html">A Developer's Guide to Docker</a>
+    </p>
+    <p>
+      Lee Brandt<br/>
+      <span style='color:#666;'>Developer Advocate</span><br/>
+      <span style='color:#666'>Okta</span>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">
+
+            
+
+            
+              <div class="row">
+  <div class="col-xs-4 col-sm-2 text-center">
+    <p class="text-big text-bold">11:00am Full Talk</p>
+    <p><img src="/assets/media/speakers/cosmowolfe.png" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
+  </div>
+  <div class="col-xs-8 col-sm-10">
+    <p class="text-big text-bold text-uppercase">
+      
+      <a href="/speakers/cosmo-wolfe.html">The Promised Land - Painlessly Upgrading a Large Legacy Webapp</a>
+    </p>
+    <p>
+      Cosmo Wolfe<br/>
+      <span style='color:#666;'>Engineering Lead</span><br/>
+      <span style='color:#666'>Clever</span>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">
+
+            
+
+                            <!-- Lunch Break -->
+                <div class="food-break white">
+                  <div class="row">
+                    <p>12:00pm-1:20pm<br>
+                      Lunch Break</p>
+                  </div>
+                </div>
+                <!-- /.Lunch Break -->
+                <hr class="border-light">
+
+
+                            <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">1:20pm-2:10pm</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Lightning Talks</p>
+                    
+                      <div style='overflow:hidden; border-top:1px solid #ccc; padding:1em 0'>
+                        <img src="/assets/media/speakers/darrengibson.jpg"
+                             alt="Speaker"
+                             class="img-responsive img-circle img-speaker"
+                             style="float:left; margin: 0.1em 1em;">
+                          <p class="text-bold text-uppercase"><a href="/speakers/darren-gibson.html">What the Function? Small steps towards reasonable code</a></p>
+                        <p style="font-size:90%;">Darren Gibson</p>
+                      </div>
+                    
+                      <div style='overflow:hidden; border-top:1px solid #ccc; padding:1em 0'>
+                        <img src="/assets/media/speakers/vicagbasi.jpg"
+                             alt="Speaker"
+                             class="img-responsive img-circle img-speaker"
+                             style="float:left; margin: 0.1em 1em;">
+                          <p class="text-bold text-uppercase"><a href="/speakers/vic-agbasi.html">Civic Engagement through Web Development</a></p>
+                        <p style="font-size:90%;">Vic Agbasi</p>
+                      </div>
+                    
+                      <div style='overflow:hidden; border-top:1px solid #ccc; padding:1em 0'>
+                        <img src="/assets/media/speakers/carmenbourlon.jpg"
+                             alt="Speaker"
+                             class="img-responsive img-circle img-speaker"
+                             style="float:left; margin: 0.1em 1em;">
+                          <p class="text-bold text-uppercase"><a href="/speakers/carmen-bourlon.html">Mapping the Internet</a></p>
+                        <p style="font-size:90%;">Carmen Bourlon</p>
+                      </div>
+                    
+                      <div style='overflow:hidden; border-top:1px solid #ccc; padding:1em 0'>
+                        <img src="/assets/media/speakers/evepeppers.jpg"
+                             alt="Speaker"
+                             class="img-responsive img-circle img-speaker"
+                             style="float:left; margin: 0.1em 1em;">
+                          <p class="text-bold text-uppercase"><a href="/speakers/eve-peppers.html">Anti-Resume</a></p>
+                        <p style="font-size:90%;">Eve Peppers</p>
+                      </div>
+                    
+                      <div style='overflow:hidden; border-top:1px solid #ccc; padding:1em 0'>
+                        <img src="/assets/media/speakers/dalespoonemore.png"
+                             alt="Speaker"
+                             class="img-responsive img-circle img-speaker"
+                             style="float:left; margin: 0.1em 1em;">
+                          <p class="text-bold text-uppercase"><a href="/speakers/dale-spoonemore.html">Code the Change You Want to See in the World</a></p>
+                        <p style="font-size:90%;">Dale Spoonemore</p>
+                      </div>
+                    
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+
+            
+              <div class="row">
+  <div class="col-xs-4 col-sm-2 text-center">
+    <p class="text-big text-bold">2:20pm Full Talk</p>
+    <p><img src="/assets/media/speakers/nirkaufman.png" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
+  </div>
+  <div class="col-xs-8 col-sm-10">
+    <p class="text-big text-bold text-uppercase">
+      
+      <a href="/speakers/nir-kaufman.html">Offline-first Web Applications</a>
+    </p>
+    <p>
+      Nir Kaufman<br/>
+      <span style='color:#666;'>Principal Front-end Developer</span><br/>
+      <span style='color:#666'>500Tech</span>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">
+
+            
+
+            
+              <div class="row">
+  <div class="col-xs-4 col-sm-2 text-center">
+    <p class="text-big text-bold">3:20pm Full Talk</p>
+    <p><img src="/assets/media/speakers/bonniemilian.jpg" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
+  </div>
+  <div class="col-xs-8 col-sm-10">
+    <p class="text-big text-bold text-uppercase">
+      
+      <a href="/speakers/bonnie-milian.html">How to Dive into Deep Learning (And not get drowned trying)</a>
+    </p>
+    <p>
+      Bonnie Milián<br/>
+      <span style='color:#666;'>Research Developer</span><br/>
+      <span style='color:#666'>Universidad Galileo</span>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">
+
+            
+
+                          <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">4:20pm</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Closing Remarks</p>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+                <div class="row">
+                  <div class="col-xs-4 col-sm-2 text-center">
+                    <p class="text-big text-bold">4:30pm-5:00pm</p>
+                  </div>
+                  <div class="col-xs-8 col-sm-10">
+                    <p class="text-big text-bold text-uppercase">Socializing/Networking</p>
+                  </div>
+                </div>
+
+                <hr class="border-light">
+
+
         </div>
-      <% }}) %>
+      </div>
     </div>
-    <!-- /.Speakers List -->
   </div>
 </section>
+
+
+
 
 <section id="location">
   <img src='/assets/media/image-backgrounds/greadington.jpg' style='width: 100%; height: auto;'/>
@@ -256,6 +475,66 @@
   <div id="cd-zoom-in"></div>
   <div id="cd-zoom-out"></div>
 </section>
+
+<section id="logistics">
+  <div class="container">
+    <!-- Title & Subtitle -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h2 class="text-center"><span>Logistics</span></h2>
+<p>
+We want to make sure you have everything you need to get here and enjoy your time at 200 OK and in Tulsa.
+</p>
+<h3>Airport</h3>
+<p>
+Tulsa International Airport (TUL) is our airport if you're flying in.
+</p>
+
+<h3>Ground Transportation</h3>
+<p>
+Uber & Lyft are both available in Tulsa.
+</p>
+
+<h3>Hotel</h3>
+<p>
+If you're staying in Tulsa, <a href="https://www.starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=3736&SWAQ=958P" target="_blank">Aloft Tulsa Downtown</a>, <a href="http://hamptoninn3.hilton.com/en/hotels/oklahoma/hampton-inn-and-suites-tulsa-downtown-TULDTHX/index.html" target="_blank">Hampton Inn & Suites Tulsa Downtown</a>, and the iconic Tulsa <a href="http://www.themayohotel.com/" target="_blank">Mayo Hotel</a> are all very close to our venue.
+</p>
+
+<h3>Parking</h3>
+<p>
+Parking at the Central Library's garage is limited, and pricey for all day parking. There are some surrounding lots like the Cox Business Center paid lot. This will probably have more availability and is a short walk to the Library. See <a href="http://coxcentertulsa.com//fa-content/uploads/2016/04/Cox-Business-Center-Parking-Map.pdf" target="_blank">this online map</a> for a couple of parking garages nearby.
+</p>
+
+<h3>Venue</h3>
+<p>
+We are at the <a href="https://www.tulsalibrary.org/central" target="_blank">Tulsa Central Library</a> in the Pocahontas Greadington Learning and Creativity Center (Lower Level 2).
+</p>
+
+<h3>Meals</h3>
+<p>
+We will provide continental-style breakfast in the morning, coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options.
+</p>
+
+<h3>After-Event Venues</h3>
+<p>
+We will give every attendee 2 tickets for drinks at one of our after-event venues: <a href="http://www.mixcotulsa.com/" target="_blank">MixCo</a> Craft Cocktails & Speakeasy Bar or <a href="https://www.allaboutcha-cafe.com/" target="_blank">All About Cha</a> Gourmet Coffee & Tea.
+</p>
+
+<h3>Weekend</h3>
+<p>
+If you can, you should consider sticking around Tulsa for the weekend. There are a few classic annual Tulsa events going on downtown:
+<ul>
+<li><a href="https://bluedomearts.org/" target="_blank">Blue Dome Arts Festival</a> for local art, music, and fun.</li>
+<li><a href="https://www.thehopjam.com/" target="_blank">HopJam</a> Beer & Music Festival</li>
+<li>Tulsa Mayfest</li>
+</ul>
+</p>
+        </div>
+      </div>
+    </div>
+</section>
+
 
 <section id="coc">
   <div class="container">
