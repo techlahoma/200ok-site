@@ -86,7 +86,9 @@ body {
 
 .photo img {
 	display: block;
-	box-shadow: 0 0 20px #333;
+	/* box-shadow: 0 0 20px #333; */
+	max-width: 270px;
+	max-height: 400px;
 }
 
 .speaker .photo-wrapper {
@@ -116,7 +118,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	max-width: 300px;
+	max-width: 400px;
 	width: 100%;
 }
 
@@ -145,9 +147,9 @@ body {
 .headline {
 	color: #4580c3;
 	font-family: "League Spartan";
-	font-size: 1.75em;
+	font-size: 1.5em;
 	line-height: 1.2em;
-	max-width: 300px;
+	max-width: 400px;
 	text-align: center;
 	margin: 0 auto 0;
 	display: block;
