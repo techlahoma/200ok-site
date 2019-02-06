@@ -1,0 +1,66 @@
+body {
+  font-size:16px;
+}
+.navbar-brand img {
+  height: 40px;
+}
+.section-title a {
+  text-decoration: underline;
+  color: #2E83C4;
+}
+.section-title a:hover {
+  text-decoration: none;
+  color: #2E83C4;
+}
+article h3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0.2em;
+	margin-top:1.5em;
+  font-size: 1.8em;
+}
+article li {
+  line-height: 1.8;
+}
+.sponsor-row {
+  padding: 0em;
+}
+.sponsor-row-description {
+  padding: 1em;
+}
+.schedule-time {
+  text-align: center;
+  background: #EE3924;
+}
+.schedule-event {
+  text-align: center;
+}
+.talk-title {
+  margin: 1em;
+}
+.food-break {background: url(/assets/media/image-backgrounds/food-break.jpg);background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}
+.food-break p {text-transform:uppercase; font-size:21px; font-weight:500; padding:40px 0 30px; text-align:center}
+
+.btn-primary {
+  background-color: #2E83C4;
+}
+.main-header {
+  font-size: 1.5em;
+  text-transform: none;
+}
+
+@media screen and (max-width: 640px) {
+  .main-header {
+    font-size: 0.9em;
+  }
+  .main-header-date {
+      margin: 1.2em 0;
+  }
+  .main-header-date > span {
+    line-height: 1.4 !important;
+    padding: 0.5em !important;
+  }
+}
+
+.article-inner {
+  margin-top: 2em;
+}
