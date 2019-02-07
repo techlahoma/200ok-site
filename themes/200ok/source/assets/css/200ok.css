@@ -1,5 +1,6 @@
 body {
   font-size:16px;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar-brand img {
   height: 40px;
@@ -46,6 +47,23 @@ article li {
 .main-header {
   font-size: 1.5em;
   text-transform: none;
+}
+.main-header-headline-wrapper { 
+  height: 300px;
+  padding: 50px 50px 0;
+  background: url(/assets/media/header/headline-bg@2x.png); 
+  background-repeat:no-repeat; 
+    -webkit-background-size:contain; 
+    -moz-background-size:contain; 
+    background-size:contain;
+    -o-background-size:contain
+}
+
+.main-header-headline { 
+  font-size: 3.5em; 
+  font-weight: 900;
+  line-height: 1;
+  /* font-family: 'Roboto', sans-serif !important; */
 }
 
 @media screen and (max-width: 640px) {
