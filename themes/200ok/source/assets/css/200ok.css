@@ -47,12 +47,14 @@ article li {
 .main-header {
   font-size: 1.5em;
   text-transform: none;
+  color: aliceblue;
 }
+
 .main-header-headline-wrapper { 
   height: 350px;
   margin-top: 50px;
-  padding: 50px 50px 0;
-  background: url(/assets/media/header/headline-bg@2x.png); 
+  padding: 50px 0;
+  /* background: url(/assets/media/header/headline-bg@2x.png);  */
   background-repeat:no-repeat; 
     -webkit-background-size:contain; 
     -moz-background-size:contain; 
@@ -60,18 +62,127 @@ article li {
     -o-background-size:contain
 }
 
+.dot-pattern {
+	width: 100px;
+	height: 100px;
+	position: relative;
+  background-size: cover;
+  position: absolute;
+  z-index: -3;
+  top:50px;
+  left: 30px;
+}
+.dot-pattern:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: transparent;
+	background-image: radial-gradient(#1B5E20 33%, transparent 33%);
+  background-size: 10px 10px;
+}
+
+#rectangle-top{
+  width:100px;
+  height:100px;
+  background: linear-gradient(45deg, #8c9eff 0% 30%, #f50057 90%);
+  position: absolute;
+  top:70px;
+  left: 50px;
+  z-index: -1;
+}
+
+#rectangle-bottom{
+  width:80%;
+  height:15px;
+  background: linear-gradient(45deg, #8c9eff 0% 30%, #f50057 90%);
+  position: absolute;
+  top:390px;
+  z-index: -2;
+}
+
+#ring {
+  font-size: 3em;
+  display: inline-block;
+  width: 0.4em;
+  box-sizing: content-box;
+  height: 0.4em;
+  border: 0.1em solid #44397f;
+  position: absolute;
+  border-radius: 0.35em;
+  z-index: -1;
+}
+
+#triangle {
+  width: 0;
+  height: 10px;
+  border-top: 19px solid transparent;
+  border-left: 50px solid #00ffad;
+  border-bottom: 28px solid transparent;
+  transform: rotate(20deg);
+  position: absolute;
+  top: 50px;
+}
+
+#square {
+  /* position: absolute; */
+  margin: auto;
+  left: 0;
+  top:100px;
+  width: 37px;
+  height: 37px;
+  border-left: 4px solid #e74c3c;
+  border-right: 4px solid #e74c3c;
+  border-top: 4px solid #e74c3c;
+  border-bottom: 4px solid #e74c3c;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 8000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 8000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 8000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  
+  animation-name: spin;
+  animation-duration: 8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+
 .main-header-headline { 
-  font-size: 3.5em; 
+  font-size: 4.5em; 
   font-weight: 900;
   line-height: 1;
-  /* font-family: 'Roboto', sans-serif !important; */
+  color: aliceblue;
 }
 
 .action-button {
   background-color: #00C853;
   border: none;
   display: block;
-  padding: 10 160px;
+  max-width: 130px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -82,7 +193,7 @@ article li {
 }
 
 .lead-dev-graphic{
-  max-width: 600px;;
+  max-width: 740px;;
   display: block;
   height: auto;
   margin: 0 auto;

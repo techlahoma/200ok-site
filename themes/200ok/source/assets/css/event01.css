@@ -443,7 +443,7 @@ header#fullwidth {min-height: 100%; /* min. height for modern browser */ height:
 
 header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:28px;background:#EF483C;color:#FFF;margin-top:30%}
 header#fullwidth h2 {text-transform:uppercase; font-weight:400; font-size:38px}
-header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:18px}
+header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:18px; color: aliceblue;}
 
 @media (min-width: 768px) {
 header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:28px;background:#EF483C;color:#FFF;}
