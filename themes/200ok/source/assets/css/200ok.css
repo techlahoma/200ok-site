@@ -125,13 +125,29 @@ article li {
   transform: rotate(20deg);
   position: absolute;
   top: 50px;
+  -webkit-animation-name: spin_slow;
+  -webkit-animation-duration: 14000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin_slow;
+  -moz-animation-duration: 14000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin_slow;
+  -ms-animation-duration: 14000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  
+  animation-name: spin_slow;
+  animation-duration: 14000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 #square {
-  /* position: absolute; */
-  margin: auto;
-  left: 0;
-  top:100px;
+  position: absolute;
+  left: 70px !important;
+  top:200px;
   width: 37px;
   height: 37px;
   border-left: 4px solid #e74c3c;
@@ -170,6 +186,18 @@ article li {
   to {transform:rotate(360deg);}
 }
 
+@-moz-keyframes spin_slow {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin_slow {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin_slow {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(-360deg);}
+}
 
 .main-header-headline { 
   font-size: 4.5em; 
