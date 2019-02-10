@@ -197,7 +197,9 @@ article li {
 }
 
 .main-header-headline { 
-  font-size: 4.5em; 
+  
+  font-size: 16px; 
+  font-size: 4.5vw;
   font-weight: 900;
   line-height: 1;
   color: aliceblue;
@@ -225,9 +227,9 @@ article li {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .main-header {
-    font-size: 0.9em;
+    font-size: 1.9em;
   }
   .main-header-date {
       margin: 1.2em 0;
