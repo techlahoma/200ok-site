@@ -89,7 +89,7 @@ a:hover, a:focus {color: #EF483C;text-decoration: none;}
 #darknav.navbar-default {background-color:rgba(20,20,20,0.9);border-color: #000;}
 #darknav.navbar-default .navbar-collapse, #darknav.navbar-default .navbar-form {border-color: rgba(14,14,14,0.9)}
 #darknav .navbar-nav>li>a { text-transform:uppercase}
-#darknav.navbar-default .navbar-nav>li>a {color: #fff;}
+#darknav.navbar-default .navbar-nav>li>a {color: #fff; text-decoration: none;}
 #darknav .navbar-nav>li>a:hover, #darknav .navbar-nav>li>a:focus {color:#EF483C;background-color: #13334B}
 #darknav.navbar-default .navbar-nav>.active>a, #darknav.navbar-default .navbar-nav>.active>a:focus, #darknav.navbar-default .navbar-nav>.active>a:hover {background:transparent;color:#EF483C;}
 #darknav .navbar-brand {padding: 7px 15px;}
@@ -359,7 +359,7 @@ section#pricing .price {background: rgba(20,20,20, 1);display: block;width: 120p
 /*********
 10.Section Sponsors
 *********/
-section#sponsors {background:#EFEFEF}
+section#sponsors {background:#f8f8f8}
 
 /*********
 11.Section Newsletter
@@ -439,19 +439,19 @@ header#hero .header-text {padding-top: 200px;padding-bottom:150px;}
 
 /* Fullwidth Header */
 header#fullwidth{background-position:center center;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;}
-header#fullwidth {min-height: 100%; /* min. height for modern browser */ height:auto !important; /* important rule for modern Browser */   height:100%; /* min. height for IE */ overflow: hidden !important; /* FF scroll-bar */}
+header#fullwidth {/* min. height for modern browser */ height:auto !important; /* important rule for modern Browser */   height:100%; /* min. height for IE */ overflow: hidden !important; /* FF scroll-bar */}
 
 header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:28px;background:#EF483C;color:#FFF;margin-top:30%}
 header#fullwidth h2 {text-transform:uppercase; font-weight:400; font-size:38px}
-header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:18px}
+header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:18px; color: aliceblue;}
 
 @media (min-width: 768px) {
 header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:28px;background:#EF483C;color:#FFF;}
 header#fullwidth h2 {text-transform:uppercase; font-weight:400; font-size:48px}
-header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:21px}
+header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:40px}
 }
 
-header#fullwidth .header-text {position: relative;z-index: 20;padding: 10% 5% 0;height: 100%;}
+header#fullwidth .header-text {position: relative;z-index: 20;padding: 6% 5% 0;height: 100%;}
 
 @media (max-width: 768px) {
 	header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:21px;background:#EF483C;color:#FFF;margin-top:40%}
@@ -459,7 +459,7 @@ header#fullwidth .header-text {position: relative;z-index: 20;padding: 10% 5% 0;
 	header#fullwidth .sm-title {
 		text-transform:uppercase;
 		font-weight:700;
-		font-size:12px;
+		font-size:32px;
 	}
 	header#fullwidth h3 span.date {
 		display: block;

@@ -451,7 +451,7 @@ header#fullwidth h2 {text-transform:uppercase; font-weight:400; font-size:48px}
 header#fullwidth .sm-title {text-transform:uppercase; font-weight:700;font-size:21px}
 }
 
-header#fullwidth .header-text {position: relative;z-index: 20;padding: 10% 5% 0;height: 100%;}
+header#fullwidth .header-text {position: relative;z-index: 20;padding: 10% 5% 0;height: 100%; max-width: 1400px; margin: 0 auto;}
 
 @media (max-width: 768px) {
 	header#fullwidth h1 {text-transform:uppercase;font-weight:400;font-size:21px;background:#EF483C;color:#FFF;margin-top:40%}
