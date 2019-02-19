@@ -9,6 +9,11 @@ body {
 .navbar-brand img {
   height: 40px;
 }
+.mrgn-nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
 .section-title a {
   text-decoration: underline;
   color: #2E83C4;
@@ -53,15 +58,9 @@ article li {
   color: aliceblue;
 }
 .main-header-headline-wrapper { 
-  height: 350px;
-  margin-top: 50px;
-  padding: 50px 0;
-  /* background: url(/assets/media/header/headline-bg@2x.png);  */
-  background-repeat:no-repeat; 
-    -webkit-background-size:contain; 
-    -moz-background-size:contain; 
-    background-size:contain;
-    -o-background-size:contain
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 .dot-pattern {
 	width: 100px;
@@ -100,8 +99,8 @@ article li {
   width:80%;
   height:15px;
   background: linear-gradient(45deg, #8c9eff 0% 30%, #f50057 90%);
-  position: absolute;
-  top:390px;
+  position: relative;
+  top:570px;
   z-index: -2;
 }
 
@@ -199,30 +198,31 @@ article li {
   from {transform:rotate(0deg);}
   to {transform:rotate(-360deg);}
 }
-
 .main-header-headline { 
-  
   font-size: 16px; 
   font-size: 4.5vw;
   font-weight: 900;
   line-height: 1;
   color: aliceblue;
 }
-
 .action-button {
   background-color: #00C853;
   border: none;
   display: block;
-  max-width: 130px;
+  width: 100%;
   text-decoration: none;
   text-transform: uppercase;
 }
-
 .action-button:hover{
   background-color: #FF3D00;
   border: none;
 }
-
+.action-button-cta{
+  margin-top: 30px;
+  display: block;
+  max-width: 230px;
+  display: block;
+}
 .lead-dev-graphic{
   width: 100%;
   max-width: 740px;
@@ -230,7 +230,9 @@ article li {
   height: auto;
   margin: 0 auto;
 }
-
+.social-media-links a{
+  color: #ffffff;
+}
 @media screen and (max-width: 768px) {
   .main-header {
     font-size: 1.9em;
@@ -264,6 +266,19 @@ article li {
   }
   .action-button{
     margin: 0 auto;
+  }
+  .action-button-cta{
+    margin-top: 30px;
+    display: block;
+    max-width: 230px;
+    display: block;
+    margin: 0 auto;
+  }
+  .social-media-links{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
   }
 }
 
