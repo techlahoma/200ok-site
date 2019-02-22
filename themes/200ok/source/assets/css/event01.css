@@ -89,7 +89,7 @@ a:hover, a:focus {color: #EF483C;text-decoration: none;}
 #darknav.navbar-default {background-color:rgba(20,20,20,0.9);border-color: #000;}
 #darknav.navbar-default .navbar-collapse, #darknav.navbar-default .navbar-form {border-color: rgba(14,14,14,0.9)}
 #darknav .navbar-nav>li>a { text-transform:uppercase}
-#darknav.navbar-default .navbar-nav>li>a {color: #fff; text-decoration: none;}
+#darknav.navbar-default .navbar-nav>li>a {color: #fff; text-decoration: none; border-radius: 5px; margin-left: 5px;}
 #darknav .navbar-nav>li>a:hover, #darknav .navbar-nav>li>a:focus {color:#EF483C;background-color: #13334B}
 #darknav.navbar-default .navbar-nav>.active>a, #darknav.navbar-default .navbar-nav>.active>a:focus, #darknav.navbar-default .navbar-nav>.active>a:hover {background:transparent;color:#EF483C;}
 #darknav .navbar-brand {padding: 7px 15px;}
