@@ -233,6 +233,9 @@ article li {
 .social-media-links a{
   color: #ffffff;
 }
+.social-media-links a:hover{
+  color: #00C853;;
+}
 @media screen and (max-width: 768px) {
   .main-header {
     font-size: 1.9em;
