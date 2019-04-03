@@ -57,7 +57,7 @@ article li {
   text-transform: none;
   color: aliceblue;
 }
-.main-header-headline-wrapper { 
+.main-header-headline-wrapper {
   height: 100%;
   margin: 0 auto;
   padding-top: 50px;
@@ -137,7 +137,7 @@ article li {
   -ms-animation-duration: 14000ms;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
-  
+
   animation-name: spin_slow;
   animation-duration: 14000ms;
   animation-iteration-count: infinite;
@@ -166,7 +166,7 @@ article li {
   -ms-animation-duration: 8000ms;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
-  
+
   animation-name: spin;
   animation-duration: 8000ms;
   animation-iteration-count: infinite;
@@ -198,8 +198,8 @@ article li {
   from {transform:rotate(0deg);}
   to {transform:rotate(-360deg);}
 }
-.main-header-headline { 
-  font-size: 16px; 
+.main-header-headline {
+  font-size: 16px;
   font-size: 4.5vw;
   font-weight: 900;
   line-height: 1;
@@ -212,6 +212,7 @@ article li {
   width: 100%;
   text-decoration: none;
   text-transform: uppercase;
+  white-space: normal;
 }
 .action-button:hover{
   background-color: #FF3D00;
@@ -220,7 +221,7 @@ article li {
 .action-button-cta{
   margin-top: 30px;
   display: block;
-  max-width: 230px;
+  max-width: 310px;
   display: block;
 }
 .lead-dev-graphic{
@@ -247,22 +248,24 @@ article li {
     line-height: 1.4 !important;
     padding: 0.5em !important;
   }
-  .main-header-headline-wrapper { 
+  .main-header-headline-wrapper {
     margin-top: 10px;
     padding: 50px 0;
     /* background: url(/assets/media/header/headline-bg@2x.png);  */
-    background-repeat:no-repeat; 
-      -webkit-background-size:contain; 
-      -moz-background-size:contain; 
+    background-repeat:no-repeat;
+      -webkit-background-size:contain;
+      -moz-background-size:contain;
       background-size:contain;
       -o-background-size:contain
   }
-  .main-header-headline { 
-    font-size: 4.5em; 
+  .main-header-headline {
+    font-size: 3.5em;
     font-weight: 900;
     line-height: 1;
     color: aliceblue;
     text-align: center;
+    position: relative;
+    z-index: 2;
   }
   .sm-title {
     text-align: center;
@@ -273,7 +276,7 @@ article li {
   .action-button-cta{
     margin-top: 30px;
     display: block;
-    max-width: 230px;
+    max-width: 310px;
     display: block;
     margin: 0 auto;
   }
