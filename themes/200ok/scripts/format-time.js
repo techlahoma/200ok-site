@@ -25,5 +25,9 @@ hexo.extend.helper.register('format_time', time => {
     hours -= 12
   }
 
-  return hours + ':' + pad(minutes, 2, '0') + ampm
+  if (hours <= 0) {
+    hours = 12
+  }
+
+  return hours + ':' + pad(minutes, 2) + ampm
 });
