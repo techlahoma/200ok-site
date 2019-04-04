@@ -1,7 +1,5 @@
-hexo.extend.helper.register('speaker_page', (pages, speaker) => {
-  if (!speaker) return
-
-  return pages.data
+hexo.extend.helper.register('speaker_page', function (speaker) {
+  return this.site.pages.data
     .filter(page => page.speaker && page.speaker === speaker)
     .shift()
 })

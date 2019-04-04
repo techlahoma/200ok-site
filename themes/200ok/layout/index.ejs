@@ -255,7 +255,7 @@
           <% site.data.events.forEach(event => { %>
             <% if (event.title === "Lunch Break") { %>
               <%- partial("_partial/schedule-lunch", {event}) %>
-            <% } else { const page = speaker_page(site.pages, event.speaker) %>
+            <% } else { const page = speaker_page(event.speaker) %>
               <%- partial("_partial/schedule-event", {event, page}) %>
             <% } %>
           <% }) %>
