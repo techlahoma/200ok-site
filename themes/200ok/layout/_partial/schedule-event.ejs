@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-xs-4 col-sm-2 text-center">
+    <p class="text-big text-bold">
+      <% if (event.start) { %><%- format_time(event.start) %><% } %><% if (event.end) { %>-<%- format_time(event.end) %><% } %>
+      <%- event.type %>
+    </p>
+
+    <% if (page && page.photo) { %>
+      <p><img src="/assets/media/speakers/<%- page.photo %>" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
+    <% } %>
+  </div>
+
+  <div class="col-xs-8 col-sm-10">
+    <p class="text-big text-bold text-uppercase">
+      <% if (page) { %>
+        <% if (page.keynote) { %> Keynote: <% } %>
+        <% if (page.talk) { %>
+          <a href="<%- page.path %>"><%- page.talk %></a>
+        <% } %>
+      <% } else { %>
+        <%- event.title %>
+      <% } %>
+    </p>
+
+    <p>
+      <% if (page) { %>
+        <%- page.speaker %>&nbsp;<br/>
+        <% if (page.position) { %>
+          <span style='color:#666;'><%- page.position %>&nbsp;</span><br/>
+        <% } %>
+        <% if (page.company) { %>
+          <span style='color:#666'><%- page.company %>&nbsp;</span>
+        <% } %>
+      <% } else { %>
+        <%- event.description %>
+      <% } %>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">

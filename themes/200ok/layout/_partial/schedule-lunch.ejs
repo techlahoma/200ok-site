@@ -1,10 +1,12 @@
-                <!-- Lunch Break -->
-                <div class="food-break white">
-                  <div class="row">
-                    <p>12:00pm-1:20pm<br>
-                      Lunch Break</p>
-                  </div>
-                </div>
-                <!-- /.Lunch Break -->
-                <hr class="border-light">
+<div class="food-break white">
+  <div class="row">
+    <p>
+      <% if (event.start) { %><%- format_time(event.start) %><% } %><% if (event.end) { %>-<%- format_time(event.end) %><% } %>
+      <br>
+      <%- event.title %>
+    </p>
+  </div>
+</div>
+
+<hr class="border-light">
 
