@@ -1,0 +1,12 @@
+<% if (page) { %>
+<div style='overflow:hidden; border-top:1px solid #ccc; padding:1em 0'>
+    <% if (page.photo) { %>
+      <img src="/assets/media/speakers/<%- page.photo %>"
+           alt="Speaker"
+           class="img-responsive img-circle img-speaker"
+           style="float:left; margin: 0.1em 1em;">
+    <% } %>
+    <p class="text-bold text-uppercase"><a href="<%- page.path %>"><%- page.talk %></a></p>
+    <p style="font-size:90%;"><%- page.speaker %></p>
+</div>
+<% } %>

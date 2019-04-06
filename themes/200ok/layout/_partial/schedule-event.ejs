@@ -5,7 +5,7 @@
       <%- event.type %>
     </p>
 
-    <% if (page && page.photo) { %>
+    <% if (page && page.speaker && page.photo) { %>
       <p><img src="/assets/media/speakers/<%- page.photo %>" alt="Speaker" class="img-responsive center-block img-circle img-speaker"></p>
     <% } %>
   </div>
@@ -22,8 +22,12 @@
       <% } %>
     </p>
 
-    <p>
-      <% if (page) { %>
+    <% if (event.description) { %>
+      <p><%- event.description %></p>
+    <% } %>
+
+    <% if (page && page.speaker) { %>
+      <p>
         <%- page.speaker %>&nbsp;<br/>
         <% if (page.position) { %>
           <span style='color:#666;'><%- page.position %>&nbsp;</span><br/>
@@ -31,10 +35,12 @@
         <% if (page.company) { %>
           <span style='color:#666'><%- page.company %>&nbsp;</span>
         <% } %>
-      <% } else { %>
-        <%- event.description %>
-      <% } %>
-    </p>
+      </p>
+    <% } else if (event.speakers) { %>
+      <% event.speakers.forEach(speaker => { %>
+        <%- partial("_partial/schedule-lightning-talk", {page: speaker_page(speaker)}) %>
+      <% }) %>
+    <% } %>
   </div>
 </div>
 
