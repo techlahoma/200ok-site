@@ -1,7 +1,7 @@
 ---
 speaker: Jenn Creighton
 position: Software Engineer
-company: Rend the Runway
+company: Rent the Runway
 twitter: gurlcode
 github: jcreighton
 lightning:
