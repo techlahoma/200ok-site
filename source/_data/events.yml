@@ -24,6 +24,13 @@
 - start: "13:20"
   end: "14:10"
   title: Lightning Talks
+  speakers:
+    - Jacob Herrington
+    - Lesley Norton
+    - Lynn Ghose Cabrera
+    - Nick Thompson
+    - Paul Gower
+    - Sheldon Kerr
 
 - start: "14:20"
   speaker: Jenn Creighton
