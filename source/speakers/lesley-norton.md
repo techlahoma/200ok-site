@@ -6,7 +6,7 @@ twitter:
 github:
 lightning: true
 web:
-talk: TBD
+talk: Web Localization
 bio:
 photo:
 ---
