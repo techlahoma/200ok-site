@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <%- partial('_partial/header') %>
-<body>
-<%- partial('_partial/menu') %>
-<%- body %>
-<%- partial('_partial/footer') %>
+<body class="; bg-black" style="min-width: 300px; font-family: 'Ubuntu Condensed', sans-serif;">
+  <div class="; container mx-auto p-8 leading-tight" style="color: #666;">
+    <div class="text-center">
+      <a href="/" class="block my-12 md:mx-12">
+        <img src="/assets/media/logo/200ok-white.svg" alt="200OK - Tulsa’s Web Developer Conference" class="max-w-xl mx-auto">
+      </a>
+
+      <h1 class="text-2xl font-bold m-4" style="color: #eee;">Tulsa’s Web Developer Conference</h1 class="text-2xl">
+      <div class="text-xl font-bold m-4" style="color: #aaa;">Friday, May 15 2020</div class="text-1xl">
+      <div>Tulsa City-County Library</div>
+      <div>400 Civic Center, <span class="whitespace-no-wrap">Tulsa, OK 74103</span></div>
+    </div>
+
+    <%- body %>
+
+    <%- partial('_partial/footer') %>
+  </div>
 </body>
 </html>

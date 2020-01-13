@@ -12,7 +12,7 @@ After the main event, we provide tickets for attendees to nearby restaurants to 
 
 Our sponsors help us provide this high-quality conference for professionals in our region while keeping our ticket prices accessible to a wide audience.
 
-#### Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.
+*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
 
 ### `<title>` Sponsor - $3,000
 #### Limited to a single company
@@ -23,7 +23,8 @@ Our sponsors help us provide this high-quality conference for professionals in o
 * Tweet/Facebook announcement
 * Company collateral placement at registration table
 * 4 tickets included
-#### Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.
+
+*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
 
 ### Lunch Sponsor - Vary: Content-Length
 #### Limited to single company
@@ -35,7 +36,8 @@ Our sponsors help us provide this high-quality conference for professionals in o
 * Tweet/Facebook announcement
 * Company collateral placement at registration table
 * 2 tickets included
-#### Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.
+
+*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
 
 ### `<h1>` Sponsor - $2,000
 #### Limited to 3 companies
@@ -46,7 +48,8 @@ Our sponsors help us provide this high-quality conference for professionals in o
 * Tweet/Facebook announcement
 * Company collateral placement at registration table
 * 2 tickets included
-#### Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.
+
+*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
 
 ### `<h2>` Sponsor - $1,000
 #### Limited to 3 companies
@@ -55,11 +58,13 @@ Our sponsors help us provide this high-quality conference for professionals in o
 * Tweet/Facebook announcement
 * Company collateral placement at registration table
 * 1 ticket included
-#### Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.
+
+*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
 
 ### `<a>` "Local" Sponsor - Vary: Referer
 #### Limited to Oklahoma entities
 * Logo on local area of website
 * Logo on local area of program/schedule
 * Tweet/Facebook announcement
-#### Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.
+
+*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
