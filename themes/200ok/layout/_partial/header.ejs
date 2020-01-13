@@ -2,39 +2,36 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title><%- page.title ? page.title + ' | ' : '' %>200 OK - Tulsa’s Web Developer Conference</title>
   <meta name="description" content="">
-  <meta name="author" content="">
   <link rel="icon" href="/assets/media/favicon/favicon.png">
-  <%
-  var title = page.title;
 
-  if (is_home()) {
-    title = '200 OK | Tulsa\'s Web Developer Conference';
-  } else if (is_archive()){
-    title = 'Archives';
-
-    if (is_month()){
-      title += ': ' + page.year + '/' + page.month;
-    } else if (is_year()){
-      title += ': ' + page.year;
-    }
-  } else if (is_category()){
-    title = 'Category: ' + page.category;
-  } else if (is_tag()){
-    title = 'Tag: ' + page.tag;
-  }
-  %>
-  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="/assets/css/event01.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-  <!-- Custom styles for Google Map -->
-  <link rel="stylesheet" href="/assets/plugins/custom-google-map/ggl-map.css" type="text/css">
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet" type="text/css">
-  <link href="/assets/css/200ok.css" rel="stylesheet">
-  <link href="/assets/css/jqcloud.css" rel="stylesheet">
+  <link href="/assets/css/tailwind-1.1.4.min.css" rel="stylesheet">
 
+  <style>
+    h1,h2,h3,h4,h5,h6,p,ul,ol,dl {
+      margin: 1rem 0;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      font-weight: bold;
+    }
+    h1 { font-size: 4rem; margin-top: 2rem; color: #eee;}
+    h2 { font-size: 3rem; margin-top: 2rem; color: #eee; }
+    h3 { font-size: 2.25rem; margin-top: 2rem; color: #ddd; }
+    h4 { font-size: 1.875rem; color: #888; }
+    h5 { font-size: 1.5rem; }
+    h6 { font-size: 1.25rem; }
+    a { color: #48bb78; /* green-500 */}
+    a:hover { text-decoration: underline; }
+    code, kbd, pre, samp {
+      font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+      background-color: #333;
+      padding: 0.25rem 0.75rem;
+    }
+    hr {
+      border-color: #aaa;
+    }
+  </style>
 </head>
