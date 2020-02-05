@@ -69,5 +69,5 @@ theme: 200ok
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:techlahoma/200ok-site.git
+  repo: git@github.com:travismiller/200ok-site.git
   branch: gh-pages
