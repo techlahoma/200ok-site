@@ -1,13 +1,13 @@
-# [200ok.us](http://200ok.us/) source files
+# [200ok.us](https://200ok.us/) source files
 
 This is a static website deployed on gh-pages, built with [hexo](https://hexo.io/).
 
 ### Installing
 
-```
-git clone git@github.com:techlahoma/200ok-site.git
-cd 200ok-site
-npm install
+```console
+$ git clone git@github.com:techlahoma/200ok-site.git
+$ cd 200ok-site
+$ npm install
 ```
 
 ### File Structure
@@ -16,17 +16,21 @@ All the copy documents are in `/source`, the theme is `/themes/200ok`, and the o
 
 ### Working locally on the site
 
-```
-./node_modules/.bin/hexo serve
+```console
+$ npm run start
 ```
 
 Then go to http://localhost:4000
 
 ### Deploy Changes
 
-```
-./node_modules/.bin/hexo generate
-./node_modules/.bin/hexo deploy
+The `master` branch is automatically deployed to [200ok.us](https://200ok.us/) via [GitHub Actions](https://github.com/features/actions). See [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
+
+Under the hood, these commands 
+
+```console
+$ npm run build
+$ npm run deploy
 ```
 
 This will generate the static files and deploy to github pages.
