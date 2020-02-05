@@ -6,13 +6,13 @@
 title: 200ok
 subtitle:
 description:
-author: John Doe
+author: Techlahoma
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://200ok.us
+url: https://200ok.us
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
