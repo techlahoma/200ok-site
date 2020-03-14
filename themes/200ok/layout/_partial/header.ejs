@@ -17,7 +17,7 @@
     h1,h2,h3,h4,h5,h6 {
       font-weight: bold;
     }
-    h1 { font-size: 4rem; margin-top: 2rem; color: #eee;}
+    h1 { font-size: 4rem; margin-top: 2rem; color: #eee; }
     h2 { font-size: 3rem; margin-top: 2rem; color: #eee; }
     h3 { font-size: 2.25rem; margin-top: 2rem; color: #ddd; }
     h4 { font-size: 1.875rem; color: #888; }
@@ -33,5 +33,22 @@
     hr {
       border-color: #aaa;
     }
+    .full-width {
+      /* https://css-tricks.com/full-width-containers-limited-width-parents/ */
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+    .reverse {
+      background-color: white;
+      color: black;
+    }
+    .reverse h1 { color: #333; }
+    .reverse h2 { color: #333; }
+    .reverse h3 { color: #666; }
+    .reverse h4 { color: #888; }
   </style>
 </head>
