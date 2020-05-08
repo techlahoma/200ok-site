@@ -1,47 +1,35 @@
-- start: "08:00"
-  title: Registration
-  description: Get checked in, mingle, and grab a bite to eat.
-
-- start: "08:50"
-  title: Opening Announcements
-
 - start: "09:00"
-  speaker: Mey Beisaron
+  speaker: Matt Steele
   type: Full Talk
 
 - start: "10:00"
-  speaker: Michele Titolo
+  speaker: Bryan Robinson
   type: Full Talk
 
 - start: "11:00"
-  speaker: Christine Seeman
+  speaker: Gunnard Engebreth
   type: Full Talk
 
 - start: "12:00"
-  end: "13:20"
+  end: "13:00"
   title: Lunch Break
 
-- start: "13:20"
-  end: "14:10"
-  title: Lightning Talks
-  speakers:
-    - Jacob Herrington
-    - Lesley Norton
-    - Lynn Ghose Cabrera
-    - Nick Thompson
-    - Paul Gower
-
-- start: "14:20"
-  speaker: Jenn Creighton
+- start: "13:00"
+  speaker: Alain Chautard
   type: Full Talk
 
-- start: "15:20"
-  speaker: Erick Wendel
+- start: "14:00"
+  speaker: Ash Banaszek
   type: Full Talk
 
-- start: "16:20"
-  title: Closing Remarks
+- start: "15:00"
+  speaker: Harnoor Minhas
+  type: Full Talk
 
-- start: "16:30"
-  end: "17:00"
-  title: Socializing/Networking
+- start: "16:00"
+  speaker: Amber Vanderburg
+  type: Full Talk
+
+- start: "17:00"
+  end: "17:30"
+  title: Networking
