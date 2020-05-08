@@ -14,6 +14,10 @@
   <link href="/assets/css/tailwind-1.1.4.min.css" rel="stylesheet">
 
   <style>
+    html, body {
+      min-width: 375px;
+      font-family: 'Ubuntu Condensed', sans-serif;
+    }
     h1,h2,h3,h4,h5,h6,p,ul,ol,dl {
       margin: 1rem 0;
     }
@@ -36,14 +40,22 @@
     hr {
       border-color: #aaa;
     }
+
     .full-width {
-      /* https://css-tricks.com/full-width-containers-limited-width-parents/ */
-      width: 100vw;
+      width: 375px;
       position: relative;
-      left: 50%;
-      right: 50%;
-      margin-left: -50vw;
-      margin-right: -50vw;
+      left: -2rem;
+    }
+    @media (min-width: 375px) {
+      .full-width {
+        /* https://css-tricks.com/full-width-containers-limited-width-parents/ */
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+      }
     }
     .reverse {
       background-color: white;
