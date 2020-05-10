@@ -10,7 +10,7 @@ After the main event, we provide tickets for attendees to nearby restaurants to 
 
 Our sponsors help us provide this high-quality conference for professionals in our region while keeping our ticket prices accessible to a wide audience.
 
-*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
+*Contact us at <a href="mailto:200ok@techlahoma.org">200ok@techlahoma.org</a> about sponsoring.*
 
 ### `<title>` Sponsor - $3,000
 #### Be our Title Sponsor
@@ -20,7 +20,7 @@ Our sponsors help us provide this high-quality conference for professionals in o
 * Logo listed prominently on the sponsor slide shown between speakers
 * Twitter announcement
 
-*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
+*Contact us at <a href="mailto:200ok@techlahoma.org">200ok@techlahoma.org</a> about sponsoring.*
 
 ### `<h1>` Sponsor - $2,000
 #### Be a substantial sponsor
@@ -30,7 +30,7 @@ Our sponsors help us provide this high-quality conference for professionals in o
 * Logo listed as `<h1>` on the sponsor slide shown between speakers
 * Twitter announcement
 
-*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
+*Contact us at <a href="mailto:200ok@techlahoma.org">200ok@techlahoma.org</a> about sponsoring.*
 
 ### `<h2>` Sponsor - $1,000
 #### Be a supporting sponsor
@@ -40,4 +40,4 @@ Our sponsors help us provide this high-quality conference for professionals in o
 * Logo listed as `<h2>` on the sponsor slide shown between speakers
 * Twitter announcement
 
-*Contact us at <a href="mailto:organizers@200ok.us">organizers@200ok.us</a> about sponsoring.*
+*Contact us at <a href="mailto:200ok@techlahoma.org">200ok@techlahoma.org</a> about sponsoring.*
