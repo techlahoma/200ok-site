@@ -16,6 +16,7 @@ hexo.extend.helper.register('format_time', time => {
   let hours = parseInt(parts[0])
   let minutes = parseInt(parts[1])
   let ampm = 'am'
+  let colon = ':'
 
   if (hours >= 12) {
     ampm = 'pm'
@@ -29,6 +30,11 @@ hexo.extend.helper.register('format_time', time => {
     hours = 12
   }
 
+  if (minutes == 0) {
+    minutes = ''
+    colon = ''
+  }
+
   // return hours + ':' + pad(minutes, 2) + ampm
-  return hours + ampm
+  return hours + colon + minutes + ampm
 });
