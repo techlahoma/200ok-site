@@ -3,18 +3,18 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
-    name: "Master Build & Deploy"
+    name: "Build & Deploy"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '10.x'
+          node-version: "10.x"
       - name: Install Node.js dependencies
         run: npm install
       - name: Hexo Generate

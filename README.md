@@ -24,4 +24,4 @@ Then go to http://localhost:4000
 
 ### Deploy Changes
 
-The `master` branch is automatically deployed to [200ok.us](https://200ok.us/) via [GitHub Actions](https://github.com/features/actions). See [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
+The `main` branch is automatically deployed to [200ok.us](https://200ok.us/) via [GitHub Actions](https://github.com/features/actions). See [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
