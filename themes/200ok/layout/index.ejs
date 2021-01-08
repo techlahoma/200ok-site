@@ -1,115 +1,11 @@
 <div class="text-center">
-  <div class="my-12">
-    <a href="https://ti.to/techlahoma/200ok-2020"
-       class="inline-block bg-green-500 hover:bg-green-700 text-white font-bold py-4 px-8 rounded m-4 mx-8 text-2xl">
-      Register Today
-    </a>
-  </div>
-
   <div class="full-width reverse ; my-12 py-4">
-    <h3>What to Expect</h3>
+    <h3>More details soon!</h3>
 
     <div class="; container text-left mx-auto max-w-3xl p-4">
       <div class="w-full my-4">
-          <p>We're all stuck at home, but we'd still like to share knowledge and connect online. It's a good thing we're web developers. That's why <a href="https://www.techlahoma.org">Techlahoma</a> decided to hold this conference virtually. A lot of volunteer effort went into this conference, so we hope you enjoy it!</p>
-
-          <p>This event will be streamed on <a href="https://www.twitch.tv/techlahoma/">Twitch</a> starting at 9am CDT on Friday, May 15th.</p>
-
-          <p><a href="https://ti.to/techlahoma/200ok-2020">Please register</a> to receive details about attending. We'll send you an email before the event with information about connecting with the speakers and other attendees.</p>
+        <tito-widget event="techlahoma/200ok-web-development-conference-2021"></tito-widget>
       </div>
-    </div>
-  </div>
-
-  <div class="full-width reverse ; my-12 py-4">
-    <h3>Sponsors</h3>
-
-    <a href="/sponsorship-prospectus/">
-      Sponsorship Prospectus
-    </a>
-
-    <div class="my-24">
-      <h4>
-        <a href="sponsorship-prospectus#lt-title-gt-Sponsor-3-000" class="block">
-          <code class="text-white">&lt;title&gt;</code>
-        </a>
-      </h4>
-      <a class="bg-white inline-block max-w-xs" target="_blank" href="https://www.holbertonschool.com/" title="Holberton">
-        <img src="/assets/media/sponsors/holberton.png" alt="Holberton">
-      </a>
-    </div>
-
-    <div class="my-12 hidden">
-      <h4>
-        <a href="sponsorship-prospectus#lt-br-class-quot-Lunch-quot-gt-Sponsor-2-000" class="block">
-          <code class="text-white">&lt;br class="Lunch"&gt;</code>
-        </a>
-      </h4>
-    </div>
-
-    <div class="my-24">
-      <h4>
-        <a href="sponsorship-prospectus#lt-h1-gt-Sponsor-2-000" class="block">
-          <code class="text-white">&lt;h1&gt;</code>
-        </a>
-      </h4>
-      <div class="; flex items-center justify-center mx-4">
-        <a class="bg-white block max-w-xs mx-4" target="_blank" href="https://www.gitwit.com/" title="GitWit">
-          <img src="/assets/media/sponsors/gitwit.png" alt="GitWit">
-        </a>
-        <a class="bg-white block max-w-xs mx-4" target="_blank" href="https://www.mozilla.org/" title="Mozilla">
-          <img src="/assets/media/sponsors/mozilla.png" alt="Mozilla">
-        </a>
-      </div>
-    </div>
-
-    <div class="my-12 hidden">
-      <h4>
-        <a href="sponsorship-prospectus#lt-br-class-quot-Breakfast-quot-gt-Sponsor-1-000" class="block">
-          <code class="text-white">&lt;br class="Breakfast"&gt;</code>
-        </a>
-      </h4>
-    </div>
-
-    <div class="my-12 hidden">
-      <h4>
-        <a href="sponsorship-prospectus#lt-h2-gt-Sponsor-1-000" class="block">
-          <code class="text-white">&lt;h2&gt;</code>
-        </a>
-      </h4>
-    </div>
-
-    <div class="my-12 hidden">
-      <h4>
-        <a href="sponsorship-prospectus#lt-a-gt-“Local”-Sponsor-Vary-Referer" class="block">
-          <code class="text-white">&lt;a&gt;</code>
-        </a>
-      </h4>
-    </div>
-  </div>
-
-  <div class="full-width reverse ; my-12 py-4">
-    <h3>Schedule</h3>
-    <div>Central Daylight Tulsa Time (UTC-5)</div>
-
-    <div class="; container text-left mx-auto max-w-3xl p-4">
-      <% site.data.events.forEach(event => { %>
-        <% if (['Lunch Break', 'Networking', 'Intro'].includes(event.title)) { %>
-          <% if (page) { %>
-            <div class="w-full my-4 flex">
-              <div class="border-2 border-green-500 bg-white flex justify-between leading-normal w-full ">
-                <div class="w-1/3 overflow-hidden text-white p-4 bg-green-500 text-center">
-                  <div class="text-white font-bold text-2xl sm:text-3xl"><%- format_time(event.start) %></div>
-                </div>
-                <div class="w-2/3 _mb-8 p-4">
-                  <div class="text-black font-bold text-2xl sm:text-3xl"><%- event.title %></div>
-                </div>
-              </div>
-            </div>
-          <% } %>
-        <% } else { %>
-          <%- partial("_partial/schedule-event", {event, page: speaker_page(event.speaker)}) %>
-        <% } %>
-      <% }) %>
     </div>
   </div>
 
