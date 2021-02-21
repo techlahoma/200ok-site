@@ -1,6 +1,8 @@
 # [200ok.us](https://200ok.us/) source files
 
-This is a static website deployed on [GitHub Pages](https://pages.github.com/), built with [Hexo](https://hexo.io/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/10be3658-c444-423a-a7a2-9d326f1dd1fb/deploy-status)](https://app.netlify.com/sites/200ok/deploys)
+
+This is a static website deployed on [Netlify](https://www.netlify.com/), built with [Hexo](https://hexo.io/).
 
 ### Installing
 
@@ -24,4 +26,12 @@ Then go to http://localhost:4000
 
 ### Deploy Changes
 
-The `main` branch is automatically deployed to [200ok.us](https://200ok.us/) via [GitHub Actions](https://github.com/features/actions). See [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
+The `main` branch is automatically deployed to [200ok.us](https://200ok.us/) with [Netlify site deploys](https://docs.netlify.com/site-deploys/overview/). See [netlify.toml](netlify.toml).
+
+## Code of Conduct
+
+This repository is governed by [Techlahoma’s Code of Conduct](https://www.techlahoma.org/code-of-conduct).
+
+## License
+
+This software is licensed under the MIT License. For more information, read this repository’s [LICENSE](LICENSE).

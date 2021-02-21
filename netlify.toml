@@ -1,0 +1,7 @@
+[build]
+  base = "."
+  publish = "public/"
+  command = "make build"
+
+[context.production]
+  command = "make build && rm public/robots.txt"
