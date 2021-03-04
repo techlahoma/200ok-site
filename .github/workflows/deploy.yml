@@ -18,7 +18,7 @@ jobs:
       - name: Install Node.js dependencies
         run: npm install
       - name: Hexo Generate
-        run: npm run build
+        run: npm run build && rm public/robots.txt
       - name: Hexo Deploy
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_DEPLOY_KEY }}
