@@ -1,7 +1,11 @@
 [build]
   base = "."
   publish = "public/"
-  command = "make build"
+  command = "make deploy-netlify"
 
-[context.production]
-  command = "make build && rm public/robots.txt"
+# Redirect the default subdomain to the primary domain
+[[redirects]]
+  from = "https://200ok.netlify.app/*"
+  to = "https://200ok.us/:splat"
+  status = 301
+  force = true
