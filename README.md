@@ -1,6 +1,6 @@
 # [200ok.us](https://200ok.us/) source files
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/10be3658-c444-423a-a7a2-9d326f1dd1fb/deploy-status)](https://app.netlify.com/sites/200ok/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7da7c697-e5d6-4844-9800-3594f046313e/deploy-status)](https://app.netlify.com/sites/200ok/deploys)
 
 This is a static website deployed on [Netlify](https://www.netlify.com/), built with [Hexo](https://hexo.io/).
 
