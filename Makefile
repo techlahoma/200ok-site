@@ -1,5 +1,7 @@
 SHELL = /bin/bash
 
+ROBOTS = public/robots.txt
+
 default: build
 
 dev: node_modules
@@ -8,8 +10,11 @@ dev: node_modules
 build: node_modules
 	npm run build
 
-deploy: node_modules
-	npm run deploy
+# https://docs.netlify.com/configure-builds/environment-variables/#read-only-variables
+# CONTEXT: production | deploy-preview | branch-deploy
+deploy-netlify: build
+	[ ! -f "$(ROBOTS).$(CONTEXT)" ] || cp "$(ROBOTS).$(CONTEXT)" $(ROBOTS)
+	rm -f $(ROBOTS).*
 
 node_modules: package.json package-lock.json
 	npm install
