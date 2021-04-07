@@ -5,9 +5,23 @@ module.exports = function(eleventyConfig) {
     outputDirectory: 'public',
   }))
 
+  eleventyConfig.addPassthroughCopy('assets')
+  eleventyConfig.addPassthroughCopy('content/robots.txt*')
+  eleventyConfig.addPassthroughCopy('content/**/*.pdf')
   eleventyConfig.addPassthroughCopy({
-    'assets': 'assets',
+    'assets/logos/favicon.ico': 'favicon.ico',
   })
+
+  const years = [2016, 2017, 2018, 2019, 2020]
+  years.forEach(year => {
+    eleventyConfig.addPassthroughCopy({
+      [`archive/archive-${year}`]: `archive-${year}`,
+      [`archive/assets-${year}`]: `assets-${year}`,
+    })
+  })
+
+  // eleventyConfig.addWatchTarget("./assets/css/index.css");
+  eleventyConfig.setUseGitIgnore(false)
 
   // // Filter source file names using a glob
   // eleventyConfig.addCollection('posts', function(collectionApi) {

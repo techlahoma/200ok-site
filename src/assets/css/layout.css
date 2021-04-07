@@ -1,0 +1,36 @@
+:root {
+  --purple: #4D2462;
+  --orange: #F27E5B;
+  --logo-blue: #2E83C4;
+  --logo-red: #EF483C;
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+.text-purple {
+  color: var(--purple);
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  min-width: 300px;
+}
+
+header, footer {
+  background-color: var(--purple);
+}
+
+.section-underline {
+  border-bottom: 1px solid rgba(77, 36, 98, 0.5);
+}
+
+/* @screen md {
+  header, .header-container ,
+  footer, .footer-container {
+    max-width: 400px;
+    min-width: 300px;
+    width: 25%;
+  }
+} */
