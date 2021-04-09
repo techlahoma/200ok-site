@@ -77,3 +77,33 @@ a:hover > i {
   @apply absolute left-full -top-1;
   @apply opacity-60;
 }
+
+.button {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 1.1rem 2rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.2s ease-out;
+}
+
+.button.primary {
+  background: var(--orange);
+  color: var(--purple);
+}
+
+.button.primary:hover {
+  background: var(--white);
+}
+
+.button.secondary {
+  border: 2px solid var(--orange);
+  color: var(--orange);
+}
+
+.button.secondary:hover {
+  background: var(--orange);
+  color: var(--purple);
+}
