@@ -8,7 +8,7 @@
     "dev": "npm-run-all clean --parallel dev:*",
     "dev:postcss": "TAILWIND_MODE=watch postcss src/assets/css/index.css -o assets/css/index.css -w",
     "dev:eleventy": "npx @11ty/eleventy --serve",
-    "netlify:dev": "netlify dev"
+    "netlify:dev": "NETLIFY=true netlify dev"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",

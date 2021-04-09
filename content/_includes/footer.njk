@@ -19,14 +19,14 @@
     </ul>
 
     <p class="opacity-50 text-xs my-8">
-      Copyright 2021 –
+      Copyright {{ env.YEAR }} –
       <a href="https://www.techlahoma.org/" class="hover:underline">Techlahoma</a>
     </p>
 
     {% if env.NETLIFY %}
       <p class="my-8">
         <a href="https://www.netlify.com">
-          <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" class="; mx-auto w-20">
+          <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" class="; mx-auto w-20">
         </a>
       </p>
     {% endif %}
