@@ -1,0 +1,79 @@
+/*! purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'layout.css';
+@import 'tailwindcss/components';
+/*! purgecss end ignore */
+
+@import 'tailwindcss/utilities';
+
+.prose h1 {
+  @apply text-3xl;
+  @apply font-bold;
+}
+.prose h2 {
+  @apply text-2xl;
+  @apply font-semibold;
+}
+
+.prose h1 ,
+.prose h2 {
+  @apply uppercase;
+  @apply mb-4;
+  @apply mt-16;
+
+  border-bottom: 1px solid rgba(77, 36, 98, 0.5);
+  color: var(--purple);
+}
+@screen md {
+  .prose h1 ,
+  .prose h2 {
+    margin-right: -100vw;
+    padding-right: 100vw;
+  }
+}
+
+.prose p {
+  @apply my-4;
+
+  color: var(--purple);
+}
+
+.intro {
+  @apply text-xl;
+}
+
+@screen sm {
+  .intro {
+    @apply text-2xl;
+  }
+}
+
+.my-left, .my-right {
+  @apply w-full;
+}
+@screen md {
+  .my-left {
+    width: 256px;
+  }
+  .my-right {
+    width: calc(100vw - 256px);
+  }
+}
+
+a {
+  @apply relative;
+}
+
+a:hover {
+  @apply underline;
+}
+
+a > i {
+  @apply absolute left-full -top-1;
+  @apply opacity-0;
+}
+
+a:hover > i {
+  @apply absolute left-full -top-1;
+  @apply opacity-60;
+}

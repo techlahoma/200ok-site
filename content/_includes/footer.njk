@@ -1,0 +1,34 @@
+<div class="relative text-white">
+  <div class="footer-container text-center">
+    <ul class="list-none text-sm my-8">
+      <li class="mb-2">
+        <a href="mailto:200ok@techlahoma.org">
+          Contact Us
+          <i class="ri-mail-send-line"></i>
+        </a>
+      </li>
+      <li class="mb-2">
+        <a href="https://www.techlahoma.org/code-of-conduct/">
+          Code of Conduct
+          <i class="ri-external-link-line"></i>
+        </a>
+      </li>
+      <li class="mb-2">
+        <a href="/privacy-policy">Privacy Policy</a>
+      </li>
+    </ul>
+
+    <p class="opacity-50 text-xs my-8">
+      Copyright {{ env.YEAR }} –
+      <a href="https://www.techlahoma.org/" class="hover:underline">Techlahoma</a>
+    </p>
+
+    {% if env.NETLIFY %}
+      <p class="my-8">
+        <a href="https://www.netlify.com">
+          <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" class="; mx-auto w-20">
+        </a>
+      </p>
+    {% endif %}
+  </div>
+</div>
