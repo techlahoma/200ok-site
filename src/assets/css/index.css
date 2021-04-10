@@ -53,10 +53,19 @@
 }
 @screen md {
   .my-left {
-    width: 256px;
+    width: 320px;
   }
   .my-right {
-    width: calc(100vw - 256px);
+    width: calc(100vw - 320px);
+  }
+}
+
+@screen lg {
+  .my-left {
+    width: 400px;
+  }
+  .my-right {
+    width: calc(100vw - 400px);
   }
 }
 
