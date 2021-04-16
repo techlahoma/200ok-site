@@ -1,4 +1,5 @@
 const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster')
+const yaml = require('js-yaml')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(cacheBuster({
@@ -20,26 +21,26 @@ module.exports = function(eleventyConfig) {
     })
   })
 
-  // eleventyConfig.addWatchTarget("./assets/css/index.css");
   eleventyConfig.setUseGitIgnore(false)
 
-  // // Filter source file names using a glob
-  // eleventyConfig.addCollection('posts', function(collectionApi) {
-  //   // Also accepts an array of globs!
-  //   return collectionApi.getFilteredByGlob(['content/posts/*.md'])
-  // })
+  // Extra data formats
+  eleventyConfig.addDataExtension('yml', contents => yaml.load(contents))
+  eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
 
   return {
+    // Use nunjucks for template usage (like includes) within Markdown files
+    markdownTemplateEngine: 'njk',
+
     templateFormats: [
-      "md",
-      "njk",
+      'md',
+      'njk',
     ],
 
     dir: {
-      input: "content/",
-      includes: "_includes",
-      layouts: "_layouts",
-      output: "public",
+      input: 'content/',
+      includes: '_includes',
+      layouts: '_layouts',
+      output: 'public',
     },
 
     passthroughFileCopy: true,

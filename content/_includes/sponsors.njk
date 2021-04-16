@@ -1,0 +1,26 @@
+{% macro sponsor_icon(sponsor) %}
+<div class="sponsor ; flex-1 flex m-0.5 sm:m-2">
+  <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" class="; flex-1 mr-1 flex-col">
+    <div class="flex justify-center"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="; shadow-md rounded-lg object-contain" style="margin: 0" /></div>
+    {% if sponsor.name != 'Become a Sponsor' %}<div class="text-center leading-none text-xs mt-3 hidden sm:block">{{ sponsor.name }}</div>{% endif %}
+  </a>
+</div>
+{% endmacro %}
+
+{% macro sponsor_section(level, title) %}
+<div>
+  <h3 class="; text-center">{{ title }}</h3>
+  <div class="; flex flex-wrap">
+    {% for sponsor in sponsors[level] %}
+    {{ sponsor_icon(sponsor) }}
+    {% endfor %}
+  </div>
+</div>
+{% endmacro %}
+
+{{ sponsor_section('Lunch', 'Lunch Sponsor') }}
+{{ sponsor_section('Gold', 'Gold Sponsors') }}
+{{ sponsor_section('Silver', 'Silver Sponsors') }}
+{{ sponsor_section('Bronze', 'Bronze Sponsors') }}
+{{ sponsor_section('Local', 'Local Sponsors') }}
+{{ sponsor_section('Captioning', 'Captioning Sponsor') }}

@@ -1,0 +1,64 @@
+Lunch:
+  - name: Heartland Payment Systems
+    url: https://www.heartlandpaymentsystems.com/
+    image: /assets/images/sponsors-2021/heartland.jpg
+
+Captioning:
+  - name: Able Tech
+    url: https://www.okabletech.org/
+    image: /assets/images/sponsors-2021/abletech.jpg
+
+Gold:
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+
+Silver:
+  - name: GitWit
+    url: https://www.gitwit.com/
+    image: /assets/images/sponsors-2021/gitwit.jpg
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  # - name: Become a Sponsor
+  #   url: /sponsorship/
+  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  # - name: Become a Sponsor
+  #   url: /sponsorship/
+  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+
+Bronze:
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  # - name: Become a Sponsor
+  #   url: /sponsorship/
+  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+
+Local:
+  - name: Holberton School
+    sponsorship: Local
+    url: https://www.holbertonschool.com/
+    image: /assets/images/sponsors-2021/holberton.jpg
+  - name: Rogue Recruitment
+    sponsorship: Local
+    url: https://roguerecruitment.com/
+    image: /assets/images/sponsors-2021/rogue-recruitment.png
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor

@@ -10,10 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ## Sponsors
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-
-<a href="#">Get Tickets</a>
-
+{% include 'sponsors.njk' %}
 ## Code of Conduct
 
 Before attending the conference, [please review the Techlahoma Code of Conduct](https://www.techlahoma.org/code-of-conduct/). The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by the [Techlahoma Foundation](https://techlahoma.org/) and any location where attendees may be congregating. [Contact us](mailto:200ok@techlahoma.org) if you have questions. 

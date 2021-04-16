@@ -1,10 +1,11 @@
 :root {
   --purple: #4D2462;
   --orange: #F27E5B;
-  --orange-dark: #d06747;
+  --orange-dark: #D06747;
   --logo-blue: #2E83C4;
   --logo-red: #EF483C;
-  --white: #ffffff
+  --logo-grey: #AAAAAA;
+  --white: #FFFFFF;
 }
 
 .text-orange {

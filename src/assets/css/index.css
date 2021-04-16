@@ -87,6 +87,7 @@ a:hover > i {
   @apply opacity-60;
 }
 
+.prose .button ,
 .button {
   border-radius: 3px;
   display: inline-block;
@@ -96,6 +97,12 @@ a:hover > i {
   font-weight: bold;
   font-size: 1rem;
   transition: all 0.2s ease-out;
+  text-decoration: none;
+  line-height: 1;
+}
+.prose .button:hover ,
+.button:hover {
+  text-decoration: none;
 }
 
 .button.primary {
@@ -115,4 +122,8 @@ a:hover > i {
 .button.secondary:hover {
   background: var(--orange);
   color: var(--purple);
+}
+
+.sponsor a {
+  text-decoration: none;
 }

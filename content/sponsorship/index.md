@@ -3,7 +3,7 @@ title: 'Sponsorship Prospectus'
 subtitle: 'Help bring together 200 South-by-Midwest web professionals'
 ---
 
-<div class="; text-center md:float-right"><a href="/sponsorship/200OK-Sponsorship-Prospectus-2021.pdf" class="inline-block bg-green-500 hover:bg-green-700 hover:no-underline text-white font-bold py-4 px-8 rounded text-2xl" title="Download as PDF (102KB)">Download <i class="fas fa-file-pdf ; ml-2"></i></a></div>
+<div class="; text-center md:float-right"><a href="/sponsorship/200OK-Sponsorship-Prospectus-2021.pdf" class="button secondary md:ml-4" title="Download as PDF (102KB)">Download <span><i class="ri-file-download-line ; ml-2"></i><span></a></div>
 
 For sponsorship questions, sales, and to request a custom sponsorship package:
 
@@ -87,8 +87,8 @@ For 2021, we are expecting attendance of 150-200 developers and IT professionals
 - Social media announcement
 - Sponsor-provided brochures, stickers, and other swag included in our swag bags
 
-### Exclusive Lunch Sponsorship – $4,000 `Already taken!`
-*Limited to 1 company*
+### Exclusive Lunch Sponsorship – $4,000
+*Limited to 1 company* `Already Taken!`
 - Everything in Gold plus
 - “Lunch provided by …” in all communications/announcements
 - Listed in exclusive lunch sponsor everywhere applicable
