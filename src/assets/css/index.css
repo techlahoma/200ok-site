@@ -1,0 +1,129 @@
+/*! purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'layout.css';
+@import 'tailwindcss/components';
+/*! purgecss end ignore */
+
+@import 'tailwindcss/utilities';
+
+.prose h1 {
+  @apply text-3xl;
+  @apply font-bold;
+}
+.prose h2 {
+  @apply text-2xl;
+  @apply font-semibold;
+}
+
+.prose h1 ,
+.prose h2 {
+  @apply uppercase;
+  @apply mb-4;
+  @apply mt-16;
+
+  border-bottom: 1px solid rgba(77, 36, 98, 0.5);
+  color: var(--purple);
+}
+@screen md {
+  .prose h1 ,
+  .prose h2 {
+    margin-right: -100vw;
+    padding-right: 100vw;
+  }
+}
+
+.prose p {
+  @apply my-4;
+
+  color: var(--purple);
+}
+
+.intro {
+  @apply text-xl;
+}
+
+@screen sm {
+  .intro {
+    @apply text-2xl;
+  }
+}
+
+.my-left, .my-right {
+  width: 100%;
+}
+@screen md {
+  .my-left {
+    width: 320px;
+  }
+  .my-right {
+    width: calc(100vw - 320px);
+  }
+}
+
+@screen lg {
+  .my-left {
+    width: 400px;
+  }
+  .my-right {
+    width: calc(100vw - 400px);
+  }
+}
+
+a {
+  @apply relative;
+}
+
+a:hover {
+  @apply underline;
+}
+
+a > i {
+  @apply absolute left-full -top-1;
+  @apply opacity-0;
+}
+
+a:hover > i {
+  @apply absolute left-full -top-1;
+  @apply opacity-60;
+}
+
+.prose .button ,
+.button {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 1.1rem 2rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  line-height: 1;
+}
+.prose .button:hover ,
+.button:hover {
+  text-decoration: none;
+}
+
+.button.primary {
+  background: var(--orange);
+  color: var(--purple);
+}
+
+.button.primary:hover {
+  background: var(--white);
+}
+
+.button.secondary {
+  border: 2px solid var(--orange);
+  color: var(--orange);
+}
+
+.button.secondary:hover {
+  background: var(--orange);
+  color: var(--purple);
+}
+
+.sponsor a {
+  text-decoration: none;
+}

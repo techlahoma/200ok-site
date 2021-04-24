@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7da7c697-e5d6-4844-9800-3594f046313e/deploy-status)](https://app.netlify.com/sites/200ok/deploys)
 
-This is a static website deployed on [Netlify](https://www.netlify.com/), built with [Hexo](https://hexo.io/).
+This is a static website deployed on [Netlify](https://www.netlify.com/), built with [Eleventy](https://www.11ty.dev/).
 
 ### Installing
 
@@ -19,10 +19,10 @@ All the copy documents are in `/source`, the theme is `/themes/200ok`, and the o
 ### Working locally on the site
 
 ```console
-$ npm run start
+$ make dev
 ```
 
-Then go to http://localhost:4000
+Then go to http://localhost:8888
 
 ### Deploy Changes
 

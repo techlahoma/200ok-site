@@ -1,11 +1,22 @@
 [build]
   base = "."
   publish = "public/"
-  command = "make deploy-netlify"
+  command = "make deploy"
+
+# https://cli.netlify.com/netlify-dev#netlifytoml-dev-block
+[dev]
+  command = "npm run dev"
+  autoLaunch = false
 
 # Redirect the default subdomain to the primary domain
 [[redirects]]
   from = "https://200ok.netlify.app/*"
   to = "https://200ok.us/:splat"
   status = 301
+  force = true
+
+[[redirects]]
+  from = "/tickets"
+  to = "https://techlahoma.z2systems.com/np/clients/techlahoma/eventRegistration.jsp?event=1"
+  status = 302
   force = true
