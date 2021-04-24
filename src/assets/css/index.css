@@ -49,7 +49,7 @@
 }
 
 .my-left, .my-right {
-  @apply w-full;
+  width: 100%;
 }
 @screen md {
   .my-left {
