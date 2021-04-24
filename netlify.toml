@@ -14,3 +14,9 @@
   to = "https://200ok.us/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/tickets"
+  to = "https://techlahoma.z2systems.com/np/clients/techlahoma/eventRegistration.jsp?event=1"
+  status = 302
+  force = true
