@@ -11,44 +11,44 @@ Captioning:
 Gold:
   - name: Become a Sponsor
     url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
   - name: Become a Sponsor
     url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
 
 Silver:
   - name: GitWit
     url: https://www.gitwit.com/
     image: /assets/images/sponsors-2021/gitwit.jpg
+  - name: Objectstream
+    url: https://objectstream.com/
+    image: /assets/images/sponsors-2021/objectstream.jpg
   - name: Become a Sponsor
     url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
-  - name: Become a Sponsor
-    url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
   # - name: Become a Sponsor
   #   url: /sponsorship/
-  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
   # - name: Become a Sponsor
   #   url: /sponsorship/
-  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
 
 Bronze:
   - name: Become a Sponsor
     url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
   - name: Become a Sponsor
     url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
   - name: Become a Sponsor
     url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
   - name: Become a Sponsor
     url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
   # - name: Become a Sponsor
   #   url: /sponsorship/
-  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+  #   image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
 
 Local:
   - name: Holberton School
@@ -61,4 +61,4 @@ Local:
     image: /assets/images/sponsors-2021/rogue-recruitment.png
   - name: Become a Sponsor
     url: /sponsorship/
-    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!

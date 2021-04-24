@@ -1,7 +1,7 @@
 {% macro sponsor_icon(sponsor) %}
 <div class="sponsor ; flex-1 flex m-0.5 sm:m-2">
   <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" class="; flex-1 mr-1 flex-col">
-    <div class="flex justify-center"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="; shadow-md rounded-lg object-contain" style="margin: 0" /></div>
+    <div class="flex justify-center"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="; shadow-md rounded-lg" style="margin: 0" /></div>
     {% if sponsor.name != 'Become a Sponsor' %}<div class="text-center leading-none text-xs mt-3 hidden sm:block">{{ sponsor.name }}</div>{% endif %}
   </a>
 </div>

@@ -1,5 +1,13 @@
 const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster')
+const markdownIt = require('markdown-it')
+const markdownItAnchor = require('markdown-it-anchor')
 const yaml = require('js-yaml')
+
+const markdownLibrary = markdownIt({
+  html: true,
+  breaks: true,
+  linkify: true,
+}).use(markdownItAnchor)
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(cacheBuster({
@@ -22,6 +30,8 @@ module.exports = function(eleventyConfig) {
   })
 
   eleventyConfig.setUseGitIgnore(false)
+
+  eleventyConfig.setLibrary('md', markdownLibrary)
 
   // Extra data formats
   eleventyConfig.addDataExtension('yml', contents => yaml.load(contents))

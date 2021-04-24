@@ -1,12 +1,22 @@
 <p class="intro">
-Connect with fellow web professionals and some of the best speakers in the country for a day of presentations about leading web tech topics, plus join in hacking spaces, break-outs, and group discussions.
+Connect with fellow web professionals and some of the best speakers across the globe for a day of presentations about leading web technology topics.
 </p>
 
 ## Ticketing
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+**Are tickets free?**
 
-<a href="/tickets">Get Tickets</a>
+Yes! Attending virtually is free, but we do encourage a donation! Simply a $45 donation gets you some swag and lunch delivered to you by DoorDash!
+
+**Will we get to ask the speakers any questions?**
+
+Yes! Just join us on [#200ok channel on Techlahoma Slack](https://techlahoma.slack.com/app_redirect?channel=200ok) day-of to ask all your questions and get the most up-to-date information about what’s happening live!
+
+**What if I have other questions?**
+
+Contact us at [200ok@techlahoma.org](mailto:200ok@techlahoma.org) with any questions!
+
+<div class="; text-center"><a href="https://techlahoma.z2systems.com/np/clients/techlahoma/eventRegistration.jsp?event=1" class="button secondary md:ml-4">Get Tickets</a></div>
 
 ## Sponsors
 

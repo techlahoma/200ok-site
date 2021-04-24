@@ -3,12 +3,12 @@
   "scripts": {
     "clean": "rimraf public",
     "build": "npm-run-all clean build:postcss build:eleventy",
-    "build:postcss": "TAILWIND_MODE=build postcss src/assets/css/index.css -o assets/css/index.css",
+    "build:postcss": "env-cmd -e build postcss src/assets/css/index.css -o assets/css/index.css",
     "build:eleventy": "npx @11ty/eleventy",
     "dev": "npm-run-all clean --parallel dev:*",
-    "dev:postcss": "TAILWIND_MODE=watch postcss src/assets/css/index.css -o assets/css/index.css -w",
+    "dev:postcss": "env-cmd -e dev postcss src/assets/css/index.css -o assets/css/index.css -w",
     "dev:eleventy": "npx @11ty/eleventy --serve",
-    "netlify:dev": "NETLIFY=true netlify dev"
+    "netlify:dev": "env-cmd -e dev,netlify netlify dev"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
@@ -16,7 +16,10 @@
     "@tailwindcss/jit": "^0.1.18",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
+    "env-cmd": "^10.1.0",
     "js-yaml": "^4.0.0",
+    "markdown-it": "^12.0.6",
+    "markdown-it-anchor": "^7.1.0",
     "netlify-cli": "^3.13.10",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.2.9",
