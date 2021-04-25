@@ -16,7 +16,7 @@ Yes! Just join us on [#200ok channel on Techlahoma Slack](https://techlahoma.sla
 
 Contact us at [200ok@techlahoma.org](mailto:200ok@techlahoma.org) with any questions!
 
-<div class="; "><a href="/tickets" class="button secondary">Get Tickets</a></div>
+<a href="/tickets" class="button secondary">Get Tickets</a>
 
 ## Sponsors
 
