@@ -10,13 +10,14 @@ Yes! Attending virtually is free, but we do encourage a donation! Simply a $45 d
 
 **Will we get to ask the speakers any questions?**
 
-Yes! Just join us on [#200ok channel on Techlahoma Slack](https://techlahoma.slack.com/app_redirect?channel=200ok) day-of to ask all your questions and get the most up-to-date information about what’s happening live!
+Yes! Just join us on <a href="https://techlahoma.slack.com/app_redirect?channel=200ok" target="_blank">#200ok channel on Techlahoma Slack</a> day-of to ask all your questions and get the most up-to-date information about what’s happening
+live!
 
 **What if I have other questions?**
 
 Contact us at [200ok@techlahoma.org](mailto:200ok@techlahoma.org) with any questions!
 
-<div class="; text-center"><a href="/tickets" class="button secondary md:ml-4">Get Tickets</a></div>
+<a href="/tickets" class="button secondary">Get Tickets</a>
 
 ## Sponsors
 
