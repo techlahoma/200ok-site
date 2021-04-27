@@ -1,28 +1,25 @@
-{% macro sponsor_icon(sponsor) %}
-<div class="sponsor ; flex-1 flex m-0.5 sm:m-2">
-  <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" class="; flex-1 mr-1 flex-col">
-    <div class="flex justify-center">
-      <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="; shadow-md rounded-lg m-0 self-center" />
-    </div>
-    {% if sponsor.name != 'Become a Sponsor' %}<div class="text-center leading-none text-xs mt-3 hidden sm:block">{{ sponsor.name }}</div>{% endif %}
+{% macro sponsor_icon(sponsor, size) %}
+<div class="sponsor ; p-0.5 sm:p-2 {{ size }}">
+  <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" class="; block" target="{{'_blank' if r/^https?:/.test(sponsor.url) else '_self'}}">
+    <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="; block w-full shadow-md rounded-lg hover:ring-2 hover:ring-200ok-orange" />
   </a>
 </div>
 {% endmacro %}
 
-{% macro sponsor_section(level, title) %}
+{% macro sponsor_section(level, title, size) %}
 <div>
   <h3 class="; text-center">{{ title }}</h3>
-  <div class="; flex flex-wrap">
+  <div class="; flex flex-wrap justify-center">
     {% for sponsor in sponsors[level] %}
-    {{ sponsor_icon(sponsor) }}
+    {{ sponsor_icon(sponsor, size) }}
     {% endfor %}
   </div>
 </div>
 {% endmacro %}
 
-{{ sponsor_section('Lunch', 'Lunch Sponsor') }}
-{{ sponsor_section('Gold', 'Gold Sponsors') }}
-{{ sponsor_section('Silver', 'Silver Sponsors') }}
-{{ sponsor_section('Bronze', 'Bronze Sponsors') }}
-{{ sponsor_section('Local', 'Local Sponsors') }}
-{{ sponsor_section('Captioning', 'Captioning Sponsor') }}
+{{ sponsor_section('Lunch', 'Lunch Sponsor', 'w-96') }}
+{{ sponsor_section('Gold', 'Gold Sponsors', 'w-1/2') }}
+{{ sponsor_section('Silver', 'Silver Sponsors', 'w-1/3') }}
+{{ sponsor_section('Bronze', 'Bronze Sponsors', 'w-1/4') }}
+{{ sponsor_section('Local', 'Local Sponsors', 'w-1/3') }}
+{{ sponsor_section('Captioning', 'Captioning Sponsor', 'w-80') }}

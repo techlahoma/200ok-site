@@ -28,12 +28,3 @@ header, footer {
 .section-underline {
   border-bottom: 1px solid rgba(77, 36, 98, 0.5);
 }
-
-/* @screen md {
-  header, .header-container ,
-  footer, .footer-container {
-    max-width: 400px;
-    min-width: 300px;
-    width: 25%;
-  }
-} */
