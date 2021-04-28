@@ -105,6 +105,14 @@ a:hover > i {
   text-decoration: none;
 }
 
+.prose .sponsor a {
+  text-decoration: none;
+}
+
+.prose .sponsor img {
+  margin: 0;
+}
+
 .button.primary {
   background: var(--orange);
   color: var(--purple);
@@ -122,8 +130,4 @@ a:hover > i {
 .button.secondary:hover {
   background: var(--orange);
   color: var(--purple);
-}
-
-.sponsor a {
-  text-decoration: none;
 }
