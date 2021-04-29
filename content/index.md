@@ -4,9 +4,9 @@ Connect with fellow web professionals and some of the best speakers across the g
 
 ## Ticketing
 
-**Are tickets free?**
+**How much do tickets cost?**
 
-Yes! Attending virtually is free, but we do encourage a donation! Simply a $45 donation gets you some swag and lunch delivered to you by DoorDash!
+Tickets are pay what you can. Attending virtually is free, but we do encourage donations. $50+ tickets include some swag and lunch delivered to you by DoorDash!
 
 **Will we get to ask the speakers any questions?**
 
