@@ -1,0 +1,55 @@
+- name: Jeannette Washington, M.Ed.
+  email: jlrwashington@yahoo.com
+  bio: Jeannette Washington, M.Ed. is Speech Language Pathologist turned Software Engineer with nearly a decade of experience working with students that exhibit special abilities. Her expertise in the field of dyslexia has been solicited in The Washington Post alongside the cofounder of the Yale Center for Dyslexia & Creativity. She has spoken at the Mississippi Dyslexia Symposium, Word Camp Publishers Chicago, Pycon Canada and AGILE Testing Days, to name a few. Jeannette boasts the importance of accessibility, inclusivity and neurodiversity in the tech industry.
+  twitter: BearlyArtic
+  website: https://www.bearlyarticulating.com
+  talkTitle: Developing Through Barriers
+  headshotURL: https://drive.google.com/file/d/1TIUzEm8pSInNS2dDo3RBCQArE-laqVlV/view?usp=sharing
+
+- name: Ron Lyle Dagdag
+  email: ron@dagdag.net
+  bio: Ron Dagdag is a Lead Software Engineer with 20 years of Ã‚ experience working on a number of business applications using a diverse set of frameworks and languages. He currently supports developers at Spacee with their IoT, Cloud and AI Edge development. On the side, Ron Dagdag is an active participant in the community as a Microsoft MVP, speaker, and maker. Ron thinks of himself as a "life-long learner", enjoys building projects with his kids and is passionate about Augmented Intelligence, studying the convergence of Augmented Reality, Machine Learning and Internet of Things. @rondagdag
+  twitter: rondagdag
+  website: http://ron.dagdag.net/
+  talkTitle: "Developing Spidey Senses : Anomaly detection for Javascript apps"
+  headshotURL: https://drive.google.com/file/d/1H-JZbINl1kqNf9keitOK3xKYHltG16yR/view?usp=sharing
+
+- name: Facundo Giuliani
+  email: facundo.giuliani@gmail.com
+  bio: Systems Engineer from Buenos Aires, Argentina, with 15+ years of experience in software development. Full Stack Developer. Auth0 Ambassador. GitKraken Ambassador. Cloudinary Media Developer Expert. Facundo is a Senior Developer and Team Leader at MultiTracks.com, a music and tech company from Austin, Texas. He is also an open-source contributor.
+  twitter: facundozurdo
+  website: http://fgiuliani.com
+  talkTitle: "Incremental Static Regeneration: Static sites on steroids"
+  headshotURL: https://drive.google.com/file/d/1PU6xsj3Z9xIQLv5N4zDAJLznLfU1FhwJ/view?usp=sharing
+
+- name: Mohammad Shahbaz Alam
+  email: mdsbzalam@gmail.com
+  bio: Shahbaz is a full stack developer and open source enthusiast, Developer Advocate @ Magic Labs, GDG Ranchi Organizer, Auth0 Ambassador, and Mozilla Representative. He loves teaching and sharing his learnings at conferences and meetups related to Serverless, Authentication and Authorization, Google Technologies, Security, Web Extensions, SPAs, PWAs and VR/AR/XR.
+  twitter: mdsbzalam
+  website: https://mdsbzalam.dev
+  talkTitle: Securing Node.js APIs with Decentralised Identity Tokens
+  headshotURL: https://www.gravatar.com/avatar/ac8b2ad0f9d1970ab22960ae04f35118?s=800
+
+- name: PJ Hagerty
+  email: pjhagerty@gmail.com
+  bio: PJ is the founder of DevRelate.io, board member of Open Sourcing Mental Illness (OSMIhelp.org), and Senior Developer Advocate at Mattermost. He is an organizer of DevOps Days Buffalo, CodeDaze, and ElixirDaze. Additionally, PJ is a developer, writer, speaker, and musician. He is known to travel the world speaking about programming and the way people think and interact. He is also known for wearing hats.
+  twitter: aspleenic
+  website: http://mattermost.com
+  talkTitle: The Pony Express and How Technology Doesn't Last
+  headshotURL: https://drive.google.com/file/d/1awOtx_jzZz4EUCm2FZVQ4YBfx6ScOk4J/view?usp=sharing
+
+- name: Courtney Heitman
+  email: courtney_heitman@gallup.com
+  bio: Courtney is a Technical Accessibility Specialist for Gallup, a company that provides analytics and advice for everything that matters, in Omaha, Nebraska. Courtney's passion for the web all started with teaching her 11-year-old self how to write CSS on a dial-up internet connection on a farm in rural Iowa. Since then she has been in a myriad of positions including a Flash developer, a brief stint as a server admin, a designer, a full stack developer, and a project manager. Her passion is making a web that is usable and accessible to all. When she's not playing with new technology, you can find her creating new recipes in her kitchen or working on her farm.
+  twitter: courtneyxann
+  website: https://www.courtneyheitman.com
+  talkTitle: The Dark Side of UX
+  headshotURL: https://drive.google.com/file/d/1bwXoWZYO3ErvqGaG4pCIuUnc3geBXv7i/view?usp=sharing
+
+- name: Rob Richardson
+  email: robrich@robrich.org
+  bio: Rob Richardson is a software craftsman building web properties in ASP.NET and Node, React and Vue. HeÃ¢â‚¬â„¢s a Microsoft MVP, published author, frequent speaker at conferences, user groups, and community events, and a diligent teacher and student of high quality software development. You can find this and other talks on his blog at [https://robrich.org/presentations](https://robrich.org/presentations) and follow him on twitter at [@rob_rich](https://twitter.com/rob_rich).
+  twitter: rob_rich
+  website: https://robrich.org/presentations
+  talkTitle: Level-up Your DevOps with GitHub Actions and Kubernetes
+  headshotURL: https://drive.google.com/file/d/1G0KsHUha9NfIMICQGcpORrrcHRtbReYV/view?usp=sharing
