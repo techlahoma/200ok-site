@@ -5,7 +5,7 @@
   website: bearlyarticulating.com
   URL: https://www.bearlyarticulating.com
   talkTitle: Developing Through Barriers
-  headshotURL: assets/images/speakers-2021/jeannette-washington.png
+  headshotURL: assets/images/speakers-2021/jeannette-washington.jpg
 
 - name: Ron Lyle Dagdag
   email: ron@dagdag.net
@@ -14,7 +14,7 @@
   website: ron.dagdag.net
   URL: http://ron.dagdag.net/
   talkTitle: "Developing Spidey Senses : Anomaly detection for Javascript apps"
-  headshotURL: assets/images/speakers-2021/ron-lyle-dagdag.png
+  headshotURL: assets/images/speakers-2021/ron-lyle-dagdag.jpg
 
 - name: Facundo Giuliani
   email: facundo.giuliani@gmail.com
@@ -23,7 +23,7 @@
   website: fgiuliani.com
   URL: http://fgiuliani.com
   talkTitle: "Incremental Static Regeneration: Static sites on steroids"
-  headshotURL: assets/images/speakers-2021/facundo-giuliani.png
+  headshotURL: assets/images/speakers-2021/facundo-giuliani.jpg
 
 - name: Mohammad Shahbaz Alam
   email: mdsbzalam@gmail.com
@@ -32,7 +32,7 @@
   website: mdsbzalam.dev
   URL: https://mdsbzalam.dev
   talkTitle: Securing Node.js APIs with Decentralised Identity Tokens
-  headshotURL: assets/images/speakers-2021/mohammad-shahbaz-alam.png
+  headshotURL: assets/images/speakers-2021/mohammad-shahbaz-alam.jpg
 
 - name: PJ Hagerty
   email: pjhagerty@gmail.com
@@ -41,7 +41,7 @@
   website: mattermost.com
   URL: http://mattermost.com
   talkTitle: The Pony Express and How Technology Doesn't Last
-  headshotURL: assets/images/speakers-2021/pj-hagerty.png
+  headshotURL: assets/images/speakers-2021/pj-hagerty.jpg
 
 - name: Courtney Heitman
   email: courtney_heitman@gallup.com
@@ -50,7 +50,7 @@
   website: courtneyheitman.com
   URL: https://www.courtneyheitman.com
   talkTitle: The Dark Side of UX
-  headshotURL: assets/images/speakers-2021/courtney-heitman.png
+  headshotURL: assets/images/speakers-2021/courtney-heitman.jpg
 
 - name: Rob Richardson
   email: robrich@robrich.org
@@ -59,4 +59,4 @@
   website: robrich.org
   URL: https://robrich.org/presentations
   talkTitle: Level-up Your DevOps with GitHub Actions and Kubernetes
-  headshotURL: assets/images/speakers-2021/rob-richardson.png
+  headshotURL: assets/images/speakers-2021/rob-richardson.jpg
