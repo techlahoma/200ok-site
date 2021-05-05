@@ -131,3 +131,12 @@ a:hover > i {
   background: var(--orange);
   color: var(--purple);
 }
+
+/* Speaker Styles */
+.speaker h2, .speaker img {
+  margin-top: 0;
+}
+
+.speaker h2 {
+  border-bottom: 0;
+}
