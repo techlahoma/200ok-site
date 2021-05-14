@@ -13,6 +13,10 @@ Tickets are pay what you can. Attending virtually is free, but we do encourage d
 Yes! Just join us on <a href="https://techlahoma.slack.com/app_redirect?channel=200ok" target="_blank">#200ok channel on Techlahoma Slack</a> day-of to ask all your questions and get the most up-to-date information about what’s happening
 live!
 
+**Is there a watch party?**
+
+There will be a limited attendance “watch party” hosted by Holberton in Tulsa. Please indicate your desire to attend when [registering for a ticket](/tickets).
+
 **What if I have other questions?**
 
 Contact us at [200ok@techlahoma.org](mailto:200ok@techlahoma.org) with any questions!
