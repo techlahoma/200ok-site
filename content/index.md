@@ -19,21 +19,13 @@ Contact us at [200ok@techlahoma.org](mailto:200ok@techlahoma.org) with any quest
 
 <a href="/tickets" class="button secondary">Get Tickets</a>
 
-<section id="speaker-section">
-
 ## Speakers
 
 {% include 'speakers.njk' %}
 
-</section>
-
-<section id="sponsor-section">
-
 ## Sponsors
 
 {% include 'sponsors.njk' %}
-
-</section>
 
 ## Code of Conduct
 
