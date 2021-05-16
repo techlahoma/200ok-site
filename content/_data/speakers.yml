@@ -8,7 +8,7 @@
   talkDescription: When it comes to developing, one size does not fit all! As a result, a high incident of dyslexia, ADHD and autism spectrum traits, are found in developers. Let’s steer the strengths, address the misconceptions and navigate the hacks meant to empower developers who exhibit special abilities.
   headshotURL: assets/images/speakers-2021/jeannette-washington.jpg
 
-- name: Ron Lyle Dagdag
+- name: Ron Dagdag
   email: ron@dagdag.net
   bio: Ron Dagdag is a Lead Software Engineer with 20 years of Ã‚ experience working on a number of business applications using a diverse set of frameworks and languages. He currently supports developers at Spacee with their IoT, Cloud and AI Edge development. On the side, Ron Dagdag is an active participant in the community as a Microsoft MVP, speaker, and maker. Ron thinks of himself as a "life-long learner", enjoys building projects with his kids and is passionate about Augmented Intelligence, studying the convergence of Augmented Reality, Machine Learning and Internet of Things. @rondagdag
   twitter: rondagdag
@@ -16,7 +16,7 @@
   URL: http://ron.dagdag.net/
   talkTitle: "Developing Spidey Senses: Anomaly detection for Javascript apps"
   talkDescription: Anomaly detection is the process of identifying unexpected items or events in data sets. It’s like “spidey senses” that can detect something is not right. Attend this session, learn about anomaly detection in javascript and Cognitive Services API; be a superhero and save the day.
-  headshotURL: assets/images/speakers-2021/ron-lyle-dagdag.jpg
+  headshotURL: assets/images/speakers-2021/ron-dagdag.jpg
 
 - name: Facundo Giuliani
   email: facundo.giuliani@gmail.com
