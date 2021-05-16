@@ -1,15 +1,19 @@
 {% macro speaker_section(speaker) %}
 <article class="speaker sm:flex items-start flex-row-reverse mb-24 sm:mb-12 ">
-    <div class="sm:w-1/2 xl:w-3/4 mb-4 sm:mb-0 sm:pl-6">
-        <h2 class="font-bold text-xl sm:text-3xl mt-0">{{ speaker.talkTitle }}</h2>
-        <h3 class="text-lg sm:text-xl text-md">
-            <span class="block text-base sm:text-lg">{{ speaker.name }}</span>
-            <a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/{{speaker.twitter}}">
-            <span><i class="ri-twitter-fill"></i></span>/{{speaker.twitter}}</a>
-            <a href="{{speaker.URL}}" class="block text-base sm:text-lg">{{speaker.website}}</a>
-        </h3>
+  <div class="sm:w-1/2 xl:w-3/4 mb-4 sm:mb-0 sm:pl-6">
+    <h3 class="font-bold text-xl sm:text-3xl !mt-0 italic">{{ speaker.talkTitle | noRunts | safe }}</h3>
+    <div class="text-lg sm:text-xl text-md">
+      <div class="font-bold">{{ speaker.name }}</div>
+      <a class="block text-base sm:text-lg !no-underline hover:text-200ok-orange" target="_blank" href="https://twitter.com/{{speaker.twitter}}" title="Twitter: @{{speaker.twitter}}">
+        <span class=""><i class="ri-twitter-fill inline-block align-bottom"></i></span> @{{speaker.twitter}}
+      </a>
+      <a href="{{speaker.URL}}" target="_blank" class="block text-base sm:text-lg !no-underline hover:text-200ok-orange" title="Website: {{speaker.website}}">
+        <span class=""><i class="ri-earth-fill inline-block align-bottom"></i></span> {{speaker.website}}
+      </a>
+      <p class="text-sm">{{ speaker.talkDescription | noRunts | safe }}</p>
     </div>
-    <img src="{{ speaker.headshotURL }}" alt="{{ speaker.name }}" class="w-full sm:w-1/2 xl:w-1/4 block" />
+  </div>
+  <img src="{{ speaker.headshotURL }}" alt="{{ speaker.name }}" title="Speaker: {{ speaker.name }} – {{ speaker.talkTitle }}" class="w-full sm:w-1/2 xl:w-1/4 block rounded-lg" />
 </article>
 {% endmacro %}
 

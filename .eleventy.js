@@ -9,6 +9,24 @@ const markdownLibrary = markdownIt({
   linkify: true,
 }).use(markdownItAnchor)
 
+// Filter to remove “runts” (wrapping last word of text)
+//
+// Usage:
+//
+//   ```njk
+//   {{ 'some text that should not have runts` | noRunts | safe }}
+//   ```
+//
+// Expect:
+//
+//   ```html
+//   some text that should not <span style="white-space:nowrap;">have runts</span>
+//   ```
+const noRuntsFilter = value => value.replace(
+  /(\S+\s+\S+\s+)(\S+\s+\S+)$/,
+  '$1<span style="white-space:nowrap;">$2</span>'
+)
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(cacheBuster({
     outputDirectory: 'public',
@@ -36,6 +54,9 @@ module.exports = function(eleventyConfig) {
   // Extra data formats
   eleventyConfig.addDataExtension('yml', contents => yaml.load(contents))
   eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
+
+  // Filters
+  eleventyConfig.addFilter("noRunts", noRuntsFilter);
 
   return {
     // Use nunjucks for template usage (like includes) within Markdown files

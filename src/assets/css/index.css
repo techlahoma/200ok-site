@@ -19,7 +19,8 @@
 .prose h2 {
   @apply uppercase;
   @apply mb-4;
-  @apply mt-16;
+  @apply mt-0;
+  @apply pt-14;
 
   border-bottom: 1px solid rgba(77, 36, 98, 0.5);
   color: var(--purple);
@@ -131,6 +132,18 @@ a:hover > i {
   background: var(--orange);
   color: var(--purple);
 }
+
+header .button.secondary {
+  border: 2px solid var(--orange);
+  color: var(--orange);
+}
+
+header .button.secondary:hover {
+  border: 2px solid var(--white);
+  background: var(--white);
+  color: var(--purple);
+}
+
 
 /* Speaker Styles */
 .speaker h2, .speaker img {

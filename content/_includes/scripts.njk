@@ -1,0 +1,25 @@
+{% include "analytics.njk" %}
+
+<script>
+  function scrollToId(id) {
+    var targetElement = document.getElementById(id);
+    var mainElement = document.getElementsByTagName('main')[0];
+
+    if (!targetElement || !mainElement) {
+      return true;
+    }
+
+    var wide = mainElement.offsetLeft > 0;
+    var scrollElement = wide ? mainElement : window;
+
+    scrollElement.scroll({
+      top: targetElement.offsetTop,
+      left: 0,
+      behavior: 'smooth'
+    });
+
+    history.replaceState(null, null, '#'+id);
+
+    return false;
+  }
+</script>
