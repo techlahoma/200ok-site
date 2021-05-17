@@ -27,6 +27,8 @@ const noRuntsFilter = value => value.replace(
   '$1<span style="white-space:nowrap;">$2</span>'
 )
 
+const filterByKeyFilter = (list, key, value) => list.filter(item => item[key] == value)
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(cacheBuster({
     outputDirectory: 'public',
@@ -57,6 +59,7 @@ module.exports = function(eleventyConfig) {
 
   // Filters
   eleventyConfig.addFilter("noRunts", noRuntsFilter);
+  eleventyConfig.addFilter("filterByKey", filterByKeyFilter);
 
   return {
     // Use nunjucks for template usage (like includes) within Markdown files

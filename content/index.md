@@ -23,9 +23,11 @@ Contact us at [200ok@techlahoma.org](mailto:200ok@techlahoma.org) with any quest
 
 <a href="/tickets" class="button secondary">Get Tickets</a>
 
-## Speakers
+## Schedule
 
-{% include 'speakers.njk' %}
+All times are Central Daylight Time (CDT).
+
+{% include 'schedule.njk' %}
 
 ## Sponsors
 

@@ -1,39 +1,29 @@
 - start: "09:00"
-  end: "09:10"
-  title: "Intro"
+  title: Opening Remarks
 
-- start: "09:10"
-  speaker: Matt Steele
-  type: Full Talk
+- start: "09:15"
+  speakerName: Jeannette Washington, M.Ed.
 
-- start: "10:00"
-  speaker: Bryan Robinson
-  type: Full Talk
+- start: "10:15"
+  speakerName: Courtney Heitman
 
-- start: "11:00"
-  speaker: Gunnard Engebreth
-  type: Full Talk
+- start: "11:15"
+  speakerName: Mohammad Shahbaz Alam
 
-- start: "12:00"
-  end: "13:00"
+- start: "12:15"
   title: Lunch Break
 
-- start: "13:00"
-  speaker: Alain Chautard
-  type: Full Talk
+- start: "13:15"
+  speakerName: Facundo Giuliani
 
-- start: "14:00"
-  speaker: Ash Banaszek
-  type: Full Talk
+- start: "14:15"
+  speakerName: "Ron Dagdag"
 
-- start: "15:00"
-  speaker: Harnoor Minhas
-  type: Full Talk
+- start: "15:15"
+  speakerName: Rob Richardson
 
-- start: "16:00"
-  speaker: Amber Vanderburg
-  type: Full Talk
+- start: "16:15"
+  speakerName: PJ Hagerty
 
-- start: "17:00"
-  end: "17:30"
+- start: "17:15"
   title: Networking
