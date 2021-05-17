@@ -31,6 +31,10 @@ Contact us at [200ok@techlahoma.org](mailto:200ok@techlahoma.org) with any quest
 
 {% include 'sponsors.njk' %}
 
+## Agenda
+
+{% include 'agenda.njk' %}
+
 ## Code of Conduct
 
 Before attending the conference, [please review the Techlahoma Code of Conduct](https://www.techlahoma.org/code-of-conduct/). The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by the [Techlahoma Foundation](https://techlahoma.org/) and any location where attendees may be congregating. [Contact us](mailto:200ok@techlahoma.org) if you have questions.
