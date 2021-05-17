@@ -1,34 +1,29 @@
+- start: "09:00"
+  title: Opening Remarks
+
 - start: "09:15"
-  title: "Developing Through Barriers"
   speakerName: Jeannette Washington, M.Ed.
 
 - start: "10:15"
-  title: "The Dark Side of UX"
   speakerName: Courtney Heitman
 
 - start: "11:15"
-  title: Securing Node.js APIs with Decentralised Identity Tokens
   speakerName: Mohammad Shahbaz Alam
 
 - start: "12:15"
   title: Lunch Break
-  speakerName:
 
 - start: "13:15"
-  title: "Incremental Static Regeneration: Static sites on steroids"
   speakerName: Facundo Giuliani
 
 - start: "14:15"
-  title: "Developing Spidey Senses: Anomaly detection for Javascript apps"
   speakerName: "Ron Dagdag"
 
 - start: "15:15"
-  title: "Level-up Your DevOps with GitHub Actions and Kubernetes"
   speakerName: Rob Richardson
 
 - start: "16:15"
-  title: "The Pony Express and How Technology Doesn't Last"
   speakerName: PJ Hagerty
 
-- start: "17:00"
+- start: "17:15"
   title: Networking
