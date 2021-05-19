@@ -29,6 +29,14 @@ Local:
     sponsorship: Local
     url: https://roguerecruitment.com/
     image: /assets/images/sponsors-2021/rogue-recruitment.png
+  - name: Dobson Fiber
+    sponsorship: Local
+    url: https://www.dobson.net/
+    image: /assets/images/sponsors-2021/dobson-fiber.jpg
+  - name: Anautics
+    sponsorship: Local
+    url: https://www.anautics.com/
+    image: /assets/images/sponsors-2021/anautics.jpg
   - name: Become a Sponsor
     url: /sponsorship/
     image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
