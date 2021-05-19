@@ -20,3 +20,9 @@
   to = "https://techlahoma.z2systems.com/np/clients/techlahoma/eventRegistration.jsp?event=1"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/network"
+  to = "https://zoom.us/j/92474087693"
+  status = 302
+  force = true
