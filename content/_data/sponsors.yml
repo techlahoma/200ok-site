@@ -37,6 +37,10 @@ Local:
     sponsorship: Local
     url: https://www.anautics.com/
     image: /assets/images/sponsors-2021/anautics.jpg
+  - name: Bison Technologies
+    sponsorship: Local
+    url: https://bison.pinpointhq.com/
+    image: /assets/images/sponsors-2021/bison-technologies.jpg
   - name: Become a Sponsor
     url: /sponsorship/
     image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
