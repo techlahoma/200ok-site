@@ -26,3 +26,9 @@
   to = "https://zoom.us/j/92474087693"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/watch"
+  to = "https://youtu.be/Kh_sAlayPfI"
+  status = 302
+  force = true
