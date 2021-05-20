@@ -5,7 +5,7 @@ Connect with fellow web professionals and some of the best speakers across the g
 ## Participate Live
 
 <div class="; flex flex-wrap">
-  <a class="button primary ; !normal-case !p-2 mr-2 mb-2" href="https://www.youtube.com/channel/UCnLf0pfqIpSfKuPZ0e9iiNQ" target="_blank">
+  <a class="button primary ; !normal-case !p-2 mr-2 mb-2" href="/watch" target="_blank">
     <span class="inline-block align-middle"><i class="ri-youtube-fill ri-2x"></i></span>
     <span class="inline-block align-middle">YouTube</span>
   </a>
@@ -19,7 +19,7 @@ Connect with fellow web professionals and some of the best speakers across the g
   </a>
 </div>
 
-Watch live on Techlahoma’s <a href="https://www.youtube.com/channel/UCnLf0pfqIpSfKuPZ0e9iiNQ" target="_blank">YouTube channel</a>.
+Watch live on Techlahoma’s <a href="/watch" target="_blank">YouTube channel</a>.
 
 Join the conversation on Techlahoma’s Slack channel: <a href="https://techlahoma.slack.com/app_redirect?channel=200ok" target="_blank">#200ok</a>
 
