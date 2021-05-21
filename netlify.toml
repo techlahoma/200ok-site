@@ -22,6 +22,12 @@
   force = true
 
 [[redirects]]
+  from = "/survey"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSdOD30UibSbZpKEh8SqI-O4gW5o17pGPKvcq1BWklENoX6uRw/viewform"
+  status = 302
+  force = true
+
+[[redirects]]
   from = "/network"
   to = "https://zoom.us/j/92474087693"
   status = 302
