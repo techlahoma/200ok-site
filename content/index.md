@@ -2,26 +2,28 @@
 Connect with fellow web professionals and some of the best speakers across the globe for a day of presentations about leading web technology topics.
 </p>
 
-## Ticketing
+## Participate Live
 
-**How much do tickets cost?**
+<div class="; flex flex-wrap">
+  <a class="button primary ; !normal-case !p-2 mr-2 mb-2" href="/watch" target="_blank">
+    <span class="inline-block align-middle"><i class="ri-youtube-fill ri-2x"></i></span>
+    <span class="inline-block align-middle">YouTube</span>
+  </a>
+  <a class="button primary ; !normal-case !p-2 mr-2 mb-2" href="https://techlahoma.slack.com/app_redirect?channel=200ok" target="_blank">
+    <span class="inline-block align-middle"><i class="ri-slack-fill ri-2x"></i></span>
+    <span class="inline-block align-middle">Slack</span>
+  </a>
+  <a class="button primary ; !normal-case !p-2 mr-2 mb-2" href="https://twitter.com/200okconf" target="_blank">
+    <span class="inline-block align-middle"><i class="ri-twitter-fill ri-2x"></i></span>
+    <span class="inline-block align-middle">Twitter</span>
+  </a>
+</div>
 
-Tickets are pay what you can. Attending virtually is free, but we do encourage donations. $50+ tickets include some swag and lunch delivered to you by DoorDash!
+Watch live on Techlahoma’s <a href="/watch" target="_blank">YouTube channel</a>.
 
-**Will we get to ask the speakers any questions?**
+Join the conversation on Techlahoma’s Slack channel: <a href="https://techlahoma.slack.com/app_redirect?channel=200ok" target="_blank">#200ok</a>
 
-Yes! Just join us on <a href="https://techlahoma.slack.com/app_redirect?channel=200ok" target="_blank">#200ok channel on Techlahoma Slack</a> day-of to ask all your questions and get the most up-to-date information about what’s happening
-live!
-
-**Is there a watch party?**
-
-There will be a limited attendance “watch party” hosted by Holberton in Tulsa. Please indicate your desire to attend when [registering for a ticket](/tickets).
-
-**What if I have other questions?**
-
-Contact us at [200ok@techlahoma.org](mailto:200ok@techlahoma.org) with any questions!
-
-<a href="/tickets" class="button secondary">Get Tickets</a>
+Follow <a href="https://twitter.com/200okconf" target="_blank">@200okconf</a> on Twitter and use the official tag `#200okconf`.
 
 ## Schedule
 
