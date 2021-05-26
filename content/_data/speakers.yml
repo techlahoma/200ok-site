@@ -7,6 +7,7 @@
   talkTitle: Developing Through Barriers
   talkDescription: When it comes to developing, one size does not fit all! As a result, a high incident of dyslexia, ADHD and autism spectrum traits, are found in developers. Let’s steer the strengths, address the misconceptions and navigate the hacks meant to empower developers who exhibit special abilities.
   headshotURL: assets/images/speakers-2021/jeannette-washington.jpg
+  youtubeWatch: https://youtu.be/D1jD8sFbUp4
 
 - name: Ron Dagdag
   email: ron@dagdag.net
@@ -17,6 +18,7 @@
   talkTitle: "Developing Spidey Senses: Anomaly detection for Javascript apps"
   talkDescription: Anomaly detection is the process of identifying unexpected items or events in data sets. It’s like “spidey senses” that can detect something is not right. Attend this session, learn about anomaly detection in javascript and Cognitive Services API; be a superhero and save the day.
   headshotURL: assets/images/speakers-2021/ron-dagdag.jpg
+  youtubeWatch: https://youtu.be/fxxnknNTxRM
 
 - name: Facundo Giuliani
   email: facundo.giuliani@gmail.com
@@ -27,6 +29,7 @@
   talkTitle: "Incremental Static Regeneration: Static sites on steroids"
   talkDescription: Static sites are great. They are fast, cheap, secure, and easy to maintain. But generating static assets is a process that takes more and more time while our site gets bigger. We will talk about ISR, a feature that Next.js framework offers us to generate static pages at runtime.
   headshotURL: assets/images/speakers-2021/facundo-giuliani.jpg
+  youtubeWatch: https://youtu.be/upSBHWn2hwQ
 
 - name: Mohammad Shahbaz Alam
   email: mdsbzalam@gmail.com
@@ -37,6 +40,7 @@
   talkTitle: Securing Node.js APIs with Decentralised Identity Tokens
   talkDescription: After so many breaches and passwords leaks, developers must reunite and reinvigorate APIs to protect the applications, making the internet a secure global public resource, open and accessible to all. Join me in this talk where I cover how to secure your Node APIs using Decentralised Identity Tokens.
   headshotURL: assets/images/speakers-2021/mohammad-shahbaz-alam.jpg
+  youtubeWatch: https://youtu.be/pNQocVN6ViM
 
 - name: PJ Hagerty
   email: pjhagerty@gmail.com
@@ -47,6 +51,7 @@
   talkTitle: The Pony Express and How Technology Doesn't Last
   talkDescription: It's been said many times - technology moves fast. As do the philosophies behind it. This isn't new - the Pony Express lasted only 18 months before being replaced by telegraph. Why is turnover so fast? What are the benefits and pitfalls to this turnover? Where is the value in what we do?
   headshotURL: assets/images/speakers-2021/pj-hagerty.jpg
+  youtubeWatch: https://youtu.be/UzxLoSUJxFg
 
 - name: Courtney Heitman
   email: courtney_heitman@gallup.com
@@ -57,6 +62,7 @@
   talkTitle: The Dark Side of UX
   talkDescription: User experience design is great... until it's used to trick and manipulate users. Some highlights of this talk include why advertisers are now sticking fake hair and dust on ads, and why a lot of hotel sites only have "3 rooms left at this price". Welcome to the dark side of UX.
   headshotURL: assets/images/speakers-2021/courtney-heitman.jpg
+  youtubeWatch: https://youtu.be/6oP4YX9h5KY
 
 - name: Rob Richardson
   email: robrich@robrich.org
@@ -67,3 +73,4 @@
   talkTitle: Level-up Your DevOps with GitHub Actions and Kubernetes
   talkDescription: Are you looking to rapidly deploy your content? Are Docker containers in your future? Come for this demo-only presentation where we start from scratch, build up a DevOps pipeline with GitHub Actions, and deploy to Kubernetes. Once setup, commit, and watch the magic flow into place.
   headshotURL: assets/images/speakers-2021/rob-richardson.jpg
+  youtubeWatch: https://youtu.be/i4A6XQEQZr0
