@@ -2,29 +2,6 @@
 Connect with fellow web professionals and some of the best speakers across the globe for a day of presentations about leading web technology topics.
 </p>
 
-## Participate Live
-
-<div class="; flex flex-wrap">
-  <a class="button primary ; !normal-case !p-2 mr-2 mb-2" href="/watch" target="_blank">
-    <span class="inline-block align-middle"><i class="ri-youtube-fill ri-2x"></i></span>
-    <span class="inline-block align-middle">YouTube</span>
-  </a>
-  <a class="button primary ; !normal-case !p-2 mr-2 mb-2" href="https://techlahoma.slack.com/app_redirect?channel=200ok" target="_blank">
-    <span class="inline-block align-middle"><i class="ri-slack-fill ri-2x"></i></span>
-    <span class="inline-block align-middle">Slack</span>
-  </a>
-  <a class="button primary ; !normal-case !p-2 mr-2 mb-2" href="https://twitter.com/200okconf" target="_blank">
-    <span class="inline-block align-middle"><i class="ri-twitter-fill ri-2x"></i></span>
-    <span class="inline-block align-middle">Twitter</span>
-  </a>
-</div>
-
-Watch live on Techlahoma’s <a href="/watch" target="_blank">YouTube channel</a>.
-
-Join the conversation on Techlahoma’s Slack channel: <a href="https://techlahoma.slack.com/app_redirect?channel=200ok" target="_blank">#200ok</a>
-
-Follow <a href="https://twitter.com/200okconf" target="_blank">@200okconf</a> on Twitter and use the official tag `#200okconf`.
-
 ## Schedule
 
 All times are Central Daylight Time (CDT).
