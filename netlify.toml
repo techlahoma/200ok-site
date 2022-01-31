@@ -17,7 +17,7 @@
 
 [[redirects]]
   from = "/tickets"
-  to = "https://techlahoma.z2systems.com/np/clients/techlahoma/eventRegistration.jsp?event=1"
+  to = "https://techlahoma.app.neoncrm.com/eventReg.jsp?event=525"
   status = 302
   force = true
 
