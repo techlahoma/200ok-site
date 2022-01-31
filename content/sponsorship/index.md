@@ -3,6 +3,19 @@ title: 'Sponsorship Prospectus'
 subtitle: 'Help bring together 200 South-by-Midwest web professionals'
 ---
 
+<style>
+  .prose code::before, .prose code::after {
+    content: none;
+  }
+  .prose code {
+    border-radius: 3px;
+    background-color: var(--orange);
+    padding: 3px 5px;
+    margin: -3px auto;
+    color: white;
+  }
+</style>
+
 <div class="; text-center md:float-right"><a href="/sponsorship/200OK-Sponsorship-Prospectus-2022.pdf" class="button secondary md:ml-4" title="Download as PDF (102KB)">Download <span><i class="ri-file-download-line ; ml-2"></i><span></a></div>
 
 For sponsorship questions, sales, and to request a custom sponsorship package:
