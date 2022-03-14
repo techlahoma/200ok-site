@@ -7,6 +7,7 @@
 {% endmacro %}
 
 {% macro sponsor_section(level, size) %}
+{% if sponsors[level].length %}
 <div>
   <h3 class="; text-center">{{ level }} {{ 'Sponsor' if sponsors[level].length === 1 else 'Sponsors' }}</h3>
   <div class="; flex flex-wrap justify-center">
@@ -15,6 +16,7 @@
     {% endfor %}
   </div>
 </div>
+{% endif %}
 {% endmacro %}
 
 {{ sponsor_section('Lunch', 'w-96') }}

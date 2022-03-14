@@ -28,6 +28,10 @@ We are at the [Tulsa Central Library](https://www.tulsalibrary.org/locations/cen
 ### Meals
 We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options (*please mark any restrictions on your ticket registration form).
 
+## Sponsors
+
+{% include 'sponsors.njk' %}
+
 ## Code of Conduct
 
 Before attending the conference, [please review the Techlahoma Code of Conduct](https://www.techlahoma.org/code-of-conduct/). The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by the [Techlahoma Foundation](https://techlahoma.org/) and any location where attendees may be congregating. [Contact us](mailto:200ok@techlahoma.org) if you have questions.
