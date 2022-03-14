@@ -16,7 +16,7 @@ subtitle: 'Help bring together 200 South-by-Midwest web professionals'
   }
 </style>
 
-<div class="; text-center md:float-right"><a href="/sponsorship/200OK-Sponsorship-Prospectus-2022.pdf" class="button secondary md:ml-4" title="Download as PDF (102KB)">Download <span><i class="ri-file-download-line ; ml-2"></i><span></a></div>
+<div class="; text-center md:float-right"><a target="_blank" href="/sponsorship/200OK-Sponsorship-Prospectus-2022.pdf" class="button secondary md:ml-4" title="Download as PDF (102KB)">Download <span><i class="ri-file-download-line ; ml-2"></i><span></a></div>
 
 For sponsorship questions, sales, and to request a custom sponsorship package:
 
