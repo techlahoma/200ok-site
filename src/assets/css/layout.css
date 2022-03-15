@@ -1,19 +1,24 @@
 :root {
-  --purple: #4D2462;
-  --orange: #F27E5B;
-  --orange-dark: #D06747;
-  --logo-blue: #2E83C4;
-  --logo-red: #EF483C;
+  --color-primary: #F2C365;
+  --color-secondary: #B55143;
+  --color-secondary-dark: #9e4034;
+  --color-tertiary: #6D5217;
+  --logo-blue: #6D5217;
+  --logo-red: #B55143;
   --logo-grey: #AAAAAA;
   --white: #FFFFFF;
 }
 
-.text-orange {
-  color: var(--orange);
+.text-secondary {
+  color: var(--color-secondary);
 }
 
-.text-purple {
-  color: var(--purple);
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-tertiary {
+  color: var(--color-tertiary);
 }
 
 body {
@@ -22,7 +27,7 @@ body {
 }
 
 header, footer {
-  background-color: var(--purple);
+  background-color: var(--color-primary);
 }
 
 .section-underline {
