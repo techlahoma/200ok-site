@@ -6,17 +6,17 @@
       {{ speaker.talkTitle | noRunts | safe }}
     </h3>
     <div>
-      <a class="button primary ; !normal-case !p-2 mr-2 mb-2 !text-white hover:!text-200ok-purple" href="{{ speaker.youtubeWatch }}" target="_blank">
+      <a class="button primary ; !normal-case !p-2 mr-2 mb-2 !text-white hover:!text-200ok-red" href="{{ speaker.youtubeWatch }}" target="_blank">
         <span class="inline-block align-middle"><i class="ri-youtube-fill ri-2x"></i></span>
         <span class="inline-block align-middle">Watch Now!</span>
       </a>
     </div>
     <div class="text-lg sm:text-xl text-md">
       <div class="font-bold">{{ speaker.name }}</div>
-      <a class="block text-base sm:text-lg !no-underline hover:text-200ok-orange" target="_blank" href="https://twitter.com/{{speaker.twitter}}" title="Twitter: @{{speaker.twitter}}">
+      <a class="block text-base sm:text-lg !no-underline hover:text-200ok-brown" target="_blank" href="https://twitter.com/{{speaker.twitter}}" title="Twitter: @{{speaker.twitter}}">
         <span><i class="ri-twitter-fill inline-block align-bottom"></i></span> @{{speaker.twitter}}
       </a>
-      <a href="{{speaker.URL}}" target="_blank" class="block text-base sm:text-lg !no-underline hover:text-200ok-orange" title="Website: {{speaker.website}}">
+      <a href="{{speaker.URL}}" target="_blank" class="block text-base sm:text-lg !no-underline hover:text-200ok-brown" title="Website: {{speaker.website}}">
         <span><i class="ri-earth-fill inline-block align-bottom"></i></span> {{speaker.website}}
       </a>
       <p class="text-sm">{{ speaker.talkDescription | noRunts | safe }}</p>

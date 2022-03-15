@@ -1,7 +1,7 @@
 {% macro sponsor_icon(sponsor, size, level) %}
 <div class="sponsor ; p-0.5 sm:p-2 {{ size }}">
   <a href="{{ sponsor.url }}" title="{{level}} Sponsor: {{ sponsor.name }}" class="; block" target="{{'_blank' if r/^https?:/.test(sponsor.url) else '_self'}}">
-    <img src="{{ sponsor.image }}" alt="{{level}} Sponsor: {{ sponsor.name }}" class="; block w-full shadow-md rounded-lg hover:ring-2 hover:ring-200ok-orange" />
+    <img src="{{ sponsor.image }}" alt="{{level}} Sponsor: {{ sponsor.name }}" class="; block w-full shadow-md rounded-lg hover:ring-2 hover:ring-200ok-red" />
   </a>
 </div>
 {% endmacro %}

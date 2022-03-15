@@ -10,6 +10,7 @@
   @apply text-3xl;
   @apply font-bold;
 }
+
 .prose h2 {
   @apply text-2xl;
   @apply font-semibold;
@@ -23,8 +24,9 @@
   @apply pt-14;
 
   border-bottom: 1px solid rgba(77, 36, 98, 0.5);
-  color: var(--purple);
+  color: var(--color-secondary);
 }
+
 @screen md {
   .prose h1 ,
   .prose h2 {
@@ -33,10 +35,18 @@
   }
 }
 
+body, .prose, .prose strong {
+  color: var(--color-tertiary);
+}
+
+.prose h3 {
+  color: var(--color-secondary);
+}
+
 .prose p {
   @apply my-4;
 
-  color: var(--purple);
+  color: var(--color-tertiary);
 }
 
 .intro {
@@ -110,38 +120,48 @@ a:hover > i {
   text-decoration: none;
 }
 
+.prose a {
+  color: var(--color-secondary);
+}
+
+.prose a:hover {
+  color: var(--color-secondary-dark);
+}
+
 .prose .sponsor img {
   margin: 0;
 }
 
 .button.primary {
-  background: var(--orange);
-  color: var(--purple);
+  background: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .button.primary:hover {
-  background: var(--white);
+  /* background: var(--white); */
+  background: var(--color-secondary-dark);
 }
 
 .button.secondary {
-  border: 2px solid var(--orange);
-  color: var(--orange);
+  border: 2px solid var(--color-secondary);
+  color: var(--color-secondary);
 }
 
 .button.secondary:hover {
-  background: var(--orange);
-  color: var(--purple);
+  background: var(--color-secondary-dark);
+  color: var(--color-primary);
 }
 
 header .button.secondary {
-  border: 2px solid var(--orange);
-  color: var(--orange);
+  border: 2px solid var(--color-secondary);
+  color: var(--color-secondary);
 }
 
 header .button.secondary:hover {
-  border: 2px solid var(--white);
-  background: var(--white);
-  color: var(--purple);
+  border: 2px solid var(--color-secondary-dark);
+  background: var(--color-secondary-dark);
+  color: var(--color-primary);
+  /* color: var(--white); */
 }
 
 

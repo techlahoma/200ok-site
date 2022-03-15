@@ -69,7 +69,7 @@ For 2022, we are expecting attendance of 150-200 developers and IT professionals
 *Limited to 1 company – Snack/drink break will be around 2-3pm*
 - Place cards/logos on all snack trays and tables (cookies, brownies, etc.)
 - “Snack provided by …” announcements and wording
-- + ALL Silver Level benefits (sponsor booth, tickets, discounts, etc.)
+- ALL Silver Level benefits (sponsor booth, tickets, discounts, etc.)
 
 ## Sponsorship Packages
 
