@@ -2,10 +2,9 @@
 Connect with fellow web professionals and some of the best speakers across the globe for a day of presentations about leading web technology topics.
 </p>
 
-## Vote on Talks
+## Speakers TBA
 
-Pick out your favorite options by March 25th at 5 pm so your vote towards picking our speaker is heard!
-https://form.typeform.com/to/oGLnR0Xu
+Thanks for your votes! We will be announcing speakers soon!
 
 ## LOGISTICS
 We want to make sure you have everything you need to get here and enjoy your time at 200 OK and in Tulsa.
