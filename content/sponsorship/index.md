@@ -9,7 +9,7 @@ subtitle: 'Help bring together 200 South-by-Midwest web professionals'
   }
   .prose code {
     border-radius: 3px;
-    background-color: var(--orange);
+    background-color: var(--color-tertiary);
     padding: 3px 5px;
     margin: -3px auto;
     color: white;
