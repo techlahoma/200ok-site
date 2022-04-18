@@ -2,6 +2,20 @@ Lunch:
   - name: Jinn Studios
     url: https://www.jinnstudios.com/
     image: /assets/images/sponsors-2022/jinnstudios.png
+    logo:
+      background_color: white
+      padding: 1em
+
+Silver:
+  - name: Cortado Ventures
+    url: https://cortado.ventures/
+    image: /assets/images/sponsors-2022/cortado-ventures.png
+    logo:
+      background_color: white
+      padding: 1em
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
 
 Bronze:
   - name: GitWit
@@ -10,3 +24,17 @@ Bronze:
   - name: Heartland
     url: https://www.heartland.us/about/in-the-community
     image: /assets/images/sponsors-2022/heartland.png
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
+
+Local:
+  - name: Bitness Labs
+    url: https://bitnesslabs.com/
+    image: /assets/images/sponsors-2022/bitness-labs.png
+    logo:
+      background_color: white
+      padding: 1em
+  - name: Become a Sponsor
+    url: /sponsorship/
+    image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
