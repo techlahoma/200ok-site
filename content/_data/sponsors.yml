@@ -1,9 +1,15 @@
+Techlahoma Foundation:
+  - name: Inasmuch Foundation
+    url: https://inasmuchfoundation.org
+    image: /assets/images/sponsors-2022/inasmuch.png
+    logo:
+      background_color: white
+
 Lunch:
   - name: Jinn Studios
     url: https://www.jinnstudios.com/
-    image: /assets/images/sponsors-2022/jinnstudios.png
+    image: /assets/images/sponsors-2022/jinnstudios.jpg
     logo:
-      background_color: white
       padding: 1em
 
 Silver:
