@@ -19,6 +19,12 @@ Silver:
     logo:
       background_color: white
       padding: 1em
+  - name: CloudBees
+    url: https://www.cloudbees.com/
+    image: /assets/images/sponsors-2022/cloudbees.png
+    logo:
+      background_color: white
+      padding: 1em
   - name: Become a Sponsor
     url: /sponsorship/
     image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
