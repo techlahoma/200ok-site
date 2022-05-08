@@ -27,6 +27,12 @@ We are at the [Tulsa Central Library](https://www.tulsalibrary.org/locations/cen
 ### Meals
 We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options (*please mark any restrictions on your ticket registration form).
 
+## Schedule
+
+All times are Central Daylight Time (CDT).
+
+{% include 'schedule.njk' %}
+
 ## Sponsors
 
 {% include 'sponsors.njk' %}

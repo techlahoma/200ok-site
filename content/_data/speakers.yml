@@ -1,76 +1,65 @@
-- name: Jeannette Washington, M.Ed.
-  email: jlrwashington@yahoo.com
-  bio: Jeannette Washington, M.Ed. is Speech Language Pathologist turned Software Engineer with nearly a decade of experience working with students that exhibit special abilities. Her expertise in the field of dyslexia has been solicited in The Washington Post alongside the cofounder of the Yale Center for Dyslexia & Creativity. She has spoken at the Mississippi Dyslexia Symposium, Word Camp Publishers Chicago, Pycon Canada and AGILE Testing Days, to name a few. Jeannette boasts the importance of accessibility, inclusivity and neurodiversity in the tech industry.
-  twitter: BearlyArtic
-  website: bearlyarticulating.com
-  URL: https://www.bearlyarticulating.com
-  talkTitle: Developing Through Barriers
-  talkDescription: When it comes to developing, one size does not fit all! As a result, a high incident of dyslexia, ADHD and autism spectrum traits, are found in developers. Let’s steer the strengths, address the misconceptions and navigate the hacks meant to empower developers who exhibit special abilities.
-  headshotURL: assets/images/speakers-2021/jeannette-washington.jpg
-  youtubeWatch: https://youtu.be/D1jD8sFbUp4
+- name: Adnan Rahic
+  company: Cube Dev
+  bio:
+  twitter: adnanrahic
+  website:
+  URL:
+  talkTitle: Making Data Warehouses fast. A developer’s story.
+  talkDescription:
+  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Adnan+Rahic
+  youtubeWatch:
 
-- name: Ron Dagdag
-  email: ron@dagdag.net
-  bio: Ron Dagdag is a Lead Software Engineer with 20 years of Ã‚ experience working on a number of business applications using a diverse set of frameworks and languages. He currently supports developers at Spacee with their IoT, Cloud and AI Edge development. On the side, Ron Dagdag is an active participant in the community as a Microsoft MVP, speaker, and maker. Ron thinks of himself as a "life-long learner", enjoys building projects with his kids and is passionate about Augmented Intelligence, studying the convergence of Augmented Reality, Machine Learning and Internet of Things. @rondagdag
-  twitter: rondagdag
-  website: ron.dagdag.net
-  URL: http://ron.dagdag.net/
-  talkTitle: "Developing Spidey Senses: Anomaly detection for Javascript apps"
-  talkDescription: Anomaly detection is the process of identifying unexpected items or events in data sets. It’s like “spidey senses” that can detect something is not right. Attend this session, learn about anomaly detection in javascript and Cognitive Services API; be a superhero and save the day.
-  headshotURL: assets/images/speakers-2021/ron-dagdag.jpg
-  youtubeWatch: https://youtu.be/fxxnknNTxRM
+- name: Pereware Pere
+  company:
+  bio:
+  twitter:
+  website:
+  URL:
+  talkTitle: Non-UI — A User-obsessed Design Approach
+  talkDescription:
+  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Pereware+Pere
+  youtubeWatch:
 
-- name: Facundo Giuliani
-  email: facundo.giuliani@gmail.com
-  bio: Systems Engineer from Buenos Aires, Argentina, with 15+ years of experience in software development. Full Stack Developer. Auth0 Ambassador. GitKraken Ambassador. Cloudinary Media Developer Expert. Facundo is a Senior Developer and Team Leader at MultiTracks.com, a music and tech company from Austin, Texas. He is also an open-source contributor.
-  twitter: facundozurdo
-  website: fgiuliani.com
-  URL: http://fgiuliani.com
-  talkTitle: "Incremental Static Regeneration: Static sites on steroids"
-  talkDescription: Static sites are great. They are fast, cheap, secure, and easy to maintain. But generating static assets is a process that takes more and more time while our site gets bigger. We will talk about ISR, a feature that Next.js framework offers us to generate static pages at runtime.
-  headshotURL: assets/images/speakers-2021/facundo-giuliani.jpg
-  youtubeWatch: https://youtu.be/upSBHWn2hwQ
+- name: Laurie Voss
+  company: Netlify
+  bio:
+  twitter: seldo
+  website:
+  URL:
+  talkTitle: "Web development best practices: what the data tells us"
+  talkDescription:
+  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Laurie+Voss
+  youtubeWatch:
 
-- name: Mohammad Shahbaz Alam
-  email: mdsbzalam@gmail.com
-  bio: Shahbaz is a full stack developer and open source enthusiast, Developer Advocate @ Magic Labs, GDG Ranchi Organizer, Auth0 Ambassador, and Mozilla Representative. He loves teaching and sharing his learnings at conferences and meetups related to Serverless, Authentication and Authorization, Google Technologies, Security, Web Extensions, SPAs, PWAs and VR/AR/XR.
-  twitter: mdsbzalam
-  website: mdsbzalam.dev
-  URL: https://mdsbzalam.dev
-  talkTitle: Securing Node.js APIs with Decentralised Identity Tokens
-  talkDescription: After so many breaches and passwords leaks, developers must reunite and reinvigorate APIs to protect the applications, making the internet a secure global public resource, open and accessible to all. Join me in this talk where I cover how to secure your Node APIs using Decentralised Identity Tokens.
-  headshotURL: assets/images/speakers-2021/mohammad-shahbaz-alam.jpg
-  youtubeWatch: https://youtu.be/pNQocVN6ViM
+- name: Kylie Humpert
+  company: LegalShield
+  bio:
+  twitter:
+  website:
+  URL:
+  talkTitle: Project != Program != Product
+  talkDescription:
+  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Kylie+Humpert
+  youtubeWatch:
 
-- name: PJ Hagerty
-  email: pjhagerty@gmail.com
-  bio: PJ is the founder of DevRelate.io, board member of Open Sourcing Mental Illness (OSMIhelp.org), and Senior Developer Advocate at Mattermost. He is an organizer of DevOps Days Buffalo, CodeDaze, and ElixirDaze. Additionally, PJ is a developer, writer, speaker, and musician. He is known to travel the world speaking about programming and the way people think and interact. He is also known for wearing hats.
-  twitter: aspleenic
-  website: mattermost.com
-  URL: http://mattermost.com
-  talkTitle: The Pony Express and How Technology Doesn't Last
-  talkDescription: It's been said many times - technology moves fast. As do the philosophies behind it. This isn't new - the Pony Express lasted only 18 months before being replaced by telegraph. Why is turnover so fast? What are the benefits and pitfalls to this turnover? Where is the value in what we do?
-  headshotURL: assets/images/speakers-2021/pj-hagerty.jpg
-  youtubeWatch: https://youtu.be/UzxLoSUJxFg
+- name: Speaker 5
+  company:
+  bio:
+  twitter:
+  website:
+  URL:
+  talkTitle: '?'
+  talkDescription:
+  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Speaker+5
+  youtubeWatch:
 
-- name: Courtney Heitman
-  email: courtney_heitman@gallup.com
-  bio: Courtney is a Technical Accessibility Specialist for Gallup, a company that provides analytics and advice for everything that matters, in Omaha, Nebraska. Courtney's passion for the web all started with teaching her 11-year-old self how to write CSS on a dial-up internet connection on a farm in rural Iowa. Since then she has been in a myriad of positions including a Flash developer, a brief stint as a server admin, a designer, a full stack developer, and a project manager. Her passion is making a web that is usable and accessible to all. When she's not playing with new technology, you can find her creating new recipes in her kitchen or working on her farm.
-  twitter: courtneyheitman
-  website: courtneyheitman.com
-  URL: https://www.courtneyheitman.com
-  talkTitle: The Dark Side of UX
-  talkDescription: User experience design is great... until it's used to trick and manipulate users. Some highlights of this talk include why advertisers are now sticking fake hair and dust on ads, and why a lot of hotel sites only have "3 rooms left at this price". Welcome to the dark side of UX.
-  headshotURL: assets/images/speakers-2021/courtney-heitman.jpg
-  youtubeWatch: https://youtu.be/6oP4YX9h5KY
-
-- name: Rob Richardson
-  email: robrich@robrich.org
-  bio: Rob Richardson is a software craftsman building web properties in ASP.NET and Node, React and Vue. He’s a Microsoft MVP, published author, frequent speaker at conferences, user groups, and community events, and a diligent teacher and student of high quality software development. You can find this and other talks on his blog at [https://robrich.org/presentations](https://robrich.org/presentations) and follow him on twitter at [@rob_rich](https://twitter.com/rob_rich).
-  twitter: rob_rich
-  website: robrich.org
-  URL: https://robrich.org/presentations
-  talkTitle: Level-up Your DevOps with GitHub Actions and Kubernetes
-  talkDescription: Are you looking to rapidly deploy your content? Are Docker containers in your future? Come for this demo-only presentation where we start from scratch, build up a DevOps pipeline with GitHub Actions, and deploy to Kubernetes. Once setup, commit, and watch the magic flow into place.
-  headshotURL: assets/images/speakers-2021/rob-richardson.jpg
-  youtubeWatch: https://youtu.be/i4A6XQEQZr0
+- name: Speaker 6
+  company:
+  bio:
+  twitter:
+  website:
+  URL:
+  talkTitle: '?'
+  talkDescription:
+  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Speaker+6
+  youtubeWatch:
