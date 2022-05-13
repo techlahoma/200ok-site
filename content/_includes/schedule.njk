@@ -1,29 +1,44 @@
 {% macro speaker_section(speakerName) %}
 {% set speaker = speakers | filterByKey('name', speakerName) | first %}
+{% if speaker %}
 <div class="speaker sm:flex items-start flex-row-reverse">
   <div class="sm:w-1/2 xl:w-3/4 mb-4 sm:mb-0 sm:pl-6">
     <h3 class="font-bold text-xl sm:text-3xl !mt-0 italic">
       {{ speaker.talkTitle | noRunts | safe }}
     </h3>
-    <div>
-      <a class="button primary ; !normal-case !p-2 mr-2 mb-2 !text-white hover:!text-200ok-red" href="{{ speaker.youtubeWatch }}" target="_blank">
-        <span class="inline-block align-middle"><i class="ri-youtube-fill ri-2x"></i></span>
-        <span class="inline-block align-middle">Watch Now!</span>
-      </a>
-    </div>
-    <div class="text-lg sm:text-xl text-md">
-      <div class="font-bold">{{ speaker.name }}</div>
-      <a class="block text-base sm:text-lg !no-underline hover:text-200ok-brown" target="_blank" href="https://twitter.com/{{speaker.twitter}}" title="Twitter: @{{speaker.twitter}}">
-        <span><i class="ri-twitter-fill inline-block align-bottom"></i></span> @{{speaker.twitter}}
-      </a>
-      <a href="{{speaker.URL}}" target="_blank" class="block text-base sm:text-lg !no-underline hover:text-200ok-brown" title="Website: {{speaker.website}}">
-        <span><i class="ri-earth-fill inline-block align-bottom"></i></span> {{speaker.website}}
-      </a>
-      <p class="text-sm">{{ speaker.talkDescription | noRunts | safe }}</p>
-    </div>
+  {% if speaker.youtubeWatch %}
+  <div>
+    <a class="button primary ; !normal-case !p-2 mr-2 mb-2 !text-white hover:!text-200ok-red" href="{{ speaker.youtubeWatch }}" target="_blank">
+    <span class="inline-block align-middle"><i class="ri-youtube-fill ri-2x"></i></span>
+    <span class="inline-block align-middle">Watch Now!</span>
+    </a>
   </div>
+  {% endif %}
+  <div class="text-lg sm:text-xl text-md">
+  <div class="font-bold">{{ speaker.name }}</div>
+{% if speaker.company %}
+  <div>{{ speaker.company }}</div>
+{% endif %}
+{% if speaker.twitter %}
+  <a class="block text-base sm:text-lg !no-underline hover:text-200ok-brown" target="_blank" href="https://twitter.com/{{speaker.twitter}}" title="Twitter: @{{speaker.twitter}}">
+  <span><i class="ri-twitter-fill inline-block align-bottom"></i></span> @{{speaker.twitter}}
+  </a>
+{% endif %}
+{% if speaker.website %}
+  <a href="{{speaker.URL}}" target="_blank" class="block text-base sm:text-lg !no-underline hover:text-200ok-brown" title="Website: {{speaker.website}}">
+  <span><i class="ri-earth-fill inline-block align-bottom"></i></span> {{speaker.website}}
+  </a>
+{% endif %}
+{% if speaker.talkDescription %}
+  <p class="text-sm">{{ speaker.talkDescription | noRunts | safe }}</p>
+{% endif %}
+  </div>
+  </div>
+{% if speaker.headshotURL %}
   <img src="{{ speaker.headshotURL }}" alt="{{ speaker.name }}" title="Speaker: {{ speaker.name }} – {{ speaker.talkTitle }}" class="w-full sm:w-1/2 xl:w-1/4 block rounded-lg" />
+{% endif %}
 </div>
+{% endif %}
 {% endmacro %}
 
 {% macro event_section(event) %}
@@ -37,7 +52,7 @@
 </article>
 {% endmacro %}
 
-<div class="; flex flex-wrap">
+<!-- <div class="; flex flex-wrap">
   <a class="button primary ; !normal-case !p-2 mr-2 mb-2 !text-white hover:!text-200ok-purple" href="/watch" target="_blank">
     <span class="inline-block align-middle"><i class="ri-youtube-fill ri-2x"></i></span>
     <span class="inline-block align-middle">Full Replay</span>
@@ -46,7 +61,7 @@
     <span class="inline-block align-middle"><i class="ri-youtube-fill ri-2x"></i></span>
     <span class="inline-block align-middle">Speakers Playlist</span>
   </a>
-</div>
+</div> -->
 
 <section>
   {% for event in events %}

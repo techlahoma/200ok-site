@@ -2,9 +2,9 @@
 Connect with fellow web professionals and some of the best speakers across the globe for a day of presentations about leading web technology topics.
 </p>
 
-## Speakers TBA
+## Speakers
 
-Thanks for your votes! We will be announcing speakers soon!
+{% include 'speakers.njk' %}
 
 ## LOGISTICS
 We want to make sure you have everything you need to get here and enjoy your time at 200OK and in Tulsa.
@@ -26,6 +26,12 @@ We are at the [Tulsa Central Library](https://www.tulsalibrary.org/locations/cen
 
 ### Meals
 We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options (*please mark any restrictions on your ticket registration form).
+
+## Schedule
+
+All times are Central Daylight Time (CDT).
+
+{% include 'schedule.njk' %}
 
 ## Sponsors
 
