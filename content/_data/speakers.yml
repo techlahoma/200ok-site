@@ -2,64 +2,64 @@
   company: Cube Dev
   bio:
   twitter: adnanrahic
-  website:
-  URL:
-  talkTitle: Making Data Warehouses fast. A developer’s story.
+  website: adnanrahic.com
+  URL: https://adnanrahic.com
+  talkTitle: 'Making Data Warehouses fast: A developer’s story.'
   talkDescription:
-  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Adnan+Rahic
+  headshotURL: assets/images/speakers-2022/adnan-rahic.jpg
   youtubeWatch:
 
 - name: Pereware Pere
   company:
   bio:
   twitter:
-  website:
-  URL:
+  website: trameter.com
+  URL: https://trameter.com
   talkTitle: Non-UI — A User-obsessed Design Approach
   talkDescription:
-  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Pereware+Pere
+  headshotURL: assets/images/speakers-2022/pereware-pere.jpg
   youtubeWatch:
 
 - name: Laurie Voss
   company: Netlify
   bio:
   twitter: seldo
-  website:
-  URL:
+  website: seldo.com
+  URL: https://seldo.com
   talkTitle: "Web development best practices: what the data tells us"
   talkDescription:
-  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Laurie+Voss
+  headshotURL: assets/images/speakers-2022/laurie-voss.jpg
   youtubeWatch:
 
 - name: Kylie Humpert
   company: LegalShield
   bio:
   twitter:
-  website:
-  URL:
+  website: legalshield.com
+  URL: https://www.legalshield.com/
   talkTitle: Project != Program != Product
   talkDescription:
-  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Kylie+Humpert
+  headshotURL: assets/images/speakers-2022/kylie-humpert.jpg
   youtubeWatch:
 
-- name: Speaker 5
+- name: Tanya Janca
   company:
   bio:
-  twitter:
-  website:
-  URL:
-  talkTitle: '?'
+  twitter: tanya.janca
+  website: shehackspurple.ca
+  URL: https://shehackspurple.ca
+  talkTitle: 'Purple is the new black: Modern Approaches to Application Security'
   talkDescription:
-  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Speaker+5
+  headshotURL: assets/images/speakers-2022/tanya-janca.jpg
   youtubeWatch:
 
-- name: Speaker 6
+- name: Taylor Beseda
   company:
   bio:
-  twitter:
-  website:
-  URL:
-  talkTitle: '?'
+  twitter: tbeseda
+  website: tbeseda.com
+  URL: https://tbeseda.com
+  talkTitle: 'Functional Web Apps: The revenge of dynamic web apps'
   talkDescription:
-  headshotURL: https://via.placeholder.com/400/ddd/666.png?text=Speaker+6
+  headshotURL: assets/images/speakers-2022/taylor-beseda.jpg
   youtubeWatch:

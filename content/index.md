@@ -2,9 +2,9 @@
 Connect with fellow web professionals and some of the best speakers across the globe for a day of presentations about leading web technology topics.
 </p>
 
-## Speakers TBA
+## Speakers
 
-Thanks for your votes! We will be announcing speakers soon!
+{% include 'speakers.njk' %}
 
 ## LOGISTICS
 We want to make sure you have everything you need to get here and enjoy your time at 200OK and in Tulsa.
