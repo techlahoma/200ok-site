@@ -30,6 +30,12 @@ Bronze:
   - name: Heartland
     url: https://www.heartland.us/about/in-the-community
     image: /assets/images/sponsors-2022/heartland.png
+  - name: Leadline
+    url: https://www.leadlinemarketing.com/
+    image: /assets/images/sponsors-2022/leadline.png
+    logo:
+      background_color: '#333'
+      padding: 1em
   - name: Become a Sponsor
     url: /sponsorship/
     image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
