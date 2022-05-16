@@ -2,6 +2,8 @@ const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster')
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
 const yaml = require('js-yaml')
+const path = require('path')
+const fs = require('fs')
 
 const markdownLibrary = markdownIt({
   html: true,
@@ -26,6 +28,18 @@ const noRuntsFilter = value => value.replace(
   /(\S+\s+\S+\s+)(\S+\s+\S+)$/,
   '$1<span style="white-space:nowrap;">$2</span>'
 )
+
+// Filter to read a file
+//
+// Usage:
+//
+//   ```njk
+//   {{ 'path/to/file.svg' | readFile | safe }}
+//   ```
+const readFile = (...pathSegments) => {
+  const filePath = path.resolve(...pathSegments)
+  return fs.readFileSync(filePath)
+}
 
 const filterByKeyFilter = (list, key, value) => list.filter(item => item[key] == value)
 
@@ -60,6 +74,7 @@ module.exports = function(eleventyConfig) {
   // Filters
   eleventyConfig.addFilter("noRunts", noRuntsFilter);
   eleventyConfig.addFilter("filterByKey", filterByKeyFilter);
+  eleventyConfig.addFilter("readFile", readFile);
 
   return {
     // Use nunjucks for template usage (like includes) within Markdown files

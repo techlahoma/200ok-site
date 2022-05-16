@@ -88,12 +88,12 @@ a:hover {
   @apply underline;
 }
 
-a > i {
+.footer-container ul a > i {
   @apply absolute left-full -top-1;
   @apply opacity-0;
 }
 
-a:hover > i {
+.footer-container ul a:hover > i {
   @apply absolute left-full -top-1;
   @apply opacity-60;
 }
