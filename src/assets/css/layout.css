@@ -33,3 +33,29 @@ header, footer {
 .section-underline {
   border-bottom: 1px solid rgba(77, 36, 98, 0.5);
 }
+
+.social-icons {
+  @apply text-2xl;
+  @apply my-6;
+  @apply flex;
+  @apply justify-center;
+}
+
+.social-icons a {
+  @apply block;
+  @apply p-2;
+}
+
+.social-icons a:hover {
+  @apply no-underline;
+}
+
+.social-icons svg {
+  @apply w-8;
+
+  fill: var(--color-secondary);
+}
+
+.social-icons a:hover svg {
+  fill: var(--color-secondary-dark);
+}
