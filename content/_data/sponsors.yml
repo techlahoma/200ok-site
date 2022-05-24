@@ -19,6 +19,9 @@ Silver:
     logo:
       background_color: white
       padding: 1em
+  - name: Holberton School (Tulsa)
+    url: https://www.holbertontulsa.com/
+    image: /assets/images/sponsors-2022/holberton.png
   - name: Become a Sponsor
     url: /sponsorship/
     image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
@@ -44,6 +47,18 @@ Local:
   - name: Bitness Labs
     url: https://bitnesslabs.com/
     image: /assets/images/sponsors-2022/bitness-labs.png
+    logo:
+      background_color: white
+      padding: 1em
+  - name: 36 Degrees North
+    url: https://www.36n.co/
+    image: /assets/images/sponsors-2022/36n.png
+    logo:
+      background_color: white
+      padding: 1em
+  - name: Volt
+    url: https://www.textvolt.com/
+    image: /assets/images/sponsors-2022/volt.svg
     logo:
       background_color: white
       padding: 1em
