@@ -1,19 +1,19 @@
 - start: "09:00"
-  title: Opening Remarks
+  title: Registration and Welcome
 
-- start: "09:30"
-  speakerName: Adnan Rahic
+- start: "10:00"
+  speakerName: Adnan Rahić
 
-- start: "10:30"
+- start: "11:00"
   speakerName: Laurie Voss
 
-- start: "11:30"
+- start: "12:00"
   speakerName: Tanya Janca
 
-- start: "12:15"
+- start: "13:00"
   title: Lunch Break
 
-- start: "13:30"
+- start: "14:00"
   speakerName: Pereware Pere
 
 - start: "15:00"
@@ -22,5 +22,5 @@
 - start: "16:00"
   speakerName: Taylor Beseda
 
-- start: "17:15"
-  title: Networking
+- start: "17:00"
+  title: After Event Networking

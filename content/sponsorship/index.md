@@ -93,7 +93,7 @@ For 2022, we are expecting attendance of 150-200 developers and IT professionals
 - Logo on event signage
 - Listed in Bronze category everywhere applicable
 
-### Local / Non-Profit – $400
+### Local / Non-Profit – $500
 *Limited to Oklahoma companies/startups or non-profits*
 - Logo on website in sponsor feature area
 - Social media announcement
