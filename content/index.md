@@ -18,7 +18,7 @@ Tulsa International Airport (TUL) is our airport if you're flying in.
 Uber & Lyft are both available in Tulsa. We also have scooters from Bird and Lime. And bicycles are available from [This Machine](https://thismachinetulsa.com/).
 
 ### Hotel
-Visiting Tulsa? Stay at the [DoubleTree](https://www.hilton.com/en/attend-my-event/techlahoma-200okconf/) for a group rate, or stay at the Aloft Tulsa Downtown, Hampton Inn & Suites Tulsa Downtown, or the iconic Tulsa Mayo Hotel, which are all very close to our venue.
+Visiting Tulsa? Stay at the DoubleTree, the Aloft Tulsa Downtown, Hampton Inn & Suites Tulsa Downtown, or the iconic Tulsa Mayo Hotel, which are all very close to our venue.
 
 ### Parking
 Parking at the Central Library's garage is limited, and pricey for all day parking. There are some surrounding lots like the Cox Business Center paid lot. This will probably have more availability and is a short walk to the Library.
