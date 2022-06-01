@@ -23,7 +23,7 @@
 
 [[redirects]]
   from = "/survey"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSdOD30UibSbZpKEh8SqI-O4gW5o17pGPKvcq1BWklENoX6uRw/viewform"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSdggrJUmqeYB89Ph811NylZz3IP6CHtmSx6XZLTxPK46BS85Q/viewform"
   status = 302
   force = true
 
