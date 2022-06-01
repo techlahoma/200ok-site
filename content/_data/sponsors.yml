@@ -62,6 +62,12 @@ Local:
     logo:
       background_color: white
       padding: 1em
+  - name: Rogue Recruitment
+    url: https://roguerecruitment.com/
+    image: /assets/images/sponsors-2022/rogue-recruitment.png
+    logo:
+      background_color: white
+      padding: 1em
   - name: Become a Sponsor
     url: /sponsorship/
     image: https://via.placeholder.com/400/ddd/666.png?text=Become+a+Sponsor!
