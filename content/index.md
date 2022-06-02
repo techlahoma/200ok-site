@@ -13,7 +13,7 @@ We want to make sure you have everything you need to get here and enjoy your tim
 
 ### For Virtual Attendees
 
-The conference will begin live streaming at 9:30 am CDT (UTC-6) Friday, May 21, 2021. Place all questions for speakers in the [#200OK channel](https://techlahoma.slack.com/archives/C0HFPH866). Feel free to ask questions at any time throughout the conference and our emcee will field questions to the speakers.
+The conference will begin live streaming at 9:30 am CDT (UTC-5) Friday, May 21, 2021. Place all questions for speakers in the [#200OK channel](https://techlahoma.slack.com/archives/C0HFPH866). Feel free to ask questions at any time throughout the conference and our emcee will field questions to the speakers.
 
 Q&A: If you are not already a member of Techlahoma Slack, get an invite here: http://slack.techlahoma.org. Be sure to join the #200OK channel. Feel free to join any other channels as well. Techlahoma has a number of language specific and topical channels. You can also chat one on one and network with video calls on the Techlahoma Slack.
 
