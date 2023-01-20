@@ -2,6 +2,8 @@
 title: Privacy Policy for 200OK Conference
 ---
 
+<div class="prose">
+
 At 200OK Conference, accessible from [200ok.us](https://200ok.us), one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by 200OK Conference and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
@@ -86,3 +88,5 @@ We would like to make sure you are fully aware of all of your data protection ri
 Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
 
 200OK Conference does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+
+</div>
