@@ -1,10 +1,82 @@
-/*! purgecss start ignore */
-@import 'tailwindcss/base';
-@import 'layout.css';
-@import 'tailwindcss/components';
-/*! purgecss end ignore */
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import 'tailwindcss/utilities';
+/* Fonts */
+
+/* Global overrides */
+
+:root {
+  --font-league-gothic: "League Gothic", sans-serif;
+  --font-league-spartan: "League Spartan", sans-serif;
+  --font-crimson: "Crimson Text", serif;
+  --color-red: #EF493C;
+  --color-blue: #3281C4;
+  --color-gray-dark: #58595B;
+  --color-gray-light: #A6A8AB;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font-crimson);
+    font-weight: 400;
+}
+
+/* Custom classes */
+
+.font-league-gothic {
+  font-family: var(--font-league-gothic);
+}
+
+.font-league-spartan {
+  font-family: var(--font-league-spartan);
+}
+
+.font-crimson {
+  font-family: var(--font-crimson);
+}
+
+.text-200ok-red, .text-200ok-red-hover:hover {
+  color: var(--color-red);
+}
+
+.text-200ok-blue, .text-200ok-blue-hover:hover {
+  color: var(--color-blue);
+}
+
+.border-200ok-red, .border-200ok-red-hover:hover {
+  border-color: var(--color-red);
+}
+
+.border-200ok-blue, .border-200ok-blue-hover:hover {
+  border-color: var(--color-blue);
+}
+
+.bg-200ok-gray-light {
+  background-color: var(--color-gray-light);
+}
+
+.bg-200ok-gray-dark {
+  background-color: var(--color-gray-dark);
+}
+
+.bg-200ok-red, .bg-200ok-red-hover:hover {
+  background-color: var(--color-red);
+}
+
+.bg-200ok-blue, .bg-200ok-blue-hover:hover {
+  background-color: var(--color-blue);
+}
 
 .prose h1 {
   @apply text-3xl;
@@ -25,14 +97,6 @@
 
   border-bottom: 1px solid rgba(77, 36, 98, 0.5);
   color: var(--color-secondary);
-}
-
-@screen md {
-  .prose h1 ,
-  .prose h2 {
-    margin-right: -100vw;
-    padding-right: 100vw;
-  }
 }
 
 body, .prose, .prose strong {
@@ -130,46 +194,4 @@ a:hover {
 
 .prose .sponsor img {
   margin: 0;
-}
-
-.button.primary {
-  background: var(--color-secondary);
-  color: var(--color-primary);
-}
-
-.button.primary:hover {
-  /* background: var(--white); */
-  background: var(--color-secondary-dark);
-}
-
-.button.secondary {
-  border: 2px solid var(--color-secondary);
-  color: var(--color-secondary);
-}
-
-.button.secondary:hover {
-  background: var(--color-secondary-dark);
-  color: var(--color-primary);
-}
-
-header .button.secondary {
-  border: 2px solid var(--color-secondary);
-  color: var(--color-secondary);
-}
-
-header .button.secondary:hover {
-  border: 2px solid var(--color-secondary-dark);
-  background: var(--color-secondary-dark);
-  color: var(--color-primary);
-  /* color: var(--white); */
-}
-
-
-/* Speaker Styles */
-.speaker h2, .speaker img {
-  margin-top: 0;
-}
-
-.speaker h2 {
-  border-bottom: 0;
 }

@@ -11,41 +11,139 @@
   <meta property="og:type" content="website">
   <meta property="og:description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
   <meta property="og:url" content="https://200ok.us/">
-  <meta property="og:image" content="https://200ok.us/assets/images/share-2022.jpg">
+  <meta property="og:image" content="https://200ok.us/assets/images/share-2023.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@200okconf">
   <meta name="twitter:title" content="200OK Web Developer Conference">
   <meta name="twitter:description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
-  <meta name="twitter:image" content="https://200ok.us/assets/images/share-2022.jpg">
+  <meta name="twitter:image" content="https://200ok.us/assets/images/share-2023.jpg">
 
-  <link href="/assets/fonts/spartan.css" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link href="/assets/css/index.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=League+Gothic&family=League+Spartan:wght@100;400;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7ceac86829.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="; md:h-screen md:w-screen md:flex">
-  <header class="my-left ; md:h-full md:flex md:flex-col md:overflow-y-auto md:overflow-x-hidden">
-    <div class="; md:flex-1">
-      {% include "header.njk" %}
-    </div>
-    <div class="; hidden md:py-4 md:flex-1 md:flex md:flex-col md:justify-end">
-      {% include "footer.njk" %}
+<body class="bg-white min-w-min">
+  <header>
+    <div class="container max-w-screen-lg mx-auto mt-4 px-2">
+      <div class="w-full flex items-stretch border-t border-b border-black leading-loose tracking-wide">
+        <div class="uppercase w-full text-center leading-tight inline-block py-2 ">
+          <span class="hidden md:inline">Friday, </span>
+          May 12, 2023
+        </div>
+        <div class="uppercase w-full text-center leading-tight inline-block py-2 border-l sm:border-x border-black">Tulsa,
+          <span class="inline sm:hidden">OK</span>
+          <span class="hidden sm:inline">Oklahoma</span>
+        </div>
+        <div class="uppercase w-full text-center leading-tight hidden sm:inline-block py-2 ">
+          <a class="text-200ok-red-hover" href="https://holbertontulsa.com/" target="_blank">
+            Holberton
+          <span class="hidden sm:inline">School</span>
+          </a>
+        </div>
+      </div>
+      <div class="block sm:hidden uppercase text-center leading-tight py-2 border-b border-black"> 
+        <a class="text-200ok-red-hover" href="https://holbertontulsa.com/" target="_blank">
+            Holberton School
+          </a>
+      </div>
+      
+      <!-- WIP Navigation -->
+      <!-- <div class="hidden md:block border-b border-black font-lg px-2">
+        <ul class="w-full flex justify-start items-center leading-loose tracking-wide gap-8 uppercase">
+          <li class="">
+            <a class="" href="#">Register</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Schedule</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Sponsors</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Logistics</a>
+          </li>
+          <li class="ml-auto py-2">
+            <a class="inline-block bg-200ok-red text-white bg-200ok-blue-hover transition duration-200 py-px px-3" href="#">Submit Talk</a>
+          </li>
+
+        </ul>
+      </div> -->
+
+      <div class="container max-w-screen-md mx-auto px-6 mb-6">
+        <a href="/" class="no-underline hover:no-underline my-8 max-w-screen-sm justify-center gap-2 sm:gap-8 flex flex-col sm:flex-row-reverse items-center mx-auto">
+          <h2 class="text-center sm:text-left">Techlahoma Foundation Presents: <br/><strong>Tulsa’s Web&nbsp;Developer Conference</strong></h2>
+          <img class="w-72 sm:w-48 max-w-full block mx-auto sm:mx-0" src="/assets/images/logo.svg" alt="200ok logo">
+        </a>
+      </div>
     </div>
   </header>
-  <main class="my-right ; md:h-full md:overflow-y-auto md:overflow-x-hidden">
-    <div class="container max-w-screen-md prose p-8">
-      {% if title %}
-        <h1>{{ title }}</h1>
-      {% endif %}
-      {{ content | safe }}
-    </div>
+  <main class="container max-w-screen-md mx-auto px-6 mb-6">
+    {{ content | safe }}
   </main>
-  <footer class="my-left ; py-4 md:hidden md:flex-1 md:flex-col md:justify-end">
-    {% include "footer.njk" %}
-  </footer>
+  <footer class="mb-6">
 
-{% include "scripts.njk" %}
+    <div class="container max-w-screen-lg mx-auto mt-8 px-2 ">
+      <div class="flex justify-center sm:justify-start gap-2 sm:gap-4 border-b border-black py-2">
+        <ul>
+          <li>
+            <a class="text-200ok-red-hover" href="https://twitter.com/200okconf">
+              <i class="fa-brands fa-xl fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a class="text-200ok-blue-hover" href="https://techlahoma.slack.com/archives/C0HFPH866">
+              <i class="fa-brands fa-xl fa-slack"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="w-full flex justify-start gap-2 align-middle border-t border-b border-black px-6 ">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div> -->
+
+      <ul class="list-none text-sm flex justify-between w-full items-center py-2 gap-px sm:gap-8 flex-col sm:flex-row">
+        <li class="">
+          &copy; 2023 Techlahoma Foundation
+        </li>
+        <li class="">
+          <a class="text-200ok-red-hover" href="mailto:200ok@techlahoma.org">Contact Us</a>
+        </li>
+        <li class="">
+          <a class="text-200ok-blue-hover" href="https://www.techlahoma.org/code-of-conduct/" target="_blank">
+            Code of Conduct
+          </a>
+        </li>
+        <li class="">
+          <a class="text-200ok-blue-hover" href="/privacy-policy">Privacy Policy</a>
+        </li>
+        <li class="sm:ml-auto mt-2 sm:mt-0">
+          <a href="https://www.netlify.com" title="Deploys by Netlify">
+            <img src="/assets/images/netlify-dark.svg" alt="Deploys by Netlify" class="; mx-auto w-16">
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+  {% include "scripts.njk" %}
 </body>
 
 </html>
