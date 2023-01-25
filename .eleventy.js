@@ -40,8 +40,6 @@ const readFile = (...pathSegments) => {
   return fs.readFileSync(filePath)
 }
 
-const filterByKeyFilter = (list, key, value) => list.filter(item => item[key] == value)
-
 // Filter to add cache busting query string to URL
 //
 // Throws an error if the cache buster key is already in the URL.
@@ -97,10 +95,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
 
   // Filters
-  eleventyConfig.addFilter("noRunts", noRuntsFilter);
-  eleventyConfig.addFilter("filterByKey", filterByKeyFilter);
-  eleventyConfig.addFilter("readFile", readFile);
-  eleventyConfig.addFilter("cacheBuster", cacheBuster);
+  eleventyConfig.addFilter('noRunts', noRuntsFilter)
+  eleventyConfig.addFilter('readFile', readFile)
+  eleventyConfig.addFilter('cacheBuster', cacheBuster)
 
   return {
     // Use nunjucks for template usage (like includes) within Markdown files
