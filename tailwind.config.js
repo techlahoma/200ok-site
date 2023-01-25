@@ -1,6 +1,6 @@
 module.exports = {
-  purge: [
-    './public/**/*.{html}',
+  content: [
+    './public/**/*.html',
     './content/**/*.{md,njk}',
   ],
   darkMode: 'media',
