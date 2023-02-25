@@ -1,4 +1,3 @@
-const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster')
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
 const yaml = require('js-yaml')
@@ -41,13 +40,37 @@ const readFile = (...pathSegments) => {
   return fs.readFileSync(filePath)
 }
 
-const filterByKeyFilter = (list, key, value) => list.filter(item => item[key] == value)
+// Filter to add cache busting query string to URL
+//
+// Throws an error if the cache buster key is already in the URL.
+//
+// Usage:
+//
+//   ```njk
+//   <link rel="stylesheet" href="{{ '/css/style.css' | cacheBuster }}">
+//   <link rel="stylesheet" href="{{ '/css/style.css' | cacheBuster('v') }}">
+//   ```
+//
+// Expect:
+//
+//   ```html
+//   <link rel="stylesheet" href="/css/style.css?cache-buster=1234567">
+//   <link rel="stylesheet" href="/css/style.css?v=1234567">
+//   ```
+const cacheBuster = (value, key = 'cache-buster') => {
+  const base = 'https://example.com' // Default base so that URL can parse relative URLs.
+  const url = new URL(value, base)   // If url is an absolute URL, base will be ignored.
 
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(cacheBuster({
-    outputDirectory: 'public',
-  }))
+  if (url.searchParams.has(key)) {
+    throw new Error(`Cache buster key conflicts with existing search parameter: ${key} in ${value}`)
+  }
 
+  url.searchParams.set(key, new Date().valueOf())
+
+  return url.toString().replace(base, '')
+}
+
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets')
   eleventyConfig.addPassthroughCopy('content/robots.txt*')
   eleventyConfig.addPassthroughCopy('content/**/*.pdf')
@@ -72,9 +95,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
 
   // Filters
-  eleventyConfig.addFilter("noRunts", noRuntsFilter);
-  eleventyConfig.addFilter("filterByKey", filterByKeyFilter);
-  eleventyConfig.addFilter("readFile", readFile);
+  eleventyConfig.addFilter('noRunts', noRuntsFilter)
+  eleventyConfig.addFilter('readFile', readFile)
+  eleventyConfig.addFilter('cacheBuster', cacheBuster)
 
   return {
     // Use nunjucks for template usage (like includes) within Markdown files

@@ -20,8 +20,8 @@
   <meta name="twitter:image" content="https://200ok.us/assets/images/share-2023.jpg">
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="/assets/css/index.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=League+Gothic&family=League+Spartan:wght@100;400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/index.css' | cacheBuster }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=League+Gothic&family=League+Spartan:wght@100;400;900&display=swap">
   <script src="https://kit.fontawesome.com/7ceac86829.js" crossorigin="anonymous"></script>
 </head>
 
@@ -44,12 +44,12 @@
           </a>
         </div>
       </div>
-      <div class="block sm:hidden uppercase text-center leading-tight py-2 border-b border-black"> 
+      <div class="block sm:hidden uppercase text-center leading-tight py-2 border-b border-black">
         <a class="text-200ok-red-hover" href="https://holbertontulsa.com/" target="_blank">
             Holberton School
           </a>
       </div>
-      
+
       <!-- WIP Navigation -->
       <!-- <div class="hidden md:block border-b border-black font-lg px-2">
         <ul class="w-full flex justify-start items-center leading-loose tracking-wide gap-8 uppercase">
