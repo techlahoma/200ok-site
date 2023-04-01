@@ -195,3 +195,87 @@ a:hover {
 .prose .sponsor img {
   margin: 0;
 }
+
+section {
+  @apply relative;
+
+  @apply container;
+  @apply mx-auto;
+  @apply max-w-screen-md;
+  @apply even:bg-stone-100;
+
+  @apply my-6;
+  @apply px-6;
+  @apply py-2;
+}
+
+section h1 {
+  @apply my-4;
+  @apply pb-3;
+  @apply border-b;
+  @apply border-stone-400;
+  @apply font-league-gothic;
+  @apply uppercase;
+  @apply text-6xl;
+}
+
+section h2 {
+  @apply my-4;
+  @apply pb-3;
+  /* @apply border-b; */
+  /* @apply border-stone-400; */
+  @apply font-league-gothic;
+  @apply uppercase;
+  @apply text-5xl;
+}
+
+section h3 {
+  @apply uppercase;
+  @apply text-xl;
+  @apply italic;
+  @apply border-b;
+  @apply border-stone-400;
+  @apply my-4;
+}
+
+section p {
+  @apply my-6;
+}
+
+section ul {
+  @apply my-6;
+}
+
+section ul li {
+  @apply mb-2;
+}
+
+section a {
+  @apply underline;
+  @apply inline-block;
+  @apply bg-200ok-blue-hover;
+  @apply hover:text-stone-50;
+}
+
+section a.button {
+  @apply no-underline;
+  @apply text-center;
+  @apply w-full;
+  @apply block;
+  @apply px-6;
+  @apply py-2;
+  @apply border;
+  @apply font-bold;
+  @apply text-stone-900;
+  @apply hover:text-white;
+  @apply border-stone-900;
+  @apply hover:bg-stone-900;
+}
+
+section a.section-button {
+  @apply sm:w-auto;
+  @apply sm:inline-block;
+  @apply sm:absolute;
+  @apply sm:top-6;
+  @apply sm:right-8;
+}
