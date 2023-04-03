@@ -70,7 +70,7 @@
   ### For In-Person Attendees
 
   - **Meals:** We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options
-  - **Networking:** After the last talk, head to Welltown Brewing, where your first drink is on us! Make sure to get a ticket from Kendall when you get there!
+  - **Networking:** After the last talk, head to Welltown Brewing, where your first drink is on us! Make sure to get your ticket before you leave Holberton!
 
 </section>
 
