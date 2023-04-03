@@ -139,7 +139,7 @@ subtitle: 'Help bring together 200 South-by-Midwest web professionals'
   - Logo on event signage
   - Listed in H2 category everywhere applicable
 
-  ### window.localSponsors / Non-Profit - $500
+  ### <span class="normal-case">window.localSponsors</span> / Non-Profit - $500
 
   *Limited to Oklahoma Companies/Startups or Non-profits*
 
