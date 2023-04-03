@@ -60,7 +60,7 @@
 
   We want to make sure you have everything you need to get here and enjoy your time at 200OK and in Tulsa.
 
-  The conference will begin live streaming at 8:30 am CDT (UTC-5) Friday, May 21, 2021. Place all questions for speakers in the `#200OK` channel. Feel free to ask questions at any time throughout the conference and our emcee will field questions to the speakers.
+  The conference will begin live streaming at 8:30 am CDT (UTC-5) Friday, May 12, 2023. Place all questions for speakers in the `#200OK` channel. Feel free to ask questions at any time throughout the conference and our emcee will field questions to the speakers.
 
   ### For Virtual Attendees
 
