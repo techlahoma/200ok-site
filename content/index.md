@@ -69,7 +69,6 @@
 
   ### For In-Person Attendees
 
-  - **Parking/Location:** We will be at the Holberton Tulsa campus. Directions are here ([Google Maps](https://goo.gl/maps/sEshCRawdXwGzb4e9)). You can use on-street parking ([City of Tulsa](https://www.cityoftulsa.org/residents/arts-recreation/downtown-tulsa/downtown-parking/)) or use the paid lot directly north of Holberton ([American Parking](https://downtowntulsa.com/parking/american-parking-35)).
   - **Meals:** We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options
   - **Networking:** After the last talk, head to Welltown Brewing, where your first drink is on us! Make sure to get a ticket from Kendall when you get there!
 
