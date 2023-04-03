@@ -12,7 +12,6 @@
   </div>
 </section>
 
-<!-- TICKETS -->
 <section>
 
   ## Tickets
@@ -53,27 +52,15 @@
     </tbody>
   </table>
 
-  ### For Virtual Attendees
-
-  - **Q&A:** If you are not already a member of Techlahoma Slack, get an invite here: http://slack.techlahoma.org/. Be sure to join the `#200OK` channel. Feel free to join any other channels as well. Techlahoma has a number of language specific and topical channels. You can also chat one on one and network with video calls on the Techlahoma Slack.
-  - **Link:** You will receive an unlisted link for YouTube on the morning of the conference! Please be on the look-out for this!
-
-  ### For In-Person Attendees
-
-  - **Parking/Location:** We will be at the Pocahontas Greadington Room in the basement of the Tulsa Central Library. Directions are here ([Google Maps](https://goo.gl/maps/sEshCRawdXwGzb4e9)). If you leave after 3, parking will be free. Before 3, requires validation, so please check with a volunteer for that option.
-  - **Meals:** We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options
-  - **Networking:** After the last talk, head to Welltown Brewing, where your first drink is on us! Make sure to get a ticket from Kendall when you get there!
-
 </section>
 
-<!-- LOGISTICS -->
 <section>
 
   ## Logistics
 
   We want to make sure you have everything you need to get here and enjoy your time at 200OK and in Tulsa.
 
-  The conference will begin live streaming at 9:30 am CDT (UTC-5) Friday, May 21, 2021. Place all questions for speakers in the `#200OK` channel. Feel free to ask questions at any time throughout the conference and our emcee will field questions to the speakers.
+  The conference will begin live streaming at 8:30 am CDT (UTC-5) Friday, May 21, 2021. Place all questions for speakers in the `#200OK` channel. Feel free to ask questions at any time throughout the conference and our emcee will field questions to the speakers.
 
   ### For Virtual Attendees
 
@@ -82,14 +69,11 @@
 
   ### For In-Person Attendees
 
-  - **Parking/Location:** We will be at the Holberton Tulsa campus. Directions are here ([Google Maps](https://goo.gl/maps/sEshCRawdXwGzb4e9)). You can use on-street parking ([City of Tulsa](https://www.cityoftulsa.org/residents/arts-recreation/downtown-tulsa/downtown-parking/)) or use the paid lot directly north of Holberton ([American Parking](https://downtowntulsa.com/parking/american-parking-35)).
   - **Meals:** We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options
-  - **Networking:** After the last talk, head to Welltown Brewing, where your first drink is on us! Make sure to get a ticket from Kendall when you get there!
+  - **Networking:** After the last talk, head to Welltown Brewing, where your first drink is on us! Make sure to get your ticket before you leave Holberton!
 
 </section>
 
-
-<!-- Sponsorships -->
 <section>
 
   ## Sponsorships
