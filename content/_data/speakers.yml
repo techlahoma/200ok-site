@@ -1,10 +1,10 @@
-- name: Adnan Rahić
-  company: Cube Dev
-  bio:
-  twitter: adnanrahic
-  website: adnanrahic.com
-  URL: https://adnanrahic.com
-  talkTitle: 'Making Data Warehouses fast: A developer’s story.'
+- name: Shailvi Wakhlu
+  company: 
+  bio: Shailvi is the former Head of Data from Strava and Komodo Health. As a data professional, former software engineer, and entrepreneur, she has had the opportunity to build some great products. She has influenced large and small companies, such as Salesforce, Fitbit, and the company she co-founded. Shailvi is passionate about fostering equity in the tech industry and is committed to providing knowledge and mentorship to underrepresented groups. Her vision is that one day everyone in STEM feels empowered to advocate for themselves so that they keep growing in their careers.
+  twitter: ShailviW
+  website: shailvi.com
+  URL: https://shailvi.com/book.html
+  talkTitle: 'Preventing, Diagnosing and Curing Bad Date'
   talkDescription:
   headshotURL: assets/images/speakers-2022/adnan-rahic.jpg
   youtubeWatch:
