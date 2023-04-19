@@ -14,6 +14,21 @@
 
 <section>
 
+  ## Schedule / Speakers
+
+- 9:00 a.m. - Opening
+- 9:30 a.m. - Shailvi Wakhlu: **"Preventing, Diagnosing & Curing Bad Data"**
+- 10:30 a.m. - Jenny Truong: **"State Machines for your Mental State"**
+- 11:30 a.m. - Ed Schaefer: **"A Non-Technical Introduction to Domain-Driven Design"**
+- 12:30 p.m. - Lunch Break _(Catered)_
+- 1:30 p.m. - Amy Norris: **"Competence is Overrated"**
+- 2:30 p.m. - Chad Green: **" Technical Debt Is Not Free"**
+- 3:30 p.m. - Lizzie Siegle: **"Build Your Own ChatGPT with OpenAI Over SMS"**
+
+</section>
+
+<section>
+
   ## Tickets
 
   All tickets include access to all speakers, lunch provided, as well as networking opportunities throughout.
@@ -60,17 +75,18 @@
 
   We want to make sure you have everything you need to get here and enjoy your time at 200OK and in Tulsa.
 
-  The conference will begin live streaming at 8:30 am CDT (UTC-5) Friday, May 12, 2023. Place all questions for speakers in the `#200OK` channel. Feel free to ask questions at any time throughout the conference and our emcee will field questions to the speakers.
+  The conference will begin live streaming at 9:00 am CDT (UTC-5) Friday, May 12, 2023. Place all questions for speakers in the `#200OK` channel. Feel free to ask questions at any time throughout the conference and our emcee will field questions to the speakers.
+
+  ### For In-Person Attendees
+
+  - **Meals:** We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options
+  - **Networking:** After the last talk, head to Welltown Brewing, where your first drink is on us! Make sure to get your ticket before you leave Holberton!
 
   ### For Virtual Attendees
 
   - **Q&A:** If you are not already a member of Techlahoma Slack, get an invite here: http://slack.techlahoma.org/. Be sure to join the `#200OK` channel. Feel free to join any other channels as well. Techlahoma has a number of language specific and topical channels. You can also chat one on one and network with video calls on the Techlahoma Slack.
   - **Link:** You will receive an unlisted link for YouTube on the morning of the conference! Please be on the look-out for this!
 
-  ### For In-Person Attendees
-
-  - **Meals:** We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options
-  - **Networking:** After the last talk, head to Welltown Brewing, where your first drink is on us! Make sure to get your ticket before you leave Holberton!
 
 </section>
 
