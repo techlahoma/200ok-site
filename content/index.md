@@ -98,10 +98,33 @@
 
   Thank you to our sponsors who make this possible!
 
+  ### Foundation Sponsors
+
+  <div class="flex flex-col md:flex-row gap-8 justify-between items-start md:items-center mt-8 pb-12">
+    <a target="_blank" class="hover:!bg-transparent" href="http://www.thekerrfoundation/org/">
+      <img class="max-w-xs w-full" alt="Kerr Foundation" src="/assets/images/sponsors-2023/kerr-foundation.png">
+    </a>
+    <a target="_blank" class="hover:!bg-transparent" href="https://inasmuchfoundation.org/">
+      <img class="max-w-xs w-full" alt="Inasmuch Foundation" src="/assets/images/sponsors-2023/inasmuch-foundation.png">
+    </a>
+  </div>
+
+  ### Enrrich Sponsors
+
+  <a target="_blank" class="hover:!bg-transparent" href="https://www.heartland.us/">
+    <img class="max-w-xs w-full my-8" alt="Heartland" src="/assets/images/sponsors-2023/heartland.png">
+  </a>
+
   ### Exclusive Venue Sponsorship
 
   <a target="_blank" class="hover:!bg-transparent" href="https://holbertontulsa.com/">
-    <img class="max-w-xs w-full" alt="Holbeton School Tulsa" src="/assets/images/sponsors-2023/holberton.png">
+    <img class="max-w-xs w-full mt-8" alt="Holbeton School Tulsa" src="/assets/images/sponsors-2023/holberton.png">
+  </a>
+
+  ### Local Sponsors
+
+  <a target="_blank" class="hover:!bg-transparent" href="https://www.hoegg.software">
+    <img class="max-w-xs w-full mt-8" alt="Hoegg Software" src="/assets/images/sponsors-2023/hoegg-software.png">
   </a>
 
 </section>
