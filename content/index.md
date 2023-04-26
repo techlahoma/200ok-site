@@ -118,13 +118,19 @@
   ### Exclusive Venue Sponsorship
 
   <a target="_blank" class="hover:!bg-transparent" href="https://holbertontulsa.com/">
-    <img class="max-w-xs w-full mt-8" alt="Holbeton School Tulsa" src="/assets/images/sponsors-2023/holberton.png">
+    <img class="max-w-xs w-full my-8" alt="Holbeton School Tulsa" src="/assets/images/sponsors-2023/holberton.png">
+  </a>
+
+  ### Exclusive Giveaway Sponsorship
+
+  <a target="_blank" class="hover:!bg-transparent" href="https://www.reasors.com/">
+    <img class="max-w-xs w-full my-4 mb-8" alt="Reasor’s Foods" src="/assets/images/sponsors-2023/reasors.png">
   </a>
 
   ### Local Sponsors
 
   <a target="_blank" class="hover:!bg-transparent" href="https://www.hoegg.software">
-    <img class="max-w-xs w-full mt-8" alt="Hoegg Software" src="/assets/images/sponsors-2023/hoegg-software.png">
+    <img class="max-w-xs w-full my-4" alt="Hoegg Software" src="/assets/images/sponsors-2023/hoegg-software.png">
   </a>
 
 </section>
