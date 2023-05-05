@@ -21,9 +21,9 @@
 - 10:30 a.m. - Jenny Truong: **"State Machines for your Mental State"**
 - 11:30 a.m. - Ed Schaefer: **"A Non-Technical Introduction to Domain-Driven Design"**
 - 12:30 p.m. - Lunch Break _(Catered)_
-- 1:30 p.m. - Amy Norris: **"Competence is Overrated"**
-- 2:30 p.m. - Chad Green: **" Technical Debt Is Not Free"**
-- 3:30 p.m. - Lizzie Siegle: **"Build Your Own ChatGPT with OpenAI Over SMS"**
+- 1:30 p.m. - Lightning Talks
+- 2:30 p.m. - Amy Norris: **"Competence is Overrated"**
+- 3:30 p.m. - Luke Crouch: **"5 Hacker Stories (and how to NOT be the 6th)"**
 
 </section>
 
@@ -117,21 +117,36 @@
 
   ### Exclusive Venue Sponsorship
 
-  <a target="_blank" class="hover:!bg-transparent" href="https://holbertontulsa.com/">
-    <img class="max-w-xs w-full my-8" alt="Holbeton School Tulsa" src="/assets/images/sponsors-2023/holberton.png">
-  </a>
+  <div class="flex flex-col md:flex-row gap-8 justify-between items-start md:items-center mt-8 pb-12">
+    <a target="_blank" class="hover:!bg-transparent" href="https://holbertontulsa.com/">
+      <img class="max-w-xs w-full my-8" alt="Holbeton School Tulsa" src="/assets/images/sponsors-2023/holberton.png">
+    </a>
+    <a target="_blank" class="hover:!bg-transparent" href="https://www.gitwit.com/">
+      <img class="max-w-xs w-full my-8" alt="GitWit" src="/assets/images/sponsors-2023/gitwit.png">
+    </a>
+  </div>
 
   ### Exclusive Giveaway Sponsorship
 
-  <a target="_blank" class="hover:!bg-transparent" href="https://www.reasors.com/">
-    <img class="max-w-xs w-full my-4 mb-8" alt="Reasor’s Foods" src="/assets/images/sponsors-2023/reasors.png">
-  </a>
+  <div class="flex flex-col md:flex-row gap-8 justify-between items-start md:items-center mt-8 pb-12">
+    <a target="_blank" class="hover:!bg-transparent" href="https://www.reasors.com/">
+      <img class="max-w-xs w-full my-4 mb-8" alt="Reasor’s Foods" src="/assets/images/sponsors-2023/reasors.png">
+    </a>
+    <a target="_blank" class="hover:!bg-transparent" href="https://www.mcnelliesgroup.com/">
+      <img class="max-w-xs w-full my-4 mb-8" alt="McNellie’s Group" src="/assets/images/sponsors-2023/mcnellies-group.png">
+    </a>
+  </div>
 
   ### Local Sponsors
 
-  <a target="_blank" class="hover:!bg-transparent" href="https://www.hoegg.software">
-    <img class="max-w-xs w-full my-4" alt="Hoegg Software" src="/assets/images/sponsors-2023/hoegg-software.png">
-  </a>
+  <div class="flex flex-col md:flex-row gap-8 justify-between items-start md:items-center mt-8 pb-12">
+    <a target="_blank" class="hover:!bg-transparent" href="https://www.hoegg.software">
+      <img class="max-w-xs w-full my-4" alt="Hoegg Software" src="/assets/images/sponsors-2023/hoegg-software.png">
+    </a>
+    <a target="_blank" class="hover:!bg-transparent" href="https://talent.intulsa.com/">
+      <img class="max-w-xs w-full my-4" alt="inTulsa Talent" src="/assets/images/sponsors-2023/intulsa-talent.png">
+    </a>
+  </div>
 
 </section>
 
