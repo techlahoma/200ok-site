@@ -109,7 +109,7 @@
     </a>
   </div>
 
-  ### Enrrich Sponsors
+  ### Enrich Organization-Level Sponsor
 
   <a target="_blank" class="hover:!bg-transparent" href="https://www.heartland.us/">
     <img class="max-w-xs w-full my-8" alt="Heartland" src="/assets/images/sponsors-2023/heartland.png">
@@ -121,6 +121,8 @@
     <a target="_blank" class="hover:!bg-transparent" href="https://holbertontulsa.com/">
       <img class="max-w-xs w-full my-8" alt="Holbeton School Tulsa" src="/assets/images/sponsors-2023/holberton.png">
     </a>
+
+  ### H2 Level Sponsorship
     <a target="_blank" class="hover:!bg-transparent" href="https://www.gitwit.com/">
       <img class="max-w-xs w-full my-8" alt="GitWit" src="/assets/images/sponsors-2023/gitwit.png">
     </a>
