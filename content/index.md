@@ -121,14 +121,17 @@
     <a target="_blank" class="hover:!bg-transparent" href="https://holbertontulsa.com/">
       <img class="max-w-xs w-full my-8" alt="Holbeton School Tulsa" src="/assets/images/sponsors-2023/holberton.png">
     </a>
+  </div>
 
-  ### H2 Level Sponsorship
+   ### H2 Level Sponsorship
+
+  <div class="flex flex-col md:flex-row gap-8 justify-between items-start md:items-center mt-8 pb-12">
     <a target="_blank" class="hover:!bg-transparent" href="https://www.gitwit.com/">
-      <img class="max-w-xs w-full my-8" alt="GitWit" src="/assets/images/sponsors-2023/gitwit.png">
+      <img class="max-w-[10rem] w-full my-8" alt="GitWit" src="/assets/images/sponsors-2023/gitwit.png">
     </a>
   </div>
 
-  ### Exclusive Giveaway Sponsorship
+   ### Giveaway Sponsorships
 
   <div class="flex flex-col md:flex-row gap-8 justify-between items-start md:items-center mt-8 pb-12">
     <a target="_blank" class="hover:!bg-transparent" href="https://www.reasors.com/">
