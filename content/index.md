@@ -1,4 +1,12 @@
 <section>
+  <div class="mt-12 mb-16">
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 text-xl">
+      <a class="text-center w-full sm:w-auto block sm:inline-block px-8 py-2 border font-bold text-200ok-red hover:text-white border-200ok-red bg-200ok-red-hover" href="https://youtube.com/live/2R5k0Q_sZt0?feature=share" target="_blank">
+        <span class="whitespace-nowrap">Watch Live</span>
+      </a>
+    </div>
+  </div>
+
   <div class="sm:px-6 mb-6">
     <h1 class="font-league-gothic uppercase text-9xl transition-all duration-200 sm:text-[200px] md:text-[256px] text-center block px-0" style="line-height: 0.8;"><span class="text-200ok-blue">10</span>&nbsp;years in&nbsp;<span class="text-200ok-red">tulsa</span></h1>
   </div>

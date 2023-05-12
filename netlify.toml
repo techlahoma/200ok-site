@@ -35,12 +35,12 @@
 
 [[redirects]]
   from = "/watch"
-  to = "https://youtu.be/Kn33zDMbcrs"
+  to = "https://youtu.be/2R5k0Q_sZt0"
   status = 302
   force = true
 
 [[redirects]]
   from = "/stream"
-  to = "https://youtu.be/Kn33zDMbcrs"
+  to = "https://youtu.be/2R5k0Q_sZt0"
   status = 302
   force = true
