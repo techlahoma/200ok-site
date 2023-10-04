@@ -1,0 +1,69 @@
+/* Fonts */
+@font-face {
+    font-family: 'freshmannormal';
+    src: url('fonts/freshman-webfont.woff2') format('woff2'),
+         url('fonts/freshman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Global */
+html {
+  box-sizing: border-box;
+}
+
+ :root {
+  --blue: #3281c4;
+  --red: #ef493c;
+  --font-Rokkitt: 'Rokkitt', serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    
+}
+
+/* Custom Overrides */
+/* use twokay- */
+.twokay-bg-image {
+    /* background-image: url(../images/heather2.png); */
+}
+
+
+.twokay-font-freshman {
+    font-family: "freshmannormal", serif;
+}
+
+.twokay-font-rokkitt {
+    font-family: var(--font-Rokkitt);
+}
+
+.twokay-color-red {
+    color: var(--red);
+}
+
+.twokay-color-blue {
+    color: var(--blue);
+}
+
+.twokay-bg-red {
+    background-color: var(--red);
+}
+
+.twokay-bg-blue {
+    background-color: var(--blue);
+}
+
+.twokay-border-red {
+    border-color: var(--red);
+}
+
+.twokay-border-blue {
+    border-color: var(--blue);
+}
+
