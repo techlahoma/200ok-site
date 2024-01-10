@@ -254,7 +254,7 @@ section a {
   @apply underline;
   @apply inline-block;
   @apply bg-200ok-blue-hover;
-  @apply hover:text-stone-50;
+  @apply hover:text-[#f9f3e6];
 }
 
 section a.button {
