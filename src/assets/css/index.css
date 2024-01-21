@@ -4,278 +4,97 @@
 @tailwind utilities;
 
 /* Fonts */
-
-/* Global overrides */
-
-:root {
-  --font-league-gothic: "League Gothic", sans-serif;
-  --font-league-spartan: "League Spartan", sans-serif;
-  --font-crimson: "Crimson Text", serif;
-  --color-red: #EF493C;
-  --color-blue: #3281C4;
-  --color-gray-dark: #58595B;
-  --color-gray-light: #A6A8AB;
+@font-face {
+  font-family: 'freshmannormal';
+  src: url('../fonts/freshman/freshman-webfont.woff2') format('woff2'),
+       url('../fonts/freshman/freshman-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* Global */
 html {
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
+ :root {
+  --blue: #3281c4;
+  --red: #ef493c;
+  --font-Rokkitt: 'Rokkitt', serif;
+}
+
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
-body {
-    font-family: var(--font-crimson);
-    font-weight: 400;
+/* Custom Overrides */
+/* use twokay- */
+.twokay-bg-image {
+    /* background-image: url(../images/heather2.png); */
 }
 
-/* Custom classes */
 
-.font-league-gothic {
-  font-family: var(--font-league-gothic);
+.twokay-font-freshman {
+    font-family: "freshmannormal", serif;
 }
 
-.font-league-spartan {
-  font-family: var(--font-league-spartan);
+.twokay-font-rokkitt {
+    font-family: var(--font-Rokkitt);
 }
 
-.font-crimson {
-  font-family: var(--font-crimson);
+.twokay-color-red {
+    color: var(--red);
 }
 
-.text-200ok-red, .text-200ok-red-hover:hover {
-  color: var(--color-red);
+.twokay-color-blue {
+    color: var(--blue);
 }
 
-.text-200ok-blue, .text-200ok-blue-hover:hover {
-  color: var(--color-blue);
+.twokay-bg-red {
+    background-color: var(--red);
 }
 
-.border-200ok-red, .border-200ok-red-hover:hover {
-  border-color: var(--color-red);
+.twokay-bg-blue {
+    background-color: var(--blue);
 }
 
-.border-200ok-blue, .border-200ok-blue-hover:hover {
-  border-color: var(--color-blue);
+.twokay-border-red {
+    border-color: var(--red);
 }
 
-.bg-200ok-gray-light {
-  background-color: var(--color-gray-light);
-}
-
-.bg-200ok-gray-dark {
-  background-color: var(--color-gray-dark);
-}
-
-.bg-200ok-red, .bg-200ok-red-hover:hover {
-  background-color: var(--color-red);
-}
-
-.bg-200ok-blue, .bg-200ok-blue-hover:hover {
-  background-color: var(--color-blue);
+.twokay-border-blue {
+    border-color: var(--blue);
 }
 
 .prose h1 {
-  @apply text-3xl;
-  @apply font-bold;
-}
-
-.prose h2 {
-  @apply text-2xl;
-  @apply font-semibold;
-}
-
-.prose h1 ,
-.prose h2 {
+  @apply twokay-font-freshman;
   @apply uppercase;
+  @apply text-2xl;
+  @apply sm:text-3xl;
+  @apply tracking-widest;
   @apply mb-4;
-  @apply mt-0;
-  @apply pt-14;
-
-  border-bottom: 1px solid rgba(77, 36, 98, 0.5);
-  color: var(--color-secondary);
+  @apply text-center;
 }
 
-body, .prose, .prose strong {
-  color: var(--color-tertiary);
-}
-
-.prose h3 {
-  color: var(--color-secondary);
+.prose h2 {
+  @apply mt-8;
+  @apply twokay-font-freshman;
+  @apply uppercase;
+  @apply block;
+  @apply text-xl;
+  @apply tracking-widest;
 }
 
 .prose p {
-  @apply my-4;
-
-  color: var(--color-tertiary);
+  @apply mb-4;
 }
 
-.intro {
-  @apply text-xl;
+.prose ul {
+  @apply list-disc;
+  @apply mb-8;
+  @apply pl-4;
 }
 
-@screen sm {
-  .intro {
-    @apply text-2xl;
-  }
-}
-
-.my-left, .my-right {
-  width: 100%;
-}
-@screen md {
-  .my-left {
-    width: 320px;
-  }
-  .my-right {
-    width: calc(100vw - 320px);
-  }
-}
-
-@screen lg {
-  .my-left {
-    width: 400px;
-  }
-  .my-right {
-    width: calc(100vw - 400px);
-  }
-}
-
-a {
-  @apply relative;
-}
-
-a:hover {
-  @apply underline;
-}
-
-.footer-container ul a > i {
-  @apply absolute left-full -top-1;
-  @apply opacity-0;
-}
-
-.footer-container ul a:hover > i {
-  @apply absolute left-full -top-1;
-  @apply opacity-60;
-}
-
-.prose .button ,
-.button {
-  border-radius: 3px;
-  display: inline-block;
-  padding: 1.1rem 2rem 1rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1rem;
-  transition: all 0.2s ease-out;
-  text-decoration: none;
-  line-height: 1;
-}
-.prose .button:hover ,
-.button:hover {
-  text-decoration: none;
-}
-
-.prose .sponsor a {
-  text-decoration: none;
-}
-
-.prose a {
-  color: var(--color-secondary);
-}
-
-.prose a:hover {
-  color: var(--color-secondary-dark);
-}
-
-.prose .sponsor img {
-  margin: 0;
-}
-
-section {
-  @apply relative;
-
-  @apply container;
-  @apply mx-auto;
-  @apply max-w-screen-md;
-  @apply even:bg-stone-100;
-
-  @apply my-6;
-  @apply px-6;
-  @apply py-2;
-}
-
-section h1 {
-  @apply my-4;
-  @apply pb-3;
-  @apply border-b;
-  @apply border-stone-400;
-  @apply font-league-gothic;
-  @apply uppercase;
-  @apply text-6xl;
-}
-
-section h2 {
-  @apply my-4;
-  @apply pb-3;
-  /* @apply border-b; */
-  /* @apply border-stone-400; */
-  @apply font-league-gothic;
-  @apply uppercase;
-  @apply text-5xl;
-}
-
-section h3 {
-  @apply uppercase;
-  @apply text-xl;
-  @apply italic;
-  @apply border-b;
-  @apply border-stone-400;
-  @apply my-4;
-}
-
-section p {
-  @apply my-6;
-}
-
-section ul {
-  @apply my-6;
-}
-
-section ul li {
-  @apply mb-2;
-}
-
-section a {
-  @apply underline;
-  @apply inline-block;
-  @apply bg-200ok-blue-hover;
-  @apply hover:text-[#f9f3e6];
-}
-
-section a.button {
-  @apply no-underline;
-  @apply text-center;
-  @apply w-full;
-  @apply block;
-  @apply px-6;
-  @apply py-2;
-  @apply border;
-  @apply font-bold;
-  @apply text-stone-900;
-  @apply hover:text-white;
-  @apply border-stone-900;
-  @apply hover:bg-stone-900;
-}
-
-section a.section-button {
-  @apply sm:w-auto;
-  @apply sm:inline-block;
-  @apply sm:absolute;
-  @apply sm:top-6;
-  @apply sm:right-8;
+.prose ul li {
+  @apply mb-4;
 }

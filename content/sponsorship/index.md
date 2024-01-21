@@ -3,6 +3,8 @@ title: 'Sponsorship Prospectus'
 subtitle: 'Help bring together 200 South-by-Midwest web professionals'
 ---
 
+<div class="prose">
+
 <section>
 
   # Sponsorship Prospectus
@@ -155,3 +157,5 @@ subtitle: 'Help bring together 200 South-by-Midwest web professionals'
   drawings, silent auction items, floral arrangements, advertising, softwares, devices, etc.
 
 </section>
+
+</div>
