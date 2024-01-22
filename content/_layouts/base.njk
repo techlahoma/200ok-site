@@ -7,142 +7,72 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
 
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- OG Tags -->
   <meta property="og:title" content="200OK Web Developer Conference">
   <meta property="og:type" content="website">
   <meta property="og:description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
   <meta property="og:url" content="https://200ok.us/">
-  <meta property="og:image" content="https://200ok.us/assets/images/share-2023.jpg">
-
+  <meta property="og:image" content="https://200ok.us/assets/images/share-2024.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@200okconf">
   <meta name="twitter:title" content="200OK Web Developer Conference">
   <meta name="twitter:description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
-  <meta name="twitter:image" content="https://200ok.us/assets/images/share-2023.jpg">
+  <meta name="twitter:image" content="https://200ok.us/assets/images/share-2024.jpg">
 
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="{{ '/assets/css/index.css' | cacheBuster }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=League+Gothic&family=League+Spartan:wght@100;400;900&display=swap">
+  <!-- Fonts -->
   <script src="https://kit.fontawesome.com/7ceac86829.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/index.css' | cacheBuster }}">
 </head>
 
-<body class="bg-stone-50 min-w-min text-stone-900">
-  <header>
-    <div class="container max-w-screen-lg mx-auto mt-4 px-2">
-      <div class="w-full flex items-stretch border-t border-b border-stone-900 leading-loose tracking-wide">
-        <div class="uppercase w-full text-center leading-tight inline-block py-2 ">
-          <span class="hidden md:inline">Friday, </span>
-          May 12, 2023
-        </div>
-        <div class="uppercase w-full text-center leading-tight inline-block py-2 border-l sm:border-x border-stone-900">Tulsa,
-          <span class="inline sm:hidden">OK</span>
-          <span class="hidden sm:inline">Oklahoma</span>
-        </div>
-        <div class="uppercase w-full text-center leading-tight hidden sm:inline-block py-2 ">
-          <a class="text-200ok-red-hover" href="https://holbertontulsa.com/" target="_blank">
-            Holberton
-          <span class="hidden sm:inline">School</span>
-          </a>
-        </div>
-      </div>
-      <div class="block sm:hidden uppercase text-center leading-tight py-2 border-b border-stone-900">
-        <a class="text-200ok-red-hover" href="https://holbertontulsa.com/" target="_blank">
-            Holberton School
-          </a>
-      </div>
-
-      <!-- WIP Navigation -->
-      <!-- <div class="hidden md:block border-b border-stone-900 font-lg px-2">
-        <ul class="w-full flex justify-start items-center leading-loose tracking-wide gap-8 uppercase">
-          <li class="">
-            <a class="" href="#">Register</a>
-          </li>
-          <li class="">
-            <a class="" href="#">Schedule</a>
-          </li>
-          <li class="">
-            <a class="" href="#">Sponsors</a>
-          </li>
-          <li class="">
-            <a class="" href="#">Logistics</a>
-          </li>
-          <li class="ml-auto py-2">
-            <a class="inline-block bg-200ok-red text-white bg-200ok-blue-hover transition duration-200 py-px px-3" href="#">Submit Talk</a>
-          </li>
-
-        </ul>
-      </div> -->
-
-      <div class="container max-w-screen-md mx-auto px-6 mb-6">
-        <a href="/" class="no-underline hover:no-underline my-8 max-w-screen-sm justify-center gap-2 sm:gap-8 flex flex-col sm:flex-row-reverse items-center mx-auto">
-          <h2 class="text-center sm:text-left">Techlahoma Foundation Presents: <br/><strong>Tulsa’s Web&nbsp;Developer Conference</strong></h2>
-          <img class="w-72 sm:w-48 max-w-full block mx-auto sm:mx-0" src="/assets/images/logo.svg" alt="200ok logo">
+<body class="min-w-min bg-[#f9f3e6] p-4 sm:p-6">
+  <div class="bg-stone-900 twokay-bg-image bg-repeat relative py-4 sm:py-16 sm:px-8 md:px-16 rounded-t-lg">
+    <div class="max-w-screen-sm mx-auto mt-4 sm:mt-16 px-4 pb-24 text-[#f9f3e6] twokay-font-rokkitt">
+      <header class="text-center text-[#f9f3e6] twokay-font-freshman uppercase px-4">
+        <a href="/" class="block">
+          <h1>
+            <img class="w-[28rem] mx-auto mb-4" src="/assets/logos/200ok-round.svg" alt="200 OK">
+          </h1>
+          <h2 class="mb-4">
+            <span class="block text-3xl sm:text-5xl mb-4 tracking-wider leading-none">Developer<br/>Conference</span>
+            <span class="block text-2xl sm:text-3xl tracking-widest">Tulsa, OKLA</span>
+          </h2>
+          <div class="block text-2xl sm:text-3xl tracking-widest text-center mb-4">- - -</div>
         </a>
-      </div>
+      </header>
+
+      <main class="">
+        {{ content | safe }}
+      </main>
     </div>
-  </header>
-  <main class="">
-    {{ content | safe }}
-  </main>
-  <footer class="mb-6">
 
-    <div class="container max-w-screen-lg mx-auto mt-8 px-2 ">
-      <div class="flex justify-center sm:justify-start gap-2 sm:gap-4 border-b border-stone-900 py-2">
-        <ul>
-          <li>
-            <a class="text-200ok-red-hover" href="https://twitter.com/200okconf">
-              <i class="fa-brands fa-xl fa-twitter"></i>
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a class="text-200ok-blue-hover" href="https://techlahoma.slack.com/archives/C0HFPH866">
-              <i class="fa-brands fa-xl fa-slack"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- <div class="w-full flex justify-start gap-2 align-middle border-t border-b border-stone-900 px-6 ">
-        <ul>
-          <li>
-            <a href="#">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="#">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
-      </div> -->
+  </div>
 
-      <ul class="list-none text-sm flex justify-between w-full items-center py-2 gap-px sm:gap-8 flex-col sm:flex-row">
-        <li class="">
-          &copy; 2023 Techlahoma Foundation
-        </li>
-        <li class="">
-          <a class="text-200ok-red-hover" href="mailto:200ok@techlahoma.org">Contact Us</a>
-        </li>
-        <li class="">
-          <a class="text-200ok-blue-hover" href="https://www.techlahoma.org/code-of-conduct/" target="_blank">
-            Code of Conduct
-          </a>
-        </li>
-        <li class="">
-          <a class="text-200ok-blue-hover" href="/privacy-policy">Privacy Policy</a>
-        </li>
-        <li class="sm:ml-auto mt-2 sm:mt-0">
-          <a href="https://www.netlify.com" title="Deploys by Netlify">
-            <img src="/assets/images/netlify-dark.svg" alt="Deploys by Netlify" class="; mx-auto w-16">
-          </a>
-        </li>
-      </ul>
-
+  <footer class="bg-stone-800 py-6 sm:p-6 rounded-b-lg twokay-font-rokkitt uppercase tracking-wide">
+    <div class="max-w-screen-lg mx-auto px-4">
+        <div class="flex gap-4 flex-col md:flex-row md:items-center text-[#d7d3ca]">
+            <div class="">
+                <span class="block md:ml-auto lg:ml-0 text-[#f9f3e6]">&copy; 2023 <a href="#">Techlahoma Foundation</a></span>
+                <div class="flex flex-col sm:flex-row sm:gap-4">
+                    <a clas="block" href="mailto:200ok@techlahoma.org">Contact Us</a>
+                    <a clas="block" href="https://www.techlahoma.org/code-of-conduct/">Code of Conduct</a>
+                    <a clas="block" href="/privacy-policy">Privacy Policy</a>
+                </div>
+            </div>
+            <a class="block md:ml-auto" href="https://www.netlify.com">
+              <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" />
+            </a>
+        </div>
     </div>
   </footer>
+
   {% include "scripts.njk" %}
 </body>
 

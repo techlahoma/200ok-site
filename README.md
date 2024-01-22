@@ -4,25 +4,27 @@
 
 This is a static website deployed on [Netlify](https://www.netlify.com/), built with [Eleventy](https://www.11ty.dev/).
 
-### Installing
+### Working locally on the site
 
 ```console
 $ git clone git@github.com:techlahoma/200ok-site.git
 $ cd 200ok-site
 $ npm install
-```
-
-### File Structure
-
-All the copy documents are in `/source`, the theme is `/themes/200ok`, and the original front-end theme is located in `/wrapbootstrap` for reference. Run `hexo new page` to automatically generate a new page if you need more content. All of the `/source` files should be markdown. Posts aren't currently being used.
-
-### Working locally on the site
-
-```console
 $ make dev
 ```
 
 Then go to http://localhost:8888
+
+### File Structure
+
+- `archive/` static captures of previous versions of the website
+- `assets/` file resources for the site like images and logos
+  - `css/` is generated from tailwindcss (see package.json)
+- `content/` [input directory for content](https://www.11ty.dev/docs/config/#input-directory)
+  - `_data/` [directory for global data files](https://www.11ty.dev/docs/config/#directory-for-global-data-files)
+  - `_includes/` [directory for icludes](https://www.11ty.dev/docs/config/#directory-for-includes)
+  - `_layouts/` [directory for layouts](https://www.11ty.dev/docs/config/#directory-for-layouts-(optional))
+- `src/` directory for source code to be compiled (e.g. TailwindCSS source)
 
 ### Deploy Changes
 
