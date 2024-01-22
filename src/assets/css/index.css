@@ -98,3 +98,9 @@ html {
 .prose ul li {
   @apply mb-4;
 }
+
+.prose a {
+  @apply underline;
+
+  color: var(--blue);
+}
