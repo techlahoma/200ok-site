@@ -22,7 +22,7 @@ Then go to http://localhost:8888
   - `css/` is generated from tailwindcss (see package.json)
 - `content/` [input directory for content](https://www.11ty.dev/docs/config/#input-directory)
   - `_data/` [directory for global data files](https://www.11ty.dev/docs/config/#directory-for-global-data-files)
-  - `_includes/` [directory for icludes](https://www.11ty.dev/docs/config/#directory-for-includes)
+  - `_includes/` [directory for includes](https://www.11ty.dev/docs/config/#directory-for-includes)
   - `_layouts/` [directory for layouts](https://www.11ty.dev/docs/config/#directory-for-layouts-(optional))
 - `src/` directory for source code to be compiled (e.g. TailwindCSS source)
 
