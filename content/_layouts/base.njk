@@ -49,7 +49,144 @@
       </header>
 
       <main class="">
-        {{ content | safe }}
+        {# Hero #}
+        <section class="mb-16">
+          {{ content | safe }}
+        </section>
+        
+        {# Speakers #}
+        <!-- <section>
+          <ul>
+            <li></li>
+          </ul>
+        </section> -->
+        {# Schedule #}
+        <section class="mb-16">
+          <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 max-w-xs mx-auto md:mx-0 -rotate-2">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Schedule</h3>
+          <ul>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">8:00</time>
+                <div>Registration / Check-in</div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">9:00</time>
+                <div>Welcome</div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">9:30</time>
+                <div>
+                  <span class="block text-xl">Talk Title</span>
+                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">10:30</time>
+                <div>
+                  <span class="block text-xl">Talk Title</span>
+                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">11:30</time>
+                <div>
+                  <span class="block text-xl">Talk Title</span>
+                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">12:30</time>
+                <div>Lunch Break</div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">1:30</time>
+                <div>Lightning Talks</div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">2:30</time>
+                <div>
+                  <span class="block text-xl">Talk Title</span>
+                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">3:30</time>
+                <div>
+                  <span class="block text-xl">Talk Title</span>
+                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">4:30</time>
+                <div>Closing Remarks</div>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-entry flex gap-4 mb-4">
+                <time class="twokay-font-freshman uppercase w-16 text-right">5:30</time>
+                <div>Afterparty</div>
+              </div>
+            </li>
+          </ul>
+          </div>
+        </section>
+        {# Tickets #}
+        <section>
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Tickets</h3>
+          <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem eaque, explicabo tempore esse ipsum voluptas, similique quas sint incidunt unde repellat totam porro perspiciatis consequatur animi quos odit consequuntur.</p>
+          <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-red px-3 pt-3 pb-2 block sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="#">GET TICKETS</a>
+          
+          <h4>Want to volunteer?</h4>
+          <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem, adipisci, suscipit, corrupti voluptas eligendi quaerat nam placeat dicta reiciendis ducimus! Error, labore architecto animi quia doloremque quo commodi expedita!</p>
+          <!-- TODO: https://github.com/techlahoma/200ok-site/issues/296 -->
+          <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-blue px-3 pt-3 pb-2 block sm:block-inline sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="#">VOLUNTEER</a>
+        </section>
+        {# Location #}
+        <section>
+          <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 mx-auto md:mx-0 py-16">
+            <!-- <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Location</h3> -->
+            <h3 class="">
+              <img class="max-w-sm mx-auto mb-4" src="/assets/images/logo-atlas-navy.png" alt="Atlas School logo">
+            </h3>
+            <p class="text-center mb-8">
+              15 N Cheyenne Ave, Tulsa, OK 74103
+              <br/>
+              <a class="underline underline-offset-2" target="_blank" href="https://www.google.com/maps?q=15+N+Cheyenne+Ave,+Tulsa,+OK+74103">Open in Google Maps</a>
+            </p>
+            <div class="flex gap-8 align-middle justify-center">
+              <img class="rounded-lg w-64 max-w-full rotate-2 drop-shadow-md" src="/assets/images/atlas-campus-portrait.jpg"  alt="The brickwork on the front of the Atlas school building">
+              <img class="rounded-lg w-48 max-w-full -rotate-1 drop-shadow-md"src="/assets/images/atlas-stage-portrait.jpg"  alt="Students sitting in front of a stage, watching a presentation">
+              
+            </div>
+          </div>
+        </section>
+        {# Speakers #}
+        <!-- <section>
+          <ul>
+            <li></li>
+          </ul>
+        </section> -->
+        
+        
       </main>
     </div>
 
