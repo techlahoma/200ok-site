@@ -4,6 +4,8 @@ title: Privacy Policy for 200OK Conference
 
 <div class="prose">
 
+# Privacy Policy
+
 At 200OK Conference, accessible from [200ok.us](https://200ok.us), one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by 200OK Conference and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
