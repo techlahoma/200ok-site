@@ -54,114 +54,153 @@
           {{ content | safe }}
         </section>
         
-        {# Speakers #}
-        <!-- <section>
-          <ul>
-            <li></li>
-          </ul>
-        </section> -->
         {# Schedule #}
         <section class="mb-16 px-4 sm:px-0">
-          <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 max-w-xs mx-auto md:mx-0  -rotate-1 sm:-rotate-2">
-          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Schedule</h3>
-          <ul>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">8:00</time>
-                <div>Registration / Check-in</div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">9:00</time>
-                <div>Welcome</div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">9:30</time>
-                <div>
-                  <span class="block text-xl">Talk Title</span>
-                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+          <!-- Card Left -->
+          <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 max-w-sm mx-auto -rotate-1 sm:-rotate-2">
+            <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Schedule</h3>
+            <!-- Update Schedule: https://github.com/techlahoma/200ok-site/issues/308  -->
+            <ul>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">8:00</time>
+                  <div>Registration / Check-in</div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">10:30</time>
-                <div>
-                  <span class="block text-xl">Talk Title</span>
-                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">9:00</time>
+                  <div>Welcome</div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">11:30</time>
-                <div>
-                  <span class="block text-xl">Talk Title</span>
-                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">9:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">12:30</time>
-                <div>Lunch Break</div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">1:30</time>
-                <div>Lightning Talks</div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">2:30</time>
-                <div>
-                  <span class="block text-xl">Talk Title</span>
-                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">10:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">3:30</time>
-                <div>
-                  <span class="block text-xl">Talk Title</span>
-                  <span class="block twokay-font-freshman uppercase">Speaker</span>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">11:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">4:30</time>
-                <div>Closing Remarks</div>
-              </div>
-            </li>
-            <li>
-              <div class="schedule-entry flex gap-4 mb-4">
-                <time class="twokay-font-freshman uppercase w-16 text-right">5:30</time>
-                <div>Afterparty</div>
-              </div>
-            </li>
-          </ul>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">12:30</time>
+                  <div>Lunch Break</div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">1:30</time>
+                  <div>Lightning Talks</div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">2:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">3:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">4:30</time>
+                  <div>Closing Remarks</div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">5:30</time>
+                  <div>Afterparty</div>
+                </div>
+              </li>
+            </ul>
           </div>
         </section>
+        
         {# Tickets #}
-        <section>
+        <section class="mb-16">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Tickets</h3>
           <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem eaque, explicabo tempore esse ipsum voluptas, similique quas sint incidunt unde repellat totam porro perspiciatis consequatur animi quos odit consequuntur.</p>
           <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-red px-3 pt-3 pb-2 block sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="#">GET TICKETS</a>
+
+          <!-- Add Ti.to Widget: https://github.com/techlahoma/200ok-site/issues/309 -->
           
           <h4>Want to volunteer?</h4>
           <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem, adipisci, suscipit, corrupti voluptas eligendi quaerat nam placeat dicta reiciendis ducimus! Error, labore architecto animi quia doloremque quo commodi expedita!</p>
           <!-- TODO: https://github.com/techlahoma/200ok-site/issues/296 -->
           <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-blue px-3 pt-3 pb-2 block sm:block-inline sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="#">VOLUNTEER</a>
         </section>
+
+        {# Sponsors #}
+        <section class="mb-16">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Sponsors</h3>
+          <!-- Add sponsor link: https://github.com/techlahoma/200ok-site/issues/299  -->
+          <p>Learn more about our different sponsorship levels and become a sponsor today.</p>
+
+          <div class="spacer border-dashed border-b-2 border-[#f9f3e6] my-4"></div> 
+          <!-- Note: Only uncomment levels if they have a sponsor -->
+          <ul>
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">Title</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h1</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h2</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- TODO: Add Rogue sponsorship: https://github.com/techlahoma/200ok-site/issues/307 -->
+            <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h3</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li>
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">In-Kind Donations</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">Exclusive Sponsorships</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+          </ul>
+        </section>
+
         {# Location #}
-        <section>
+        <section class="mb-16">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Location</h3>
           <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 mx-auto md:mx-0 py-16">
             <!-- <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Location</h3> -->
             <h3 class="">
@@ -179,12 +218,88 @@
             </div>
           </div>
         </section>
+
         {# Speakers #}
-        <!-- <section>
+        <section class="mb-16">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Speakers</h3>
+          <p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dignissimos sint blanditiis. Dicta delectus molestiae quidem maiores in, laborum id voluptas reprehenderit illum similique omnis, sequi consequatur. Blanditiis, eveniet aliquid.</p>
+
+          
+          <!-- Note: Each class should alternate image/copy right/left side on desktop -->
           <ul>
-            <li></li>
+            <li class="mb-4">
+              <!-- Copy Left / Image Right -->
+              <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-8 mx-auto md:mx-0">
+                <div class="flex justify-between flex-col sm:flex-row gap-4">
+                  <div>
+                    <div class="mb-4">
+                      <h3 class="font-black text-3xl">Speaker Name</h3>
+                      <h4 class="font-bold text-xl">Speaker Title</h4>
+                    </div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda totam, rem perspiciatis dolores consequuntur error. Ipsum voluptas nemo, delectus, cupiditate aspernatur quas enim nostrum, consequuntur minima alias modi quia illum!</p>
+                    <p><a class="underline" href="#">Link to Website</a></p>
+                  </div>
+                  <img class="rounded-lg w-48 max-w-full rotate-2 drop-shadow-md mb-8 sm:mb-0" src="https://placehold.co/640x890"  alt="The brickwork on the front of the Atlas school building">
+                </div>
+              </div>
+            </li>
+            <li class="mb-4">
+              <!-- Image Left / Copy Right -->
+              <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-8 mx-auto md:mx-0">
+                <div class="flex justify-between flex-col sm:flex-row-reverse gap-4">
+                  <div>
+                    <div class="mb-4">
+                      <h3 class="font-black text-3xl">Speaker Name</h3>
+                      <h4 class="font-bold text-xl">Speaker Title</h4>
+                    </div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda totam, rem perspiciatis dolores consequuntur error. Ipsum voluptas nemo, delectus, cupiditate aspernatur quas enim nostrum, consequuntur minima alias modi quia illum!</p>
+                    <p><a class="underline" href="#">Link to Website</a></p>
+                  </div>
+                  <img class="rounded-lg w-48 max-w-full -rotate-3 sm:mr-2 drop-shadow-md mb-8 sm:mb-0" src="https://placehold.co/640x890"  alt="The brickwork on the front of the Atlas school building">
+                </div>
+              </div>
+            </li>
+            <li class="mb-4">
+              <!-- Copy Left / Image Right -->
+              <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-8 mx-auto md:mx-0">
+                <div class="flex justify-between flex-col sm:flex-row gap-4">
+                  <div>
+                    <div class="mb-4">
+                      <h3 class="font-black text-3xl">Speaker Name</h3>
+                      <h4 class="font-bold text-xl">Speaker Title</h4>
+                    </div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda totam, rem perspiciatis dolores consequuntur error. Ipsum voluptas nemo, delectus, cupiditate aspernatur quas enim nostrum, consequuntur minima alias modi quia illum!</p>
+                    <p><a class="underline" href="#">Link to Website</a></p>
+                  </div>
+                  <img class="rounded-lg w-48 max-w-full rotate-2 drop-shadow-md mb-8 sm:mb-0" src="https://placehold.co/640x890"  alt="The brickwork on the front of the Atlas school building">
+                </div>
+              </div>
+            </li>
+            
           </ul>
-        </section> -->
+        </section>
+
+        {# FAQs #}
+        <section class="mb-16">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">FAQs</h3>
+          
+          <div class="flex flex-col gap-4">
+            <details>
+              <summary class="font-black cursor-pointer"><span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit?</span></summary>
+              Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi sequi maxime inventore.
+            </details>
+          
+            <details>
+              <summary class="font-black cursor-pointer"><span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit?</span></summary>
+              Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi sequi maxime inventore.
+            </details>
+          
+            <details>
+              <summary class="font-black cursor-pointer"><span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit?</span></summary>
+              Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi sequi maxime inventore.
+            </details>            
+          </div>
+        
       </main>
     </div>
 
