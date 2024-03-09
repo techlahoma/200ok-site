@@ -3,8 +3,12 @@
       <div class="flex gap-4 flex-col md:flex-row md:items-center text-[#d7d3ca]">
           <div class="">
               {# Copyright #}
-              <span class="block md:ml-auto lg:ml-0 text-[#f9f3e6]">&copy; 2023 <a href="#">Techlahoma Foundation</a></span>
+              <span id="currentYear" class="block md:ml-auto lg:ml-0 text-[#f9f3e6]">&copy; 2023 <a href="#">Techlahoma Foundation</a></span>
               {# Nav Links #}
+             <p class="opacity-50 text-xs my-8">
+              Copyright <span id="currentYear"></span> –
+              <a href="https://www.techlahoma.org/" class="hover:underline">Techlahoma Foundation</a>
+             </p>
               <div class="flex flex-col sm:flex-row sm:gap-4">
                   <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="mailto:200ok@techlahoma.org">Contact Us</a>
                   <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="https://www.techlahoma.org/code-of-conduct/">Code of Conduct</a>
@@ -34,4 +38,8 @@
           {% endif %}
       </div>
   </div>
-</footer>
+ 
+ </footer>
+
+ 
+

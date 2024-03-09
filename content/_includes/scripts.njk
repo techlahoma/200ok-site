@@ -1,5 +1,6 @@
 {% include "analytics.njk" %}
 
+
 <script>
   function scrollToId(id) {
     var targetElement = document.getElementById(id);
@@ -22,4 +23,14 @@
 
     return false;
   }
+</script>
+
+ <script>
+  // Wait for the DOM to be fully loaded
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the current year
+    var currentYear = new Date().getFullYear();
+    // Display the current year in the footer
+    document.getElementById('currentYear').textContent = "© "+ currentYear +" Techlahoma Foundation";
+  });
 </script>
