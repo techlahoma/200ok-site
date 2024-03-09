@@ -6,8 +6,8 @@
 
   <div class="flex gap-4 flex-col sm:flex-row max-w-xs sm:max-w-none mx-auto justify-center">
     <!-- TODO: https://github.com/techlahoma/200ok-site/issues/295 -->
-    <a tabindex="0" role="link" class="border-double border-8 rounded xtwokay-border-red twokay-bg-red px-3 pt-3 pb-2 block sm:block-inline sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest" href="https://www.papercall.io/200ok2024">SUBMIT TALK</a>
+    <!-- <a tabindex="0" role="link" class="border-double border-8 rounded xtwokay-border-red twokay-bg-red px-3 pt-3 pb-2 block sm:block-inline sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest" href="https://www.papercall.io/200ok2024">SUBMIT TALK</a> -->
     <!-- TODO: https://github.com/techlahoma/200ok-site/issues/299 -->
-    <a tabindex="0" role="link" class="border-double border-8 rounded  twokay-bg-blue px-3 pt-3 pb-2 block sm:block-inline sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest" href="mailto:emilyharden@techlahoma.org?subject=200OK%20Sponsorship%20Options">SPONSOR US</a>
+    <a tabindex="0" role="link" class="border-double border-8 rounded  twokay-bg-blue px-3 pt-3 pb-2 block sm:block-inline sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest" href="../sponsorship/200OK-Sponsorship-Prospectus-2024.pdf">SPONSOR US</a>
   </div>
 </div>
