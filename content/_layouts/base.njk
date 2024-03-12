@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
-  <script src="https://js.tito.io/v2/with/inline" async></script>
+  
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -30,6 +30,9 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/index.css' | cacheBuster }}">
+
+  <!-- JS -->
+  <script src="https://js.tito.io/v2/with/inline" async></script>
 </head>
 
 <body class="min-w-min bg-[#f9f3e6] p-4 sm:p-6">
@@ -54,7 +57,7 @@
         </section>
         
         {# Schedule #}
-        <section class="mb-16 px-4 sm:px-0">
+        <section class="mb-16 px-4 sm:px-0 hidden">
           <!-- Card Left -->
           <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 max-w-sm mx-auto -rotate-1 sm:-rotate-2">
             <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Schedule</h3>
@@ -149,51 +152,19 @@
         <section class="mb-16">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Tickets</h3>
           <p class="mb-4">200OK is a web developer-focused conference run by Oklahoma’s nonprofit tech organization, Techlahoma. Our audience is interested in the newest web technologies and tools. Connect with fellow web professionals and some of the best speakers in the country for a day of presentations about leading web tech topics, plus join in hacking spaces, break-outs, and group discussions.</p>
-          {# <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-red px-3 pt-3 pb-2 block sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="#">GET TICKETS</a> #}
-          <tito-widget event="techlahoma/200ok-2024"></tito-widget>
+          {#  #}
           
-          <h4>Want to volunteer?</h4>
-          <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem, adipisci, suscipit, corrupti voluptas eligendi quaerat nam placeat dicta reiciendis ducimus! Error, labore architecto animi quia doloremque quo commodi expedita!</p>
+          <div class="tito-widget-fallback">
+            <tito-widget id="titoWidget" event="techlahoma/200ok-2024"></tito-widget>
+            <div id="titoWidgetFallback" class="">
+              <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-red px-3 pt-3 pb-2 block sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="https://ti.to/techlahoma/200ok-2024">GET TICKETS</a>
+            </div>
+          </div>
+          
+          <h4 class="font-bold text-xl mb-2">Want to volunteer?</h4>
+          <p class="mb-6">Join us in shaping the future of 200 OK by volunteering, where you can make a real difference in making this conference an inspiring and inclusive event for everyone.</p>
           <!-- TODO: https://github.com/techlahoma/200ok-site/issues/296 -->
           <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-blue px-3 pt-3 pb-2 block sm:block-inline sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="https://airtable.com/app931k76hcCFHLJF/shr5lFfgzznn6YP8T">VOLUNTEER</a>
-        </section>
-
-        {# Sponsors #}
-        <section class="mb-16">
-          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Sponsors</h3>
-          <!-- Add sponsor link: https://github.com/techlahoma/200ok-site/issues/299  -->
-          <p>Learn more about our different sponsorship levels and become a sponsor today.</p>
-
-          <div class="spacer border-dashed border-b-2 border-[#f9f3e6] my-4"></div> 
-          <!-- Note: Only uncomment levels if they have a sponsor -->
-          <ul>
-            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
-              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">Title</h3>
-              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
-            </li> -->
-            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
-              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h1</h3>
-              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
-            </li> -->
-            
-            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
-              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h2</h3>
-              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
-            </li> -->
-            <!-- TODO: Add Rogue sponsorship: https://github.com/techlahoma/200ok-site/issues/307 -->
-            <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
-              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h3</h3>
-              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
-            </li>
-            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
-              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">In-Kind Donations</h3>
-              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
-            </li> -->
-            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
-              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">Exclusive Sponsorships</h3>
-              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
-            </li> -->
-          </ul>
         </section>
 
         {# Location #}
@@ -217,8 +188,47 @@
           </div>
         </section>
 
-        {# Speakers #}
+{# Sponsors #}
         <section class="mb-16">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Sponsors</h3>
+          <!-- Add sponsor link: https://github.com/techlahoma/200ok-site/issues/299  -->
+          <p class="mb-6">Learn more about our different sponsorship levels and become a sponsor today.</p>
+          <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-red px-3 pt-3 pb-2 block sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="https://drive.google.com/file/d/1VvH9_xyWEPjStxWd766-1xA42lvvkSod/view" target="_blank">SPONSOR US</a>
+
+          {# <div class="spacer border-dashed border-b-2 border-[#f9f3e6] my-4"></div>  #}
+          <!-- Note: Only uncomment levels if they have a sponsor -->
+          <ul>
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">Title</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h1</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h2</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- TODO: Add Rogue sponsorship: https://github.com/techlahoma/200ok-site/issues/307 -->
+            {# <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h3</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> #}
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">In-Kind Donations</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">Exclusive Sponsorships</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+          </ul>
+        </section>
+
+        {# Speakers #}
+        <section class="mb-16 hidden">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Speakers</h3>
           <p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dignissimos sint blanditiis. Dicta delectus molestiae quidem maiores in, laborum id voluptas reprehenderit illum similique omnis, sequi consequatur. Blanditiis, eveniet aliquid.</p>
 
@@ -278,7 +288,7 @@
         </section>
 
         {# FAQs #}
-        <section class="mb-16">
+        <section class="mb-16 hidden">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">FAQs</h3>
           
           <div class="flex flex-col gap-4">
