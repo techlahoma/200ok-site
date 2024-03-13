@@ -1,54 +1,37 @@
-<div class="relative color-tertiary">
-  <div class="social-icons">
-    <a target="_blank" href="https://twitter.com/200okconf">
-      {{ 'assets/logos/social/twitter.svg' | readFile | safe }}
-    </a>
-    <a target="_blank" href="https://techlahoma.slack.com/archives/C0HFPH866">
-      {{ 'assets/logos/social/slack.svg' | readFile | safe }}
-    </a>
-    <a target="_blank" href="https://www.linkedin.com/events/200oktulsa-swebdeveloperconfere6899103460290027520">
-      {{ 'assets/logos/social/linkedin.svg' | readFile | safe }}
-    </a>
-    <a target="_blank" href="https://www.meetup.com/Techlahoma-Foundation/events/284205782/">
-      {{ 'assets/logos/social/meetup.svg' | readFile | safe }}
-    </a>
+<footer class="bg-stone-800 py-6 sm:p-6 rounded-b-lg twokay-font-rokkitt uppercase tracking-wide">
+  <div class="max-w-screen-lg mx-auto px-4">
+      <div class="flex gap-4 flex-col md:flex-row md:items-center text-[#d7d3ca]">
+          <div class="">
+              
+              <span id="copyrightyear" class="block md:ml-auto lg:ml-0 text-[#f9f3e6]">&copy; 2024 <a href="#">Techlahoma Foundation</a></span>
+              {# Nav Links #}
+              <div class="flex flex-col sm:flex-row sm:gap-4">
+                  <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="mailto:200ok@techlahoma.org">Contact Us</a>
+                  <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="https://www.techlahoma.org/code-of-conduct/">Code of Conduct</a>
+                  <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="/privacy-policy">Privacy Policy</a>
+              </div>
+              {# Social Links #}
+              {# TODO: Add Social Icons #}
+              <div class="flex flex-col sm:flex-row sm:gap-4">
+                  <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="https://twitter.com/200okconf">Twitter</a>
+                  <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="https://techlahoma.slack.com/archives/C0HFPH866">Slack</a>
+                  <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="https://www.linkedin.com/events/200oktulsa-swebdeveloperconfere6899103460290027520">LinkedIn</a>
+                  <a class="block hover:underline underline-offset-2 hover:text-[#f9f3e6]" href="https://www.meetup.com/Techlahoma-Foundation/events/284205782/">Meetup</a>
+              </div>
+              {# Archive Links #}
+              {# TODO: Add update HREFs based on https://github.com/techlahoma/200ok-site/pull/293  #}
+              {# <div class="flex flex-col sm:flex-row sm:gap-4">
+                  <span>View previous year's sites</span>
+                  <a clas="block" href="/archive/2023">2023</a>
+                  <a clas="block" href="/archive/2022">2022</a>
+                  <a clas="block" href="/archive/2021">2021</a>
+              </div> #}
+          </div>
+          {% if env.NETLIFY %}
+            <a class="block md:ml-auto" href="https://www.netlify.com">
+              <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" />
+            </a>
+          {% endif %}
+      </div>
   </div>
-
-  <div class="footer-container text-center">
-    <ul class="list-none text-sm my-8">
-      <li class="mb-2">
-        <a href="mailto:200ok@techlahoma.org">
-          Contact Us
-          <i class="ri-mail-send-line"></i>
-        </a>
-      </li>
-      <li class="mb-2">
-        <a href="https://www.techlahoma.org/code-of-conduct/">
-          Code of Conduct
-          <i class="ri-external-link-line"></i>
-        </a>
-      </li>
-      <li class="mb-2">
-        <a href="/sponsorship">
-          Sponsorship
-        </a>
-      </li>
-      <li class="mb-2">
-        <a href="/privacy-policy">Privacy Policy</a>
-      </li>
-    </ul>
-
-    <p class="opacity-50 text-xs my-8">
-      Copyright {{ env.YEAR }} –
-      <a href="https://www.techlahoma.org/" class="hover:underline">Techlahoma&nbsp;Foundation</a>
-    </p>
-
-    {% if env.NETLIFY %}
-      <p class="my-8">
-        <a href="https://www.netlify.com" title="Deploys by Netlify">
-          <img src="/assets/images/netlify-dark.svg" alt="Deploys by Netlify" class="; mx-auto w-20">
-        </a>
-      </p>
-    {% endif %}
-  </div>
-</div>
+</footer>

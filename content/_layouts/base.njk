@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>{{ title or metadata.title }}{{ ' | ' if title or metadata.title }}200OK - Tulsa’s Web Developer Conference</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
-
+  
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -30,6 +30,9 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/index.css' | cacheBuster }}">
+
+  <!-- JS -->
+  <script src="https://js.tito.io/v2/with/inline" async></script>
 </head>
 
 <body class="min-w-min bg-[#f9f3e6] p-4 sm:p-6">
@@ -48,30 +51,269 @@
         </a>
       </header>
 
-      <main class="">
-        {{ content | safe }}
+        {# Hero #}
+        <section class="mb-16">
+          {{ content | safe }}
+        </section>
+        
+        {# Schedule #}
+        <section class="mb-16 px-4 sm:px-0 hidden">
+          <!-- Card Left -->
+          <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 max-w-sm mx-auto -rotate-1 sm:-rotate-2">
+            <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Schedule</h3>
+            <!-- Update Schedule: https://github.com/techlahoma/200ok-site/issues/308  -->
+            <ul>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">8:00</time>
+                  <div>Registration / Check-in</div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">9:00</time>
+                  <div>Welcome</div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">9:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">10:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">11:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">12:30</time>
+                  <div>Lunch Break</div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">1:30</time>
+                  <div>Lightning Talks</div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">2:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">3:30</time>
+                  <div>
+                    <span class="block text-xl">Talk Title</span>
+                    <span class="block twokay-font-freshman uppercase">Speaker</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">4:30</time>
+                  <div>Closing Remarks</div>
+                </div>
+              </li>
+              <li>
+                <div class="schedule-entry flex gap-4 mb-4">
+                  <time class="twokay-font-freshman uppercase w-16 text-right">5:30</time>
+                  <div>Afterparty</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        
+        {# Tickets #}
+        <section class="mb-16">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Tickets</h3>
+          <p class="mb-4">200OK is a web developer-focused conference run by Oklahoma’s nonprofit tech organization, Techlahoma. Our audience is interested in the newest web technologies and tools. Connect with fellow web professionals and some of the best speakers in the country for a day of presentations about leading web tech topics, plus join in hacking spaces, break-outs, and group discussions.</p>
+          {#  #}
+          
+          <div class="tito-widget-fallback">
+            <tito-widget id="titoWidget" event="techlahoma/200ok-2024"></tito-widget>
+            <div id="titoWidgetFallback" class="">
+              <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-red px-3 pt-3 pb-2 block sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="https://ti.to/techlahoma/200ok-2024">GET TICKETS</a>
+            </div>
+          </div>
+          
+          <h4 class="font-bold text-xl mb-2">Want to volunteer?</h4>
+          <p class="mb-6">Join us in shaping the future of 200 OK by volunteering, where you can make a real difference in making this conference an inspiring and inclusive event for everyone.</p>
+          <!-- TODO: https://github.com/techlahoma/200ok-site/issues/296 -->
+          <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-blue px-3 pt-3 pb-2 block sm:block-inline sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="https://airtable.com/app931k76hcCFHLJF/shr5lFfgzznn6YP8T">VOLUNTEER</a>
+        </section>
+
+        {# Location #}
+        <section class="mb-16">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Location</h3>
+          <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 mx-auto md:mx-0 py-16">
+            <!-- <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Location</h3> -->
+            <h3 class="">
+              <img class="max-w-sm w-full mx-auto mb-4" src="/assets/images/logo-atlas-navy.png" alt="Atlas School logo">
+            </h3>
+            <p class="text-center mb-8">
+              15 N Cheyenne Ave, Tulsa, OK 74103
+              <br/>
+              <a class="underline underline-offset-2" target="_blank" href="https://www.google.com/maps?q=15+N+Cheyenne+Ave,+Tulsa,+OK+74103">Open in Google Maps</a>
+            </p>
+            <div class="flex flex-col sm:flex-row gap-8 items-center justify-center">
+              <img class="rounded-lg w-64 max-w-full rotate-2 drop-shadow-md mb-8 sm:mb-0" src="/assets/images/atlas-campus-portrait.jpg"  alt="The brickwork on the front of the Atlas school building">
+              <img class="rounded-lg w-48 max-w-full -rotate-1 drop-shadow-md"src="/assets/images/atlas-stage-portrait.jpg"  alt="Students sitting in front of a stage, watching a presentation">
+              
+            </div>
+          </div>
+        </section>
+
+{# Sponsors #}
+        <section class="mb-16">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Sponsors</h3>
+          <!-- Add sponsor link: https://github.com/techlahoma/200ok-site/issues/299  -->
+          <p class="mb-6">Learn more about our different sponsorship levels and become a sponsor today.</p>
+          <a tabindex="0" role="link" class="border-double border-8 rounded twokay-bg-red px-3 pt-3 pb-2 block sm:px-8 md:px-12 text-[#f9f3e6] text-lg tracking-widest max-w-full w-full sm:w-64 text-center mb-8" href="https://drive.google.com/file/d/1VvH9_xyWEPjStxWd766-1xA42lvvkSod/view" target="_blank">SPONSOR US</a>
+
+          {# <div class="spacer border-dashed border-b-2 border-[#f9f3e6] my-4"></div>  #}
+          <!-- Note: Only uncomment levels if they have a sponsor -->
+          <ul>
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">Title</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h1</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h2</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- TODO: Add Rogue sponsorship: https://github.com/techlahoma/200ok-site/issues/307 -->
+            {# <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">h3</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> #}
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">In-Kind Donations</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+            <!-- <li class="spacer border-dashed border-b-2 border-[#f9f3e6] pb-8 mb-8">
+              <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-2">Exclusive Sponsorships</h3>
+              <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+            </li> -->
+          </ul>
+        </section>
+
+        {# Speakers #}
+        <section class="mb-16 hidden">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Speakers</h3>
+          <p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dignissimos sint blanditiis. Dicta delectus molestiae quidem maiores in, laborum id voluptas reprehenderit illum similique omnis, sequi consequatur. Blanditiis, eveniet aliquid.</p>
+
+          
+          <!-- Note: Each class should alternate image/copy right/left side on desktop -->
+          <ul>
+            <li class="mb-4">
+              <!-- Copy Left / Image Right -->
+              <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-8 mx-auto md:mx-0">
+                <div class="flex justify-between flex-col sm:flex-row gap-4">
+                  <div>
+                    <div class="mb-4">
+                      <h3 class="font-black text-3xl">Speaker Name</h3>
+                      <h4 class="font-bold text-xl">Speaker Title</h4>
+                    </div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda totam, rem perspiciatis dolores consequuntur error. Ipsum voluptas nemo, delectus, cupiditate aspernatur quas enim nostrum, consequuntur minima alias modi quia illum!</p>
+                    <p><a class="underline" href="#">Link to Website</a></p>
+                  </div>
+                  <img class="rounded-lg w-48 max-w-full rotate-2 drop-shadow-md mb-8 sm:mb-0" src="https://placehold.co/640x890"  alt="The brickwork on the front of the Atlas school building">
+                </div>
+              </div>
+            </li>
+            <li class="mb-4">
+              <!-- Image Left / Copy Right -->
+              <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-8 mx-auto md:mx-0">
+                <div class="flex justify-between flex-col sm:flex-row-reverse gap-4">
+                  <div>
+                    <div class="mb-4">
+                      <h3 class="font-black text-3xl">Speaker Name</h3>
+                      <h4 class="font-bold text-xl">Speaker Title</h4>
+                    </div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda totam, rem perspiciatis dolores consequuntur error. Ipsum voluptas nemo, delectus, cupiditate aspernatur quas enim nostrum, consequuntur minima alias modi quia illum!</p>
+                    <p><a class="underline" href="#">Link to Website</a></p>
+                  </div>
+                  <img class="rounded-lg w-48 max-w-full -rotate-3 sm:mr-2 drop-shadow-md mb-8 sm:mb-0" src="https://placehold.co/640x890"  alt="The brickwork on the front of the Atlas school building">
+                </div>
+              </div>
+            </li>
+            <li class="mb-4">
+              <!-- Copy Left / Image Right -->
+              <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-8 mx-auto md:mx-0">
+                <div class="flex justify-between flex-col sm:flex-row gap-4">
+                  <div>
+                    <div class="mb-4">
+                      <h3 class="font-black text-3xl">Speaker Name</h3>
+                      <h4 class="font-bold text-xl">Speaker Title</h4>
+                    </div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda totam, rem perspiciatis dolores consequuntur error. Ipsum voluptas nemo, delectus, cupiditate aspernatur quas enim nostrum, consequuntur minima alias modi quia illum!</p>
+                    <p><a class="underline" href="#">Link to Website</a></p>
+                  </div>
+                  <img class="rounded-lg w-48 max-w-full rotate-2 drop-shadow-md mb-8 sm:mb-0" src="https://placehold.co/640x890"  alt="The brickwork on the front of the Atlas school building">
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+        </section>
+
+        {# FAQs #}
+        <section class="mb-16 hidden">
+          <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">FAQs</h3>
+          
+          <div class="flex flex-col gap-4">
+            <details>
+              <summary class="font-black cursor-pointer"><span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit?</span></summary>
+              Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi sequi maxime inventore.
+            </details>
+          
+            <details>
+              <summary class="font-black cursor-pointer"><span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit?</span></summary>
+              Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi sequi maxime inventore.
+            </details>
+          
+            <details>
+              <summary class="font-black cursor-pointer"><span class="">Lorem ipsum dolor sit amet consectetur adipisicing elit?</span></summary>
+              Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi sequi maxime inventore.
+            </details>            
+          </div>
+        
       </main>
     </div>
 
   </div>
 
-  <footer class="bg-stone-800 py-6 sm:p-6 rounded-b-lg twokay-font-rokkitt uppercase tracking-wide">
-    <div class="max-w-screen-lg mx-auto px-4">
-        <div class="flex gap-4 flex-col md:flex-row md:items-center text-[#d7d3ca]">
-            <div class="">
-                <span class="block md:ml-auto lg:ml-0 text-[#f9f3e6]">&copy; 2023 <a href="#">Techlahoma Foundation</a></span>
-                <div class="flex flex-col sm:flex-row sm:gap-4">
-                    <a clas="block" href="mailto:200ok@techlahoma.org">Contact Us</a>
-                    <a clas="block" href="https://www.techlahoma.org/code-of-conduct/">Code of Conduct</a>
-                    <a clas="block" href="/privacy-policy">Privacy Policy</a>
-                </div>
-            </div>
-            <a class="block md:ml-auto" href="https://www.netlify.com">
-              <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" />
-            </a>
-        </div>
-    </div>
-  </footer>
+  {% include "footer.njk" %}
 
   {% include "scripts.njk" %}
 </body>
