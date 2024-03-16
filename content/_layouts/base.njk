@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
   <meta charset="utf-8">
   <title>{{ title or metadata.title }}{{ ' | ' if title or metadata.title }}200OK - Tulsa’s Web Developer Conference</title>
@@ -50,14 +50,23 @@
           <div class="block text-2xl sm:text-3xl tracking-widest text-center mb-4">- - -</div>
         </a>
       </header>
+      <main class="relative">
 
         {# Hero #}
         <section class="mb-16">
           {{ content | safe }}
         </section>
+
+        <nav class="sticky z-10 top-0 w-full flex gap-8 text-2xl align-middle justify-center mb-16 py-4 bg-gradient-to-b from-stone-900">
+          <a class="hover:text-[#ef493c]" href="#schedule">Schedule</a>
+          <a class="hover:text-[#ef493c]" href="#tickets">Tickets</a>
+          <a class="hover:text-[#ef493c]" href="#location">Location</a>
+          <a class="hover:text-[#ef493c]" href="#sponsors">Sponsors</a>
+          <a class="hover:text-[#ef493c]" href="#faqs">FAQs</a>
+        </nav>
         
         {# Schedule #}
-        <section class="mb-16 px-4 sm:px-0">
+        <section id="schedule" class="mb-16 px-4 sm:px-0">
           <!-- Card Left -->
           <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 max-w-sm mx-auto -rotate-1 sm:-rotate-2">
             <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Schedule</h3>
@@ -151,7 +160,7 @@
         </section>
         
         {# Tickets #}
-        <section class="mb-16">
+        <section id="tickets" class="mb-16">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Tickets</h3>
           <p class="mb-4">200OK is a web developer-focused conference run by Oklahoma’s nonprofit tech organization, Techlahoma. Our audience is interested in the newest web technologies and tools. Connect with fellow web professionals and some of the best speakers in the country for a day of presentations about leading web tech topics, plus join in hacking spaces, break-outs, and group discussions.</p>
           {#  #}
@@ -170,7 +179,7 @@
         </section>
 
         {# Location #}
-        <section class="mb-16">
+        <section id="location" class="mb-16">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Location</h3>
           <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 mx-auto md:mx-0 py-16">
             <!-- <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Location</h3> -->
@@ -191,7 +200,7 @@
         </section>
 
         {# Sponsors #}
-        <section class="mb-16">
+        <section id="sponsors" class="mb-16">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Sponsors</h3>
           <!-- Add sponsor link: https://github.com/techlahoma/200ok-site/issues/299  -->
           <p class="mb-6">Learn more about our different sponsorship levels and become a sponsor today.</p>
@@ -230,7 +239,7 @@
         </section>
 
         {# Speakers #}
-        <section class="mb-16">
+        <section id="speakers" class="mb-16">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Speakers</h3>
           <p class="mb-8">Meet the distinguished speakers who will be presenting at 200 OK, each bringing unique insights and experiences to enrich our understanding of the web development ecosystem.</p>
           
@@ -312,7 +321,7 @@
         </section>
 
         {# FAQs #}
-        <section class="mb-16 hidden">
+        <section id="faqs" class="mb-16 hidden">
           <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">FAQs</h3>
           
           <div class="flex flex-col gap-4">
@@ -331,7 +340,8 @@
               Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi sequi maxime inventore.
             </details>            
           </div>
-        
+
+        </section>
       </main>
     </div>
 

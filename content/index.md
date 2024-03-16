@@ -1,6 +1,6 @@
 <div class="text-center text-[#f9f3e6] twokay-font-freshman uppercase">
   <h3 class="block text-2xl sm:text-3xl tracking-widest mb-8">
-    Friday, May 17, 2024 <br/>
+    <span>Friday,</span> <span class="inline-block">May 17, 2024</span> <br/>
     <span class="cursor-help inline-block" title="15 N Cheyenne Ave, Tulsa, OK 74103">Atlas School</span>
   </h3>
 
