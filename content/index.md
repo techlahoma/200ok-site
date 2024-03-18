@@ -145,6 +145,13 @@
       href="https://drive.google.com/file/d/1VvH9_xyWEPjStxWd766-1xA42lvvkSod/view"
       target="_blank">SPONSOR US</a>
   </p>
+    <div class="row sponsor-row text-center">
+      <div class="col-sm-12 mrgn-10-top-btm">
+          <a href="https://roguerecruitment.com/" target="_blank">
+            <img style="margin-top: 4%; " class="img-responsive center-block" src="/assets-2019/media/sponsors/rogue-recruitment.jpg" width="600" height="100" alt="Rogue Recruitment logo">
+          </a>
+      </div>
+    </div>
 </section>
 
 <section id="speakers" class="pt-16">
