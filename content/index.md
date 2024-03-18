@@ -28,7 +28,7 @@
           <time class="twokay-font-freshman uppercase w-16 text-right shrink-0">10:30</time>
           <div class="grow-0">
             <span class="block text-xl leading-none mb-1">Blending Product Thinking with&nbsp;Architecture</span>
-            <span class="block twokay-font-freshman uppercase">Rhia Dixon</span>
+            <span class="block twokay-font-freshman uppercase">Joel Tosi</span>
           </div>
         </div>
       </li>
@@ -67,7 +67,7 @@
           <time class="twokay-font-freshman uppercase w-16 text-right shrink-0">3:30</time>
           <div class="grow-0">
             <span class="block text-xl leading-none mb-1">Getting Good (or Better) at Code&nbsp;Reviews</span>
-            <span class="block twokay-font-freshman uppercase">Camille Hall</span>
+            <span class="block twokay-font-freshman uppercase">Rhia Dixon</span>
           </div>
         </div>
       </li>
