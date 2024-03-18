@@ -22,10 +22,37 @@
 
     return false;
   }
+  
   let copyrightyear = document.getElementById("copyrightyear")
   copyrightyear.innerText = "© " + new Date().getFullYear() + " Techlahoma Foundation"
   
+  // Add observer for the injected Ti.to widget. If it loads, hide the static "Get Tickets" button
+  document.addEventListener("DOMContentLoaded", (event) => {
 
+    const titoWidget = document.getElementById("titoWidget");
 
+    const titoWidgetFallback = document.getElementById("titoWidgetFallback");
+
+    // Options for the observer (which mutations to observe)
+    const config = { attributes: true, childList: true, subtree: true };
+
+    // Callback function to execute when mutations are observed
+    const callback = (mutationList, observer) => {
+      for (const mutation of mutationList) {
+        if (mutation.type === "childList") {
+           titoWidgetFallback.classList.add("hidden");
+        }
+      }
+    };
+      
+    
+    
+    // Create an observer instance linked to the callback function
+const observer = new MutationObserver(callback);
+
+// Start observing the target node for configured mutations
+observer.observe(titoWidget, config);
+
+  });
 
 </script>

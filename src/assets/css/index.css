@@ -27,6 +27,36 @@ html {
   box-sizing: inherit;
 }
 
+.button {
+  @apply border-double;
+  @apply border-8;
+  @apply rounded;
+  @apply px-3;
+  @apply pt-3;
+  @apply pb-2;
+  @apply block;
+  @apply text-[#f9f3e6];
+  @apply text-lg;
+  @apply tracking-widest;
+  @apply twokay-font-freshman;
+  @apply uppercase;
+
+  background-color: var(--blue);
+}
+
+@media screen(sm) {
+  .button {
+    @apply inline-block;
+    @apply px-8;
+  }
+}
+
+@media screen(md) {
+  .button {
+    @apply px-12;
+  }
+}
+
 /* Custom Overrides */
 /* use twokay- */
 .twokay-bg-image {
