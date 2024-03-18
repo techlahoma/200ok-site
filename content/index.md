@@ -136,14 +136,21 @@
 
 <section id="sponsors" class="pt-16">
   <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Sponsors</h3>
-  <p class="mb-6">Learn more about our different sponsorship levels and become a sponsor today.</p>
+  <div class="grid gap-8 my-8">
+    <div>
+      <a href="https://roguerecruitment.com/" target="_blank">
+        <img src="/assets/images/sponsors-2024/rogue-recruitment.png" alt="Rogue Recruitment logo">
+      </a>
+    </div>
+  </div>
+  <p class="mb-6 text-center">Learn more about our different sponsorship levels and become a sponsor&nbsp;today.</p>
   <p class="text-center">
     <a
       tabindex="0"
       role="link"
       class="button"
       href="https://drive.google.com/file/d/1VvH9_xyWEPjStxWd766-1xA42lvvkSod/view"
-      target="_blank">SPONSOR US</a>
+      target="_blank">Sponsor Us</a>
   </p>
 </section>
 

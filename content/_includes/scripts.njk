@@ -23,12 +23,15 @@
     return false;
   }
 
-  let copyrightyear = document.getElementById("copyrightyear")
-  copyrightyear.innerText = "© " + new Date().getFullYear() + " Techlahoma Foundation"
-  
+  ;(function () {
+    const year = new Date().getFullYear();
+    const copyrightyear = document.getElementById('copyrightyear');
+
+    copyrightyear.innerText = `© ${new Date().getFullYear()} Techlahoma Foundation`;
+  })();
+
   // Add observer for the injected Ti.to widget. If it loads, hide the static "Get Tickets" button
   document.addEventListener("DOMContentLoaded", (event) => {
-
     const titoWidget = document.getElementById("titoWidget");
 
     const titoWidgetFallback = document.getElementById("titoWidgetFallback");
@@ -44,17 +47,11 @@
         }
       }
     };
-      
-    
-    
+
     // Create an observer instance linked to the callback function
-const observer = new MutationObserver(callback);
+    const observer = new MutationObserver(callback);
 
-// Start observing the target node for configured mutations
-observer.observe(titoWidget, config);
-
+    // Start observing the target node for configured mutations
+    observer.observe(titoWidget, config);
   });
-
-
-
 </script>
