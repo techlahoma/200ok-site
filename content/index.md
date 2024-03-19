@@ -137,7 +137,7 @@
 
 <section id="sponsors" class="pt-16">
   <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center mb-8">Sponsors</h3>
-  <p class="mb-8 text-center text-lg leading-none mx-auto max-w-md">Thank you to our sponsors for their efforts both support our conference and the Tulsa community:</p>
+  <p class="mb-8 text-center text-lg leading-none mx-auto max-w-md">We acknowledge and appreciate the support of our sponsors for our conference and the greater Tulsa community.</p>
   <!-- <div class="grid gap-8 my-8">
     <div>
       <a href="https://roguerecruitment.com/" target="_blank">
