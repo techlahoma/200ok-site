@@ -135,14 +135,41 @@
 </section>
 
 <section id="sponsors" class="pt-16">
-  <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Sponsors</h3>
-  <div class="grid gap-8 my-8">
+  <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center mb-8">Sponsors</h3>
+  <p class="mb-8 text-center text-lg leading-none mx-auto max-w-md">Thank you to our sponsors for their efforts both support our conference and the Tulsa community:</p>
+  <!-- <div class="grid gap-8 my-8">
     <div>
       <a href="https://roguerecruitment.com/" target="_blank">
         <img src="/assets/images/sponsors-2024/rogue-recruitment.png" alt="Rogue Recruitment logo">
       </a>
     </div>
-  </div>
+  </div> -->
+  <ul class="border-dashed border-[#868684] pt-8">
+      <!-- <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
+        <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-6">Title</h3>
+        <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+      </li> -->
+      <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
+        <!-- <h3 class="block text-xl sm:text-2xl  my-4  mb-6 font-black"><span class="tracking-widest twokay-font-freshman uppercase inline-block">h1</span> Sponsor Level:</h3> -->
+        <a class="text-center block" href="https://www.atlasschool.com/" target="_blank">
+          <img class=" max-w-sm mx-auto mb-4" src="/assets/images/sponsors-2024/atlas-school.png" alt="Atlas School logo">
+          <p class="italic"><code>&lsaquo;h1&rsaquo;</code> and Venue Sponsor</p>
+        </a>
+      </li>
+      <!-- <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
+        <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-6">h2</h3>
+        <a class="text-center block" href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
+      </li> -->
+      <!-- TODO: Add Rogue sponsorship: https://github.com/techlahoma/200ok-site/issues/307 -->
+      <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
+        <!-- <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-6">h3</h3> -->
+        <a class="text-center block" href="https://roguerecruitment.com/" target="_blank">
+          <img class="rounded-xl mx-auto max-w-lg mb-2" src="/assets/images/sponsors-2024/rogue-recruitment.png" alt="Rogue Recruitment logo">
+          <p class="italic"><code>&lsaquo;h3&rsaquo;</code> Sponsor</p>
+        </a>
+      </li>
+    </ul>
+          
   <p class="mb-6 text-center">Learn more about our different sponsorship levels and become a sponsor&nbsp;today.</p>
   <p class="text-center">
     <a
