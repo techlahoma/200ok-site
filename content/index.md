@@ -19,7 +19,8 @@
         <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
           <time class="twokay-font-freshman uppercase w-16 text-right shrink-0">9:30</time>
           <div class="grow-0">
-            <div class="grow-0">TBA</div>
+            <span class="block text-xl leading-none mb-1">Dev-Friendly Design: Intro to Object Oriented UX (OOUX) for&nbsp;Web&nbsp;Devs</span>
+            <span class="block twokay-font-freshman uppercase">Elena Haskins</span>
           </div>
         </div>
       </li>
@@ -156,8 +157,9 @@
 
 <section id="speakers" class="pt-16">
   <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Speakers</h3>
-  <p class="mb-8">Meet the distinguished speakers who will be presenting at 200 OK, each bringing unique insights and
+  <p class="mb-4">Meet the distinguished speakers who will be presenting at 200 OK, each bringing unique insights and
     experiences to enrich our understanding of the web development ecosystem.</p>
+  <p class="mb-8 text-center opacity-80"><em>Additional speaker biographies coming soon.</em></p>
   <!-- Note: Each class should alternate image/copy right/left side on desktop -->
   <ul>
     <li
