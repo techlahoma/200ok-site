@@ -151,10 +151,11 @@
         <a href="#"><img class="rounded-xl max-w-xs" src="https://placehold.co/600x400" alt=""></a>
       </li> -->
       <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
+        <p class="italic block text-center mb-6"><code>&lsaquo;h1&rsaquo;</code> Sponsors</p>
         <!-- <h3 class="block text-xl sm:text-2xl  my-4  mb-6 font-black"><span class="tracking-widest twokay-font-freshman uppercase inline-block">h1</span> Sponsor Level:</h3> -->
         <a class="text-center block" href="https://www.atlasschool.com/" target="_blank">
           <img class=" max-w-sm mx-auto mb-4" src="/assets/images/sponsors-2024/atlas-school.png" alt="Atlas School logo">
-          <p class="italic"><code>&lsaquo;h1&rsaquo;</code> and Venue Sponsor</p>
+          <p class="italic">Special thanks to Atlas School for venue sponsorship</p>
         </a>
       </li>
       <!-- <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
@@ -163,10 +164,13 @@
       </li> -->
       <!-- TODO: Add Rogue sponsorship: https://github.com/techlahoma/200ok-site/issues/307 -->
       <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
-        <!-- <h3 class="block text-xl sm:text-2xl tracking-widest my-4 twokay-font-freshman uppercase mb-6">h3</h3> -->
-        <a class="text-center block" href="https://roguerecruitment.com/" target="_blank">
+        <p class="italic block text-center mb-6"><code>&lsaquo;h3&rsaquo;</code> Sponsors</p>
+        <a class="text-center block mb-6" href="https://roguerecruitment.com/" target="_blank">
           <img class="rounded-xl mx-auto max-w-lg mb-2" src="/assets/images/sponsors-2024/rogue-recruitment.png" alt="Rogue Recruitment logo">
-          <p class="italic"><code>&lsaquo;h3&rsaquo;</code> Sponsor</p>
+        </a>
+        <a class="text-center block" href="https://www.gitwit.com/" target="_blank">
+          <img class="rounded-xl mx-auto max-w-lg mb-2" src="/assets/images/sponsors-2024/gitwit.png" alt="Gitwit logo">
+          <!-- <p class="italic"><code>&lsaquo;h3&rsaquo;</code> Sponsor</p> -->
         </a>
       </li>
     </ul>
