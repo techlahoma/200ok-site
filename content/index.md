@@ -218,7 +218,7 @@
             </p>
             <!-- Links -->
             <p>
-              <a class="underline" target="_blank" href="https://creativeambition.net">Creative Ambition</a>
+              <a class="underline mr-2" target="_blank" href="https://creativeambition.net">Creative Ambition</a>
               <a class="underline" target="_blank" href="https://linkedin.com/in/ach206">LinkedIn</a>
             </p>
           </div>
@@ -285,7 +285,61 @@
             <img
               class="w-48 max-w-full rounded-lg aspect-[64/98] outline outline-4 outline-stone-900"
               src="/assets/images/speakers-2024/rhia-dixon.jpg"
-              alt="Camille Hall">
+              alt="Rhia Dixon">
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      class="mb-4">
+      <!-- Image Left / Copy Right -->
+      <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-8 mx-auto md:mx-0">
+        <div class="flex justify-between flex-col sm:flex-row-reverse gap-4">
+          <div>
+            <div class="mb-4">
+              <h3 class="font-black text-3xl">Kristy K. Boone</h3>
+              <span class="font-bold text-xl leading-none block">EI + AI: The Human Side of Tech</span>
+            </div>
+            <p class="mb-4">Kristy K Boone is native to Oklahoma City and is currently a Master's of Education Student with an emphasis in Transformative Leadership & Education. Her consulting business provides strategic support to clients in the digital and tech space, as well as interactive trainings around trauma-informed communication and conflict resolution.</p>
+            <!-- <p>Clients include Girl Scouts Western Oklahoma, General Mills, Dippin' Dots, AXA Financial Advisors, and many others. She has  over a decade experience performing, training, and learning improvisation for theatre. She's been the lead in many commercial and film projects, including Mercedes Benz and Gremlin (no "s"). Her corporate history includes wellness facilitation for Integris, American Fidelity, and Johnson & Johnson, as well as Director of Sales & Marketing positions held in the tech space. Most importantly she is a mom and gaga to amazing humans and a forever home for three rescued pets. </p> -->
+            <!-- Links -->
+            <p>
+              <a class="underline mr-2" target="_blank" href="https://www.premiumimpactok.com/">Premium Impact, LLC</a>
+              <a class="underline" target="_blank" href="https://linkedin.com/in/kristykboone">LinkedIn</a>
+            </p>
+          </div>
+          <div class=" w-48  -rotate-3 sm:mr-2 drop-shadow-md mb-8 sm:mb-0 shrink-0">
+            <img
+              class="w-48 max-w-full rounded-lg aspect-[64/98] outline outline-4 outline-stone-900"
+              src="/assets/images/speakers-2024/kristy-k-boone.jpg"
+              alt="Kristy K. Boone">
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      class="mb-4">
+      <!-- Copy Left / Image Right -->
+      <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-8 mx-auto md:mx-0">
+        <div class="flex justify-between flex-col sm:flex-row gap-4">
+          <div class="shrink">
+            <div class="mb-4">
+              <h3 class="font-black text-3xl">Elena Haskins</h3>
+              <span class="font-bold text-xl leading-none block">UX in a Bottle: Intro to Object Oriented UX (OOUX) for Web Devs</span>
+            </div>
+            <p class="mb-4">
+              Elena Haskins is a UX Product Designer that runs Anele UX Studio, She is Object-Oriented UX certified and uses this process to make all her products more intuitive. She has worked across all industries and companies from early-stage startups to enterprise clients like Prudential and Party City.</p>
+            <!-- Links -->
+            <p>
+              <a class="underline mr-2" target="_blank" href="https://www.anele.design/">Anele UX Studio</a>
+              <a class="underline" target="_blank" href="https://linkedin.com/in/elenajhaskins/">LinkedIn</a>
+            </p>
+          </div>
+          <div class=" w-48  rotate-2 drop-shadow-md mb-8 sm:mb-0 shrink-0">
+            <img
+              class="w-48 max-w-full rounded-lg aspect-[64/98] outline outline-4 outline-stone-900"
+              src="/assets/images/speakers-2024/elena-haskins.jpg"
+              alt="Elena Haskins">
           </div>
         </div>
       </div>
