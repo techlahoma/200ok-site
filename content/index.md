@@ -81,7 +81,11 @@
       <li>
         <div class="schedule-entry flex gap-4 mb-4">
           <time class="twokay-font-freshman uppercase w-16 text-right shrink-0">5:30</time>
-          <div class="grow-0">Afterparty</div>
+          <div class="grow-0">
+            <span class="block twokay-font-freshman uppercase mb-1">Afterparty</span>
+            <span class="block text-xl leading-none "><a href="https://www.welltownbrewing.com/" target="_blank">Welltown Brewing</a></span>
+            <span class="italic">First drink is on us!</span>
+          </div>
         </div>
       </li>
     </ul>
