@@ -97,8 +97,7 @@
   <p class="mb-4">
     200OK is a web developer-focused conference run by Oklahoma’s nonprofit tech organization, Techlahoma.
     Our audience is interested in the newest web technologies and tools. Connect with fellow web professionals and some of
-    the best speakers in the country for a day of presentations about leading web tech topics, plus join in hacking spaces,
-    break-outs, and group discussions.
+    the best speakers in the country for a day of presentations about leading web tech topics.
   </p>
   <div class="tito-widget-fallback">
     <tito-widget id="titoWidget" event="techlahoma/200ok-2024"></tito-widget>
@@ -194,7 +193,6 @@
   <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Speakers</h3>
   <p class="mb-4">Meet the distinguished speakers who will be presenting at 200 OK, each bringing unique insights and
     experiences to enrich our understanding of the web development ecosystem.</p>
-  <p class="mb-8 text-center opacity-80"><em>Additional speaker biographies coming soon.</em></p>
   <!-- Note: Each class should alternate image/copy right/left side on desktop -->
   <ul>
     <li
