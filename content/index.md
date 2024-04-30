@@ -110,14 +110,6 @@
       <a tabindex="0" role="link" class="button twokay-bg-red" href="https://ti.to/techlahoma/200ok-2024">Get Tickets</a>
     </div>
   </div>
-  <h4 class="font-bold text-xl mb-2">Want to volunteer?</h4>
-  <p class="mb-6">
-    Join us in shaping the future of 200 OK by volunteering, where you can make a real difference in making
-    this conference an inspiring and inclusive event for everyone.
-  </p>
-  <p class="text-center">
-    <a tabindex="0" role="link" class="button" href="https://airtable.com/app931k76hcCFHLJF/shr5lFfgzznn6YP8T">Volunteer</a>
-  </p>
 </section>
 
 <section id="location" class="pt-16">
