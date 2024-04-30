@@ -45,7 +45,12 @@
       <li>
         <div class="schedule-entry flex gap-4 mb-4 border-b-2 border-b-stone-900 border-dashed pb-4">
           <time class="twokay-font-freshman uppercase w-16 text-right shrink-0">12:30</time>
-          <div class="grow-0">Lunch Break</div>
+          <div class="grow-0">
+            <a class="block twokay-font-freshman uppercase mb-1">Lunch Break</a>
+            <span class="block text-xl leading-none ">
+              Provided by <a class="underline font-black" href="https://rgfoods.net/home" target="_blank">RG Foods</a>
+            </span>
+          </div>
         </div>
       </li>
       <li>
@@ -345,29 +350,48 @@
   </ul>
 </section>
 
-<!-- <section id="faqs" class="pt-16">
+<section id="faqs" class="pt-16">
   <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">FAQs</h3>
   <div class="flex flex-col gap-4">
     <details>
       <summary class="font-black cursor-pointer">
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit?</span>
+        <span>What food will be provided?</span>
       </summary>
-      Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi
-      sequi maxime inventore.
+      <div class="pl-8 pt-2">
+        <a class="underline" href="https://rgfoods.net/home" target="_blank">RG Foods</a> will provide the following through out the day: 
+        <ul class="list-disc ml-4">
+          <li class="mb-4">Morning Refreshments
+            <ul class="list-disc pl-8">
+              <li>Fresh Fruit Variety</li>
+              <li>Variety of Pastries</li>
+              <li>Hashbrown Bake</li>
+            </ul>
+          </li>
+          <li class="mb-4">Lunch
+            <ul class="list-disc pl-8">
+              <li>Sweet Potato Bar w/ Chicken and Vegan options</li>
+              <li>Farmers Market Salad</li>
+              <li>Mediterranean Chickpea Salad</li>
+              <li>Assorted Cupcakes and Cheese Cakes</li>
+            </ul>
+          </li>
+          <li>Afternoon Snack
+            <ul class="list-disc pl-8"><li>Grazing Board</li></ul>
+          </li>
+        </ul>
+      </div>
     </details>
+    <!--
+      Example FAQ Entry:  
     <details>
       <summary class="font-black cursor-pointer">
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit?</span>
       </summary>
-      Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi
+      <div class="pl-8 pt-2">
+        Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi
       sequi maxime inventore.
+      </div
     </details>
-    <details>
-      <summary class="font-black cursor-pointer">
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit?</span>
-      </summary>
-      Tempora recusandae porro aut, commodi quasi eveniet mollitia debitis numquam assumenda eos hic non ut et ea iusto nisi
-      sequi maxime inventore.
-    </details>
+     -->
   </div>
-</section> -->
+</section>
