@@ -181,6 +181,13 @@
           <!-- <p class="italic"><code>&lsaquo;h3&rsaquo;</code> Sponsor</p> -->
         </a>
       </li>
+      <!-- In-Kind -->
+      <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
+        <p class="italic block text-center mb-6">In-kind Sponsors</p>
+        <a class="text-center block mb-6" href="https://www.seqtek.com/" target="_blank">
+          <img class="rounded-xl mx-auto max-w-lg mb-2" src="/assets/images/sponsors-2024/seqtek.png" alt="SEQTEK logo">
+        </a>
+      </li>
     </ul>
           
   <p class="mb-6 text-center">Learn more about our different sponsorship levels and become a sponsor&nbsp;today.</p>
