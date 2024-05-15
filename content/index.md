@@ -172,12 +172,20 @@
           <img class="rounded-xl mx-auto max-w-lg mb-2" src="/assets/images/sponsors-2024/gitwit.png" alt="Gitwit logo">
           <!-- <p class="italic"><code>&lsaquo;h3&rsaquo;</code> Sponsor</p> -->
         </a>
+        <a class="text-center block" href="https://www.ou.edu/tulsa/polytechnic" target="_blank">
+          <img class="rounded-xl mx-auto max-w-lg mb-2" src="/assets/images/sponsors-2024/oupi.png" alt="University of Oklahoma Polytechnic Institute logo">
+        </a>
       </li>
       <!-- In-Kind -->
       <li class="spacer border-dashed border-b-2 border-[#868684] pb-8 mb-8">
         <p class="italic block text-center mb-6">In-kind Sponsors</p>
         <a class="text-center block mb-6" href="https://www.seqtek.com/" target="_blank">
           <img class="rounded-xl mx-auto max-w-lg mb-2" src="/assets/images/sponsors-2024/seqtek.png" alt="SEQTEK logo">
+        </a>
+        <a class="text-center block mb-6" href="https://www.flashfloodprint.com/" target="_blank">
+          <div class="rounded-xl mx-auto max-w-lg mb-2 bg-white p-4">
+            <img src="/assets/images/sponsors-2024/flash-flood.png" alt="Flash Flood logo">
+          </div>
         </a>
       </li>
     </ul>
