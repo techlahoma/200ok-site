@@ -1,3 +1,11 @@
+<section>
+  <p class="mb-4">
+    200OK is a web developer-focused conference run by Oklahoma’s nonprofit tech organization, Techlahoma.
+    Our audience is interested in the newest web technologies and tools. Connect with fellow web professionals and some of
+    the best speakers in the country for a day of presentations about leading web tech topics.
+  </p>
+</section>
+
 <section id="schedule" class="pt-16 px-4 sm:px-0">
   <div class="bg-[#f9f3e6] rounded-lg text-stone-900 p-4 max-w-sm mx-auto -rotate-1 sm:-rotate-2">
     <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Schedule</h3>
@@ -94,21 +102,6 @@
         </div>
       </li>
     </ul>
-  </div>
-</section>
-
-<section id="tickets" class="pt-16">
-  <h3 class="block text-2xl sm:text-3xl tracking-widest my-4 twokay-font-freshman uppercase text-center">Tickets</h3>
-  <p class="mb-4">
-    200OK is a web developer-focused conference run by Oklahoma’s nonprofit tech organization, Techlahoma.
-    Our audience is interested in the newest web technologies and tools. Connect with fellow web professionals and some of
-    the best speakers in the country for a day of presentations about leading web tech topics.
-  </p>
-  <div class="tito-widget-fallback">
-    <tito-widget id="titoWidget" event="techlahoma/200ok-2024"></tito-widget>
-    <div id="titoWidgetFallback" class="text-center my-8">
-      <a tabindex="0" role="link" class="button twokay-bg-red" href="https://ti.to/techlahoma/200ok-2024">Get Tickets</a>
-    </div>
   </div>
 </section>
 
