@@ -122,6 +122,9 @@
       15 N Cheyenne Ave, Tulsa, OK 74103 <br/>
       <a class="underline underline-offset-2" target="_blank" href="https://www.google.com/maps?q=15+N+Cheyenne+Ave,+Tulsa,+OK+74103">Open in Google Maps</a>
     </p>
+    <p class="text-center mb-8">Parking Information:<br> 
+    Parking is available in a lot 300 feet north of Atlas School. (120 N Boulder Avenue) Parking is not covered by Techlahoma, so please ensure you obey any instructions and signage for payment.
+    </p>
     <div class="flex flex-col sm:flex-row gap-8 items-center justify-center">
       <img
         class="rounded-lg w-64 max-w-full rotate-2 drop-shadow-md mb-8 sm:mb-0"
