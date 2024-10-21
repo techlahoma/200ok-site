@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -15,7 +15,7 @@
      <!-- TODO: USE NORMAL HEADER STUFF LATER -->
       <style>
         .background {
-            background-image: url("https://media.giphy.com/media/rt3ZfUWIHOVYK23XAa/giphy.gif");
+            background-image: url("background.gif");
             background-size: cover;
             background-position: center center;
         }
@@ -28,7 +28,7 @@
 
         @media (prefers-color-scheme: dark) {
             .background {
-                background-image: url("https://media.giphy.com/media/7OmrG0CnLHXbTmhLaS/giphy.gif");
+                background-image: url("background-dark.gif");
           }  
         }
 
@@ -43,7 +43,7 @@
      
 </head>
 
-<body class="bg-stone-800 font-mono h-screen">
+<body class="bg-stone-800 font-mono">
     <div class="bg-stone-100 text-stone-800 dark:bg-stone-800 dark:text-stone-100 md:min-h-full background">
         <header class="mx-auto max-w-screen-lg px-4 md:px-8 pt-24 mb-12 ">
         <h1 class=" max-w-sm font-bold">
@@ -51,15 +51,16 @@
             <span class="inline-block text-2xl sm:text-4xl lg:text-6xl">Developer Conference</span>     
         </h1>
     </header>
-    <main class="mx-auto max-w-screen-lg px-4 md:px-8 pb-24">
-        <div class="text-2xl sm:text-3xl lg:text-5xl flex flex-col gap-8 leading-tight max-w-lg">
-            <span>Tulsa's Developer Conference</span>
-            <span>May 23, 2025</span>
-            <span><a class="underline hover:no-underline hover:bg-green-300 hover:text-stone-800" href="https://www.atlasschool.com/">Atlas School</a></span>
+    <main class="mx-auto max-w-screen-lg px-4 md:px-8 pb-8 xl:pb-16">
+        <div class="text-xl sm:text-2xl lg:text-3xl flex flex-col gap-2 leading-tight  ">
+            <span class="block">Tulsa's Developer Conference</span>
+            <span class="block">May 23, 2025</span>
+            <span class="block mb-8"><a class="underline hover:no-underline hover:bg-green-300 hover:text-stone-800" href="https://www.atlasschool.com/">Atlas School</a></span>
+            <span class="block"><a class="underline hover:no-underline bg-green-300 text-stone-800 hover:bg-green-400" href="https://sessionize.com/200ok-2025/">Submit Talk Proposal</a></span>
         </div>
     </main>
     </div>
-    <footer class="bg-stone-800 py-6 md:py-8 rounded-b-lg uppercase tracking-wide w-full md:absolute md:bottom-0">
+    <footer class="bg-stone-800 py-6 md:py-8 rounded-b-lg uppercase tracking-wide w-full ">
     <div class="max-w-screen-lg mx-auto px-4 md:px-8">
         <div class="flex gap-4 flex-col lg:flex-row lg:items-center text-[#d7d3ca]">
             <div class="">
