@@ -1,7 +1,7 @@
 [build]
   base = "./static-2025"
   publish = "public/"
-  command = "make deploy"
+  command = ""
 
 # https://cli.netlify.com/netlify-dev#netlifytoml-dev-block
 [dev]
