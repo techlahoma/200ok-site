@@ -1,5 +1,5 @@
 [build]
-  base = "."
+  base = "./static-2025"
   publish = "public/"
   command = "make deploy"
 
@@ -13,6 +13,12 @@
   from = "https://200ok.netlify.app/*"
   to = "https://200ok.us/:splat"
   status = 301
+  force = true
+
+[[redirects]]
+  from = "/submit"
+  to = "https://sessionize.com/200ok-2025/"
+  status = 302
   force = true
 
 [[redirects]]
