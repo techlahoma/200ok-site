@@ -27,35 +27,53 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-     <!-- TODO: USE NORMAL HEADER STUFF LATER -->
-      <style>
+    <style>
+    .background {
+        background-image: url("background.gif");
+        background-size: cover;
+        background-position: center center;
+    }
+
+        /* @media (prefers-reduced-motion) {
         .background {
-            background-image: url("background.gif");
-            background-size: cover;
-            background-position: center center;
-        }
+        background-image: url("https://media.giphy.com/media/7OmrG0CnLHXbTmhLaS/giphy.gif");
+        }  
+    } */
 
-         /* @media (prefers-reduced-motion) {
-          .background {
-            background-image: url("https://media.giphy.com/media/7OmrG0CnLHXbTmhLaS/giphy.gif");
-          }  
-        } */
+    @media (prefers-color-scheme: dark) {
+        .background {
+            background-image: url("background-dark.gif");
+        }  
+    }
 
-        @media (prefers-color-scheme: dark) {
-            .background {
-                background-image: url("background-dark.gif");
-          }  
-        }
-
-        @media (prefers-reduced-motion) {
-          .background {
-            background-image: none !important;
-          }  
-        }
+    @media (prefers-reduced-motion) {
+        .background {
+        background-image: none !important;
+        }  
+    }
 
 
-      </style>
-     
+    </style>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-20201601-6', 'auto');
+        ga('send', 'pageview');
+        </script>
+
+        <script type="text/javascript" src="//static.ads-twitter.com/oct.js"></script>
+        <script type="text/javascript">twttr.conversion.trackPid('o7quo', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+
+        <script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=AW-10883406547"></script>
+        <script type="text/javascript">window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10883406547');</script>
+        <script type="text/javascript">gtag('event', 'conversion', { 'send_to': 'AW-10883406547/G7KnCNvh9rMDENO1zsUo', 'transaction_id': '' });
+    </script>
 </head>
 
 <body class="bg-stone-800 font-mono">
