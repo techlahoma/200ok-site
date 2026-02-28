@@ -1,0 +1,32 @@
+@import tailwindcss;
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+:root {
+	--maroon: #4a1d0f;
+	--orange: #da6343;
+}
+
+@font-face {
+  font-family: 'trop-magic';
+  src: url('../assets/fonts/trop-magic.woff2') format('woff2'),
+       url('../assets/fonts/trop-magic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-trop-magic  {
+	font-family: 'trop-magic', 'Times New Roman', Times, serif;
+}
+
+.bg-gif {
+	background: center no-repeat #e7e5e4;
+	background-size: cover;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../assets/img/annie-spratt-xt79nQxc9Q0-unsplash.jpg);
+}
