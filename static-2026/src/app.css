@@ -21,6 +21,18 @@ html {
   font-style: normal;
 }
 
+.font-instrument, .instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-instrument.italic, .instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .font-trop-magic  {
 	font-family: 'trop-magic', 'Times New Roman', Times, serif;
 }
