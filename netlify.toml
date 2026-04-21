@@ -17,7 +17,7 @@
 
 [[redirects]]
   from = "/tickets"
-  to = "https://www.techlahoma.org/tickets-arent-available"
+  to = "https://ti.to/techlahoma/200ok-2026"
   status = 302
   force = true
 
@@ -28,19 +28,7 @@
   force = true
 
 [[redirects]]
-  from = "/network"
-  to = "https://zoom.us/j/92474087693"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/watch"
-  to = "https://youtu.be/2R5k0Q_sZt0"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/stream"
-  to = "https://youtu.be/2R5k0Q_sZt0"
+  from = "/volunteer"
+  to = "https://forms.gle/tP4THE8bUM7jjiUq9"
   status = 302
   force = true
