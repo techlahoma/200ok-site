@@ -28,17 +28,17 @@
 
 </head>
 
-<body class="bg-[#ded8d1] font-sans bg-gif min-h-dvh">
-    <!-- <header>
+<body class="bg-[#ded8d1] text-[#403d3c] font-sans bg-gif min-h-dvh">
+    <header>
         <nav>
-            <ul>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Get Tickets</a></li>
+            <ul class="list-none border p-8 flex flex-end gap-4 font-bold font-instrument text-xl uppercase tracking-wide items-center" >
+                <li><a class="underline hover:text-[#803c28]" href="#">Schedule</a></li>
+                <li><a class="underline hover:text-[#803c28]" href="#">Speakers</a></li>
+                <li><a class="underline hover:text-[#803c28]" href="#">FAQ</a></li>
+                <li class="ml-auto text-[#dfd9d3] bg-[#803c28] hover:bg-[#da6343] py-2 px-3 rounded-md"><a href="#">Get Tickets</a></li>
             </ul>
         </nav>
-    </header> -->
+    </header>
     <main class="mb-16">
 		<section class="py-8">
 			<div class="container px-8 max-w-screen-xl text-[#403d3c] mb-8 sm:mb-16">
@@ -58,14 +58,76 @@
 				<a class="border-[#4a1d0f] hover:bg-[#da6343] hover:border-[#da6343] hover:text-stone-200 block border pt-3 pb-1 sm:px-4 md:px-6 rounded-2xl" href="mailto:dev@techlahoma.org">Sponsor Us</a>
 			</div>
 		</section>
-        <!-- <section>
-            <h1>Speakers</h1>
-            <article>
-                <h2>Kevin Griffin, Ph.D.</h2>
-                <p>NVIDIA</p>
-                <a href="#">LinkedIn</a>
-            </article>
-        </section> -->
+        <section id="speakers" class="font-instrument py-12">
+            <div class="container px-8 max-w-screen-xl">
+                <h1 class="font-bold text-4xl md:text-5xl mb-8 text-[#4a1d0f]">Speakers</h1>
+                <div class="grid gap-8">
+                    <article class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+                            <img
+                                class="w-full max-w-[220px] md:w-[220px] rounded-2xl border border-[#4a1d0f] object-cover"
+                                src="assets/img/speakers/kevin-griffin.jpg"
+                                alt="Kevin Griffin headshot"
+                            />
+                            <div class="max-w-4xl">
+                                <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">Kevin Griffin, Ph.D.</h2>
+                                <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Senior Developer Technology Engineer, NVIDIA</p>
+                                <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">&ldquo;Running Large Language Models Locally with NVIDIA DGX&rdquo;</p>
+                                <p class="text-lg leading-relaxed mb-4">What does it look like to run a powerful AI model without the cloud? Kevin Griffin from NVIDIA demonstrates hands-on with a DGX workstation, no internet required. A live look at what on-device AI actually takes, and what it unlocks for Oklahoma builders.</p>
+                                <p class="text-lg leading-relaxed mb-4">Kevin earned his Ph.D. in computer science from UC Davis in 2019 and a master&rsquo;s from the University of Tulsa, with prior research at Lawrence Livermore National Laboratory. He helps companies and researchers optimize AI, machine learning, and HPC code on NVIDIA GPUs, and serves as an Entrepreneur-in-Residence at Tulsa Innovation Labs, supporting the University of Tulsa Cyber Fellows and Black Tech Street.</p>
+                                <div class="text-lg">
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kevin-griffin-ph-d-85280623/">LinkedIn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+                            <img
+                                class="w-full max-w-[220px] md:w-[220px] rounded-2xl border border-[#4a1d0f] object-cover"
+                                src="assets/img/speakers/april-dunnam.png"
+                                alt="April Dunnam headshot"
+                            />
+                            <div class="max-w-4xl">
+                                <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">April Dunnam</h2>
+                                <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Power Platform Developer Advocate, Microsoft</p>
+                                <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">&ldquo;Inside Microsoft&rsquo;s OpenClaw - Always-On AI Agents for 365 Copilot&rdquo;</p>
+                                <p class="text-lg leading-relaxed mb-4">Microsoft&rsquo;s OpenClaw-inspired agent brings always-working, role-scoped AI into Microsoft 365 Copilot, monitoring email, calendar, and multi-step workflows for enterprise teams. April Dunnam, Microsoft&rsquo;s champion for the project, walks through how it actually works, where the guardrails live, and what it changes for low-code builders.</p>
+                                <p class="text-lg leading-relaxed mb-4">April is a Power Platform Developer Advocate at Microsoft and a former Power Platform MVP, focused on low-code, Power Apps, Power Automate, Power Virtual Agents, and Copilot. She runs the SharePoint Siren blog and YouTube channel, contributes to the Microsoft 365 Patterns and Practices community, and co-leads the Global AI Tulsa chapter.</p>
+                                <div class="flex flex-wrap gap-x-4 gap-y-2 text-lg">
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aprildunnam/">LinkedIn</a>
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://twitter.com/aprildunnam">Twitter/X</a>
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://sharepointsiren.com/">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+                            <img
+                                class="w-full max-w-[220px] md:w-[220px] rounded-2xl border border-[#4a1d0f] object-cover"
+                                src="assets/img/speakers/taron-foxworth.jpg"
+                                alt="Taron Foxworth headshot"
+                            />
+                            <div class="max-w-4xl">
+                                <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">Taron &ldquo;Fox&rdquo; Foxworth</h2>
+                                <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Board Member, Techlahoma</p>
+                                <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">AI agent tooling for small teams <span class="text-xl italic text-[#803c28]">(title forthcoming)</span></p>
+                                <p class="text-lg leading-relaxed mb-4">How small teams build AI agents and prompt-first knowledge bases without vendor lock-in.</p>
+                                <p class="text-lg leading-relaxed mb-4">Taron &ldquo;Fox&rdquo; Foxworth serves on the Techlahoma board and has spent a decade making developer tools for data, IoT, and AI approachable. He&rsquo;s also co-founder and CEO of Puzzle Labs, a prompt-first, peer-to-peer knowledge base for teams building with LLMs, and was previously Head of Developer Relations at Meroxa and adjunct professor at Xavier University.</p>
+                                <div class="flex flex-wrap gap-x-4 gap-y-2 text-lg">
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/taronfoxworth/">LinkedIn</a>
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://twitter.com/anaptfox">Twitter/X</a>
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://taronfoxworth.com/">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 	</main>
     <footer class="bg-[#38150b] py-6 md:py-8 uppercase tracking-wide w-full text-stone-200 font-mono">
         <div class="container px-8 max-w-screen-xl">
