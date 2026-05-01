@@ -38,6 +38,16 @@ html {
 }
 
 .bg-gif {
+	position: relative;
+	background: #e7e5e4;
+}
+
+.bg-gif::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	z-index: -1;
+	pointer-events: none;
 	background: center no-repeat #e7e5e4;
 	background-size: cover;
 	background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../assets/img/annie-spratt-xt79nQxc9Q0-unsplash.jpg);

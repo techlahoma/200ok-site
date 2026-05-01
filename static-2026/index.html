@@ -28,17 +28,17 @@
 
 </head>
 
-<body class="bg-[#ded8d1] font-sans bg-gif min-h-dvh">
-    <!-- <header>
+<body class="bg-[#ded8d1] text-[#403d3c] font-sans bg-gif min-h-dvh">
+    <header>
         <nav>
-            <ul>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Get Tickets</a></li>
+            <ul class="list-none border p-8 flex flex-end gap-4 font-bold font-instrument text-xl uppercase tracking-wide items-center" >
+                <li><a class="underline hover:text-[#803c28]" href="#schedule">Schedule</a></li>
+                <li><a class="underline hover:text-[#803c28]" href="#speakers">Speakers</a></li>
+                <li><a class="underline hover:text-[#803c28]" href="#faq">FAQ</a></li>
+                <li class="ml-auto text-[#dfd9d3] bg-[#803c28] hover:bg-[#da6343] py-2 px-3 rounded-md"><a href="https://ti.to/techlahoma/200ok-2026" target="_blank" rel="noopener noreferrer">Get Tickets</a></li>
             </ul>
         </nav>
-    </header> -->
+    </header>
     <main class="mb-16">
 		<section class="py-8">
 			<div class="container px-8 max-w-screen-xl text-[#403d3c] mb-8 sm:mb-16">
@@ -58,14 +58,128 @@
 				<a class="border-[#4a1d0f] hover:bg-[#da6343] hover:border-[#da6343] hover:text-stone-200 block border pt-3 pb-1 sm:px-4 md:px-6 rounded-2xl" href="mailto:dev@techlahoma.org">Sponsor Us</a>
 			</div>
 		</section>
-        <!-- <section>
-            <h1>Speakers</h1>
-            <article>
-                <h2>Kevin Griffin, Ph.D.</h2>
-                <p>NVIDIA</p>
-                <a href="#">LinkedIn</a>
-            </article>
-        </section> -->
+        <section id="schedule" class="font-instrument py-12">
+            <div class="container px-8 max-w-screen-xl text-[#4a1d0f]">
+                <h1 class="font-bold text-4xl md:text-5xl mb-8">Schedule</h1>
+                <div class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
+                    <ol class="grid gap-4 text-xl md:text-2xl">
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">8:00 AM</time>
+                            <span>Registration and breakfast</span>
+                        </li>
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">9:00 AM</time>
+                            <span>Welcome and morning talks</span>
+                        </li>
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">12:00 PM</time>
+                            <span>Lunch break</span>
+                        </li>
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">1:00 PM</time>
+                            <span>Afternoon talks and community sessions</span>
+                        </li>
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">5:00 PM</time>
+                            <span>Closing remarks</span>
+                        </li>
+                    </ol>
+                    <p class="text-lg md:text-xl mt-6 italic text-[#803c28]">Full talk order will be announced as the speaker lineup is finalized.</p>
+                </div>
+            </div>
+        </section>
+        <section id="speakers" class="font-instrument py-12">
+            <div class="container px-8 max-w-screen-xl">
+                <h1 class="font-bold text-4xl md:text-5xl mb-8 text-[#4a1d0f]">Speakers</h1>
+                <div class="grid gap-8">
+                    <article class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+                            <img
+                                class="w-full max-w-[220px] md:w-[220px] rounded-2xl border border-[#4a1d0f] object-cover"
+                                src="assets/img/speakers/kevin-griffin.jpg"
+                                alt="Kevin Griffin headshot"
+                            />
+                            <div class="max-w-4xl">
+                                <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">Kevin Griffin, Ph.D.</h2>
+                                <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Senior Developer Technology Engineer, NVIDIA</p>
+                                <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">&ldquo;Running Large Language Models Locally with NVIDIA DGX&rdquo;</p>
+                                <p class="text-lg leading-relaxed mb-4">What does it look like to run a powerful AI model without the cloud? Kevin Griffin from NVIDIA demonstrates hands-on with a DGX workstation, no internet required. A live look at what on-device AI actually takes, and what it unlocks for Oklahoma builders.</p>
+                                <p class="text-lg leading-relaxed mb-4">Kevin earned his Ph.D. in computer science from UC Davis in 2019 and a master&rsquo;s from the University of Tulsa, with prior research at Lawrence Livermore National Laboratory. He helps companies and researchers optimize AI, machine learning, and HPC code on NVIDIA GPUs, and serves as an Entrepreneur-in-Residence at Tulsa Innovation Labs, supporting the University of Tulsa Cyber Fellows and Black Tech Street.</p>
+                                <div class="text-lg">
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kevin-griffin-ph-d-85280623/">LinkedIn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+                            <img
+                                class="w-full max-w-[220px] md:w-[220px] rounded-2xl border border-[#4a1d0f] object-cover"
+                                src="assets/img/speakers/april-dunnam.png"
+                                alt="April Dunnam headshot"
+                            />
+                            <div class="max-w-4xl">
+                                <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">April Dunnam</h2>
+                                <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Power Platform Developer Advocate, Microsoft</p>
+                                <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">&ldquo;So&hellip; What Can Copilot Actually Do?&rdquo;</p>
+                                <p class="text-lg leading-relaxed mb-4">Most engineers have heard about AI tools like ChatGPT, Claude, or Cursor. Many are already experimenting with them. So where does Microsoft Copilot actually fit?</p>
+                                <p class="text-lg leading-relaxed mb-4">In this demo-heavy session, we&rsquo;ll explore what Copilot can really do across the Microsoft ecosystem, from everyday assistance in Microsoft 365 apps to newer capabilities like Copilot Cowork that can orchestrate multi-step work across Outlook, Teams, Word, Excel, and SharePoint.</p>
+                                <p class="text-lg leading-relaxed mb-4">You&rsquo;ll see how Copilot can help with tasks like analyzing technical documents, summarizing long threads, drafting documentation, and coordinating work across multiple tools.</p>
+                                <p class="text-lg leading-relaxed mb-4">Expect live demos, honest limitations, and practical scenarios. You&rsquo;ll leave with a clearer understanding of what Copilot can actually do today, where it fits alongside other AI tools engineers already use, and when it&rsquo;s worth using or when it&rsquo;s not.</p>
+                                <p class="text-lg leading-relaxed mb-4">April is a Power Platform Developer Advocate at Microsoft and a former Power Platform MVP, focused on low-code, Power Apps, Power Automate, Power Virtual Agents, and Copilot. She runs the SharePoint Siren blog and YouTube channel, contributes to the Microsoft 365 Patterns and Practices community, and co-leads the Global AI Tulsa chapter.</p>
+                                <div class="flex flex-wrap gap-x-4 gap-y-2 text-lg">
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aprildunnam/">LinkedIn</a>
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://twitter.com/aprildunnam">Twitter/X</a>
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://sharepointsiren.com/">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+                            <img
+                                class="w-full max-w-[220px] md:w-[220px] rounded-2xl border border-[#4a1d0f] object-cover"
+                                src="assets/img/speakers/taron-foxworth.jpg"
+                                alt="Taron Foxworth headshot"
+                            />
+                            <div class="max-w-4xl">
+                                <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">Taron &ldquo;Fox&rdquo; Foxworth</h2>
+                                <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Board Member, Techlahoma</p>
+                                <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">AI agent tooling for small teams <span class="text-xl italic text-[#803c28]">(title forthcoming)</span></p>
+                                <p class="text-lg leading-relaxed mb-4">How small teams build AI agents and prompt-first knowledge bases without vendor lock-in.</p>
+                                <p class="text-lg leading-relaxed mb-4">Taron &ldquo;Fox&rdquo; Foxworth serves on the Techlahoma board and has spent a decade making developer tools for data, IoT, and AI approachable. He&rsquo;s also co-founder and CEO of Puzzle Labs, a prompt-first, peer-to-peer knowledge base for teams building with LLMs, and was previously Head of Developer Relations at Meroxa and adjunct professor at Xavier University.</p>
+                                <div class="flex flex-wrap gap-x-4 gap-y-2 text-lg">
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/taronfoxworth/">LinkedIn</a>
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://twitter.com/anaptfox">Twitter/X</a>
+                                    <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://taronfoxworth.com/">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="font-instrument py-12">
+            <div class="container px-8 max-w-screen-xl text-[#4a1d0f]">
+                <h1 class="font-bold text-4xl md:text-5xl mb-8">FAQ</h1>
+                <div class="grid gap-4">
+                    <details class="border border-[#4a1d0f] rounded-3xl p-6 bg-[#f4efe8]/80">
+                        <summary class="cursor-pointer text-2xl md:text-3xl">Where is 200OK?</summary>
+                        <p class="text-lg md:text-xl mt-4 leading-relaxed">200OK 2026 is at Gitwit, 301 E Archer Street, Tulsa, OK 74120. <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Gitwit%2C%20301%20E%20Archer%20Street%2C%20Tulsa%2C%20OK%2074120">Open in Google Maps</a>.</p>
+                    </details>
+                    <details class="border border-[#4a1d0f] rounded-3xl p-6 bg-[#f4efe8]/80">
+                        <summary class="cursor-pointer text-2xl md:text-3xl">When is the conference?</summary>
+                        <p class="text-lg md:text-xl mt-4 leading-relaxed">Friday, May 15, 2026. Registration starts at 8:00 AM.</p>
+                    </details>
+                    <details class="border border-[#4a1d0f] rounded-3xl p-6 bg-[#f4efe8]/80">
+                        <summary class="cursor-pointer text-2xl md:text-3xl">Who should attend?</summary>
+                        <p class="text-lg md:text-xl mt-4 leading-relaxed">Developers, designers, product builders, and technical leaders interested in modern web technology, software engineering, and artificial intelligence.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
 	</main>
     <footer class="bg-[#38150b] py-6 md:py-8 uppercase tracking-wide w-full text-stone-200 font-mono">
         <div class="container px-8 max-w-screen-xl">
