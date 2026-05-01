@@ -32,10 +32,10 @@
     <header>
         <nav>
             <ul class="list-none border p-8 flex flex-end gap-4 font-bold font-instrument text-xl uppercase tracking-wide items-center" >
-                <li><a class="underline hover:text-[#803c28]" href="#">Schedule</a></li>
-                <li><a class="underline hover:text-[#803c28]" href="#">Speakers</a></li>
-                <li><a class="underline hover:text-[#803c28]" href="#">FAQ</a></li>
-                <li class="ml-auto text-[#dfd9d3] bg-[#803c28] hover:bg-[#da6343] py-2 px-3 rounded-md"><a href="#">Get Tickets</a></li>
+                <li><a class="underline hover:text-[#803c28]" href="#schedule">Schedule</a></li>
+                <li><a class="underline hover:text-[#803c28]" href="#speakers">Speakers</a></li>
+                <li><a class="underline hover:text-[#803c28]" href="#faq">FAQ</a></li>
+                <li class="ml-auto text-[#dfd9d3] bg-[#803c28] hover:bg-[#da6343] py-2 px-3 rounded-md"><a href="https://ti.to/techlahoma/200ok-2026" target="_blank" rel="noopener noreferrer">Get Tickets</a></li>
             </ul>
         </nav>
     </header>
@@ -58,6 +58,36 @@
 				<a class="border-[#4a1d0f] hover:bg-[#da6343] hover:border-[#da6343] hover:text-stone-200 block border pt-3 pb-1 sm:px-4 md:px-6 rounded-2xl" href="mailto:dev@techlahoma.org">Sponsor Us</a>
 			</div>
 		</section>
+        <section id="schedule" class="font-instrument py-12">
+            <div class="container px-8 max-w-screen-xl text-[#4a1d0f]">
+                <h1 class="font-bold text-4xl md:text-5xl mb-8">Schedule</h1>
+                <div class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
+                    <ol class="grid gap-4 text-xl md:text-2xl">
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">8:00 AM</time>
+                            <span>Registration and breakfast</span>
+                        </li>
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">9:00 AM</time>
+                            <span>Welcome and morning talks</span>
+                        </li>
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">12:00 PM</time>
+                            <span>Lunch break</span>
+                        </li>
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">1:00 PM</time>
+                            <span>Afternoon talks and community sessions</span>
+                        </li>
+                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
+                            <time class="font-bold text-[#803c28]">5:00 PM</time>
+                            <span>Closing remarks</span>
+                        </li>
+                    </ol>
+                    <p class="text-lg md:text-xl mt-6 italic text-[#803c28]">Full talk order will be announced as the speaker lineup is finalized.</p>
+                </div>
+            </div>
+        </section>
         <section id="speakers" class="font-instrument py-12">
             <div class="container px-8 max-w-screen-xl">
                 <h1 class="font-bold text-4xl md:text-5xl mb-8 text-[#4a1d0f]">Speakers</h1>
@@ -125,6 +155,25 @@
                             </div>
                         </div>
                     </article>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="font-instrument py-12">
+            <div class="container px-8 max-w-screen-xl text-[#4a1d0f]">
+                <h1 class="font-bold text-4xl md:text-5xl mb-8">FAQ</h1>
+                <div class="grid gap-4">
+                    <details class="border border-[#4a1d0f] rounded-3xl p-6 bg-[#f4efe8]/80">
+                        <summary class="cursor-pointer text-2xl md:text-3xl">Where is 200OK?</summary>
+                        <p class="text-lg md:text-xl mt-4 leading-relaxed">200OK 2026 is at 301 E Archer Street, Tulsa, OK 74120.</p>
+                    </details>
+                    <details class="border border-[#4a1d0f] rounded-3xl p-6 bg-[#f4efe8]/80">
+                        <summary class="cursor-pointer text-2xl md:text-3xl">When is the conference?</summary>
+                        <p class="text-lg md:text-xl mt-4 leading-relaxed">Friday, May 15, 2026. Registration starts at 8:00 AM.</p>
+                    </details>
+                    <details class="border border-[#4a1d0f] rounded-3xl p-6 bg-[#f4efe8]/80">
+                        <summary class="cursor-pointer text-2xl md:text-3xl">Who should attend?</summary>
+                        <p class="text-lg md:text-xl mt-4 leading-relaxed">Developers, designers, product builders, and technical leaders interested in modern web technology, software engineering, and artificial intelligence.</p>
+                    </details>
                 </div>
             </div>
         </section>
