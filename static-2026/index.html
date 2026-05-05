@@ -25,6 +25,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        .speaker-bio[data-collapsed="true"] {
+            max-height: var(--speaker-bio-collapsed-height, 7rem);
+            overflow: hidden;
+        }
+    </style>
 
 </head>
 
@@ -103,10 +109,13 @@
                                 <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">Kevin Griffin, Ph.D.</h2>
                                 <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Senior Developer Technology Engineer, NVIDIA</p>
                                 <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">&ldquo;Running Large Language Models Locally with NVIDIA DGX&rdquo;</p>
-                                <p class="text-lg leading-relaxed mb-4">What does it look like to run a powerful AI model without the cloud? Kevin Griffin from NVIDIA demonstrates hands-on with a DGX workstation, no internet required. A live look at what on-device AI actually takes, and what it unlocks for Oklahoma builders.</p>
-                                <p class="text-lg leading-relaxed mb-4">Dr. Kevin Griffin is a Senior Developer Technology Engineer at NVIDIA, working at the intersection of artificial intelligence, high-performance computing, scientific visualization, and advanced software systems. He helps researchers and developers accelerate innovation with NVIDIA technologies across AI/ML, cybersecurity-adjacent computing environments, and next-generation visualization platforms.</p>
-                                <p class="text-lg leading-relaxed mb-4">Kevin is also the Founder and Chief Technology Consultant at KSG Technology Consulting, where he advises organizations on emerging technology strategy and the practical adoption of advanced computing capabilities. He is currently researching and developing a unified AI agent platform that connects enterprise data, tools, and business logic into a cohesive, intelligent, multi-agent ecosystem.</p>
-                                <p class="text-lg leading-relaxed mb-4">Before NVIDIA, Kevin spent more than 13 years at Lawrence Livermore National Laboratory in scientific visualization research, software development, and leadership roles supporting mission-critical systems. He also served at the National Security Agency and as a Navy Reserve Information Warfare Officer. He holds a Ph.D. in Scientific Visualization, Computer Graphics, and High Performance Computing from UC Davis, plus graduate and undergraduate computer science degrees from the University of Tulsa and the University of Delaware.</p>
+                                <div class="speaker-bio mb-2" data-speaker-bio>
+                                    <p class="text-lg leading-relaxed mb-4">What does it look like to run a powerful AI model without the cloud? Kevin Griffin from NVIDIA demonstrates hands-on with a DGX workstation, no internet required. A live look at what on-device AI actually takes, and what it unlocks for Oklahoma builders.</p>
+                                    <p class="text-lg leading-relaxed mb-4">Dr. Kevin Griffin is a Senior Developer Technology Engineer at NVIDIA, working at the intersection of artificial intelligence, high-performance computing, scientific visualization, and advanced software systems. He helps researchers and developers accelerate innovation with NVIDIA technologies across AI/ML, cybersecurity-adjacent computing environments, and next-generation visualization platforms.</p>
+                                    <p class="text-lg leading-relaxed mb-4">Kevin is also the Founder and Chief Technology Consultant at KSG Technology Consulting, where he advises organizations on emerging technology strategy and the practical adoption of advanced computing capabilities. He is currently researching and developing a unified AI agent platform that connects enterprise data, tools, and business logic into a cohesive, intelligent, multi-agent ecosystem.</p>
+                                    <p class="text-lg leading-relaxed mb-4">Before NVIDIA, Kevin spent more than 13 years at Lawrence Livermore National Laboratory in scientific visualization research, software development, and leadership roles supporting mission-critical systems. He also served at the National Security Agency and as a Navy Reserve Information Warfare Officer. He holds a Ph.D. in Scientific Visualization, Computer Graphics, and High Performance Computing from UC Davis, plus graduate and undergraduate computer science degrees from the University of Tulsa and the University of Delaware.</p>
+                                </div>
+                                <button type="button" class="mb-4 text-lg underline hover:text-[#803c28]" data-speaker-bio-toggle hidden>Expand</button>
                                 <div class="text-lg flex flex-wrap gap-x-4 gap-y-2">
                                     <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://ksgtechconsulting.com">KSG Technology Consulting</a>
                                     <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kevin-griffin-ph-d-85280623/">LinkedIn</a>
@@ -126,11 +135,14 @@
                                 <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">April Dunnam</h2>
                                 <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Power Platform Developer Advocate, Microsoft</p>
                                 <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">&ldquo;So&hellip; What Can Copilot Actually Do?&rdquo;</p>
-                                <p class="text-lg leading-relaxed mb-4">Most engineers have heard about AI tools like ChatGPT, Claude, or Cursor. Many are already experimenting with them. So where does Microsoft Copilot actually fit?</p>
-                                <p class="text-lg leading-relaxed mb-4">In this demo-heavy session, we&rsquo;ll explore what Copilot can really do across the Microsoft ecosystem, from everyday assistance in Microsoft 365 apps to newer capabilities like Copilot Cowork that can orchestrate multi-step work across Outlook, Teams, Word, Excel, and SharePoint.</p>
-                                <p class="text-lg leading-relaxed mb-4">You&rsquo;ll see how Copilot can help with tasks like analyzing technical documents, summarizing long threads, drafting documentation, and coordinating work across multiple tools.</p>
-                                <p class="text-lg leading-relaxed mb-4">Expect live demos, honest limitations, and practical scenarios. You&rsquo;ll leave with a clearer understanding of what Copilot can actually do today, where it fits alongside other AI tools engineers already use, and when it&rsquo;s worth using or when it&rsquo;s not.</p>
-                                <p class="text-lg leading-relaxed mb-4">April is a Power Platform Developer Advocate at Microsoft and a former Power Platform MVP, focused on low-code, Power Apps, Power Automate, Power Virtual Agents, and Copilot. She runs the SharePoint Siren blog and YouTube channel, contributes to the Microsoft 365 Patterns and Practices community, and co-leads the Global AI Tulsa chapter.</p>
+                                <div class="speaker-bio mb-2" data-speaker-bio>
+                                    <p class="text-lg leading-relaxed mb-4">Most engineers have heard about AI tools like ChatGPT, Claude, or Cursor. Many are already experimenting with them. So where does Microsoft Copilot actually fit?</p>
+                                    <p class="text-lg leading-relaxed mb-4">In this demo-heavy session, we&rsquo;ll explore what Copilot can really do across the Microsoft ecosystem, from everyday assistance in Microsoft 365 apps to newer capabilities like Copilot Cowork that can orchestrate multi-step work across Outlook, Teams, Word, Excel, and SharePoint.</p>
+                                    <p class="text-lg leading-relaxed mb-4">You&rsquo;ll see how Copilot can help with tasks like analyzing technical documents, summarizing long threads, drafting documentation, and coordinating work across multiple tools.</p>
+                                    <p class="text-lg leading-relaxed mb-4">Expect live demos, honest limitations, and practical scenarios. You&rsquo;ll leave with a clearer understanding of what Copilot can actually do today, where it fits alongside other AI tools engineers already use, and when it&rsquo;s worth using or when it&rsquo;s not.</p>
+                                    <p class="text-lg leading-relaxed mb-4">April is a Power Platform Developer Advocate at Microsoft and a former Power Platform MVP, focused on low-code, Power Apps, Power Automate, Power Virtual Agents, and Copilot. She runs the SharePoint Siren blog and YouTube channel, contributes to the Microsoft 365 Patterns and Practices community, and co-leads the Global AI Tulsa chapter.</p>
+                                </div>
+                                <button type="button" class="mb-4 text-lg underline hover:text-[#803c28]" data-speaker-bio-toggle hidden>Expand</button>
                                 <div class="flex flex-wrap gap-x-4 gap-y-2 text-lg">
                                     <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aprildunnam/">LinkedIn</a>
                                     <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://twitter.com/aprildunnam">Twitter/X</a>
@@ -151,8 +163,11 @@
                                 <h2 class="text-3xl md:text-4xl text-[#4a1d0f]">Taron &ldquo;Fox&rdquo; Foxworth</h2>
                                 <p class="text-xl md:text-2xl italic text-[#803c28] mb-4">Board Member, Techlahoma</p>
                                 <p class="text-2xl md:text-3xl text-[#4a1d0f] mb-3">AI agent tooling for small teams <span class="text-xl italic text-[#803c28]">(title forthcoming)</span></p>
-                                <p class="text-lg leading-relaxed mb-4">How small teams build AI agents and prompt-first knowledge bases without vendor lock-in.</p>
-                                <p class="text-lg leading-relaxed mb-4">Taron &ldquo;Fox&rdquo; Foxworth serves on the Techlahoma board and has spent a decade making developer tools for data, IoT, and AI approachable. He&rsquo;s also co-founder and CEO of Puzzle Labs, a prompt-first, peer-to-peer knowledge base for teams building with LLMs, and was previously Head of Developer Relations at Meroxa and adjunct professor at Xavier University.</p>
+                                <div class="speaker-bio mb-2" data-speaker-bio>
+                                    <p class="text-lg leading-relaxed mb-4">How small teams build AI agents and prompt-first knowledge bases without vendor lock-in.</p>
+                                    <p class="text-lg leading-relaxed mb-4">Taron &ldquo;Fox&rdquo; Foxworth serves on the Techlahoma board and has spent a decade making developer tools for data, IoT, and AI approachable. He&rsquo;s also co-founder and CEO of Puzzle Labs, a prompt-first, peer-to-peer knowledge base for teams building with LLMs, and was previously Head of Developer Relations at Meroxa and adjunct professor at Xavier University.</p>
+                                </div>
+                                <button type="button" class="mb-4 text-lg underline hover:text-[#803c28]" data-speaker-bio-toggle hidden>Expand</button>
                                 <div class="flex flex-wrap gap-x-4 gap-y-2 text-lg">
                                     <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/taronfoxworth/">LinkedIn</a>
                                     <a class="underline hover:text-[#803c28]" target="_blank" rel="noopener noreferrer" href="https://twitter.com/anaptfox">Twitter/X</a>
@@ -204,6 +219,78 @@
             </div>
         </div>
     </footer>
+    <script>
+        (() => {
+            const maxLines = 4;
+            const bios = Array.from(document.querySelectorAll('[data-speaker-bio]'));
+
+            const getLineHeight = (element) => {
+                const lineSource = element.querySelector('p') || element;
+                const value = window.getComputedStyle(lineSource).lineHeight;
+                const parsed = Number.parseFloat(value);
+                return Number.isFinite(parsed) ? parsed : 28;
+            };
+
+            const syncBio = (bio, button, index) => {
+                const collapsedHeight = Math.ceil(getLineHeight(bio) * maxLines);
+                const wasExpanded = button.getAttribute('aria-expanded') === 'true';
+
+                bio.id = bio.id || `speaker-bio-${index + 1}`;
+                bio.style.setProperty('--speaker-bio-collapsed-height', `${collapsedHeight}px`);
+                button.setAttribute('aria-controls', bio.id);
+
+                bio.dataset.collapsed = 'false';
+                const needsToggle = bio.scrollHeight > collapsedHeight + 1;
+
+                if (!needsToggle) {
+                    delete bio.dataset.collapsed;
+                    button.hidden = true;
+                    button.removeAttribute('aria-expanded');
+                    return;
+                }
+
+                button.hidden = false;
+                bio.dataset.collapsed = String(!wasExpanded);
+                button.setAttribute('aria-expanded', String(wasExpanded));
+                button.textContent = wasExpanded ? 'Collapse' : 'Expand';
+            };
+
+            bios.forEach((bio, index) => {
+                const button = bio.nextElementSibling?.matches('[data-speaker-bio-toggle]')
+                    ? bio.nextElementSibling
+                    : null;
+
+                if (!button) {
+                    return;
+                }
+
+                button.addEventListener('click', () => {
+                    const expanded = button.getAttribute('aria-expanded') === 'true';
+                    bio.dataset.collapsed = String(expanded);
+                    button.setAttribute('aria-expanded', String(!expanded));
+                    button.textContent = expanded ? 'Expand' : 'Collapse';
+                });
+
+                syncBio(bio, button, index);
+            });
+
+            let resizeFrame = 0;
+            window.addEventListener('resize', () => {
+                window.cancelAnimationFrame(resizeFrame);
+                resizeFrame = window.requestAnimationFrame(() => {
+                    bios.forEach((bio, index) => {
+                        const button = bio.nextElementSibling?.matches('[data-speaker-bio-toggle]')
+                            ? bio.nextElementSibling
+                            : null;
+
+                        if (button) {
+                            syncBio(bio, button, index);
+                        }
+                    });
+                });
+            });
+        })();
+    </script>
 </body>
 
 </html>
