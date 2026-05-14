@@ -22,6 +22,12 @@
   force = true
 
 [[redirects]]
+  from = "/slack"
+  to = "https://join.slack.com/t/techlahoma/shared_invite/zt-3xuk5u8rr-OdXhYTHVpwXQxSa4riYDxw"
+  status = 302
+  force = true
+
+[[redirects]]
   from = "/survey"
   to = "https://docs.google.com/forms/d/e/1FAIpQLSdggrJUmqeYB89Ph811NylZz3IP6CHtmSx6XZLTxPK46BS85Q/viewform"
   status = 302
