@@ -6,6 +6,11 @@
     <title>200OK Conference Map</title>
     <meta name="description" content="Two-floor 200OK conference map for Gitwit with accessible room location summary.">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/generated-styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <style>
       :root {
         color-scheme: light;
@@ -34,7 +39,7 @@
         color: inherit;
       }
 
-      .page {
+      .map-page {
         width: min(1320px, calc(100% - 32px));
         margin: 0 auto;
         padding: 32px 0 44px;
@@ -187,7 +192,7 @@
           background: white;
         }
 
-        .page {
+        .map-page {
           width: auto;
           padding: 0;
         }
@@ -203,13 +208,24 @@
       }
     </style>
   </head>
-  <body>
-    <main class="page">
-      <header class="topbar">
+  <body class="bg-[#ded8d1] text-[#403d3c] font-sans bg-gif min-h-dvh">
+    <header>
+      <nav>
+        <ul class="list-none border p-8 flex flex-wrap flex-end gap-x-4 gap-y-3 font-bold font-instrument text-xl uppercase tracking-wide items-center">
+          <li><a class="underline hover:text-[#803c28]" href="/#schedule">Schedule</a></li>
+          <li><a class="underline hover:text-[#803c28]" href="/#speakers">Speakers</a></li>
+          <li><a class="underline hover:text-[#803c28]" href="/map/" aria-current="page">Map</a></li>
+          <li><a class="underline hover:text-[#803c28]" href="/#faq">FAQ</a></li>
+          <li class="sm:ml-auto text-[#dfd9d3] bg-[#803c28] hover:bg-[#da6343] py-2 px-3 rounded-md"><a href="https://ti.to/techlahoma/200ok-2026" target="_blank" rel="noopener noreferrer">Get Tickets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="map-page">
+      <section class="topbar">
         <a class="home-link" href="/">Back to 200OK</a>
         <h1>200OK Conference Map</h1>
         <p class="subtitle">Production draft for review. Not for emergency egress, ADA routing, capacity, or exact measurement.</p>
-      </header>
+      </section>
 
       <div class="layout">
         <section class="map-panel" aria-labelledby="map-heading" aria-describedby="map-summary">
@@ -294,5 +310,25 @@
         </section>
       </div>
     </main>
+    <footer class="bg-[#38150b] py-6 md:py-8 uppercase tracking-wide w-full text-stone-200 font-mono">
+      <div class="container px-8 max-w-screen-xl">
+        <div class="flex gap-4 flex-col lg:flex-row lg:items-center">
+          <div>
+            <span class="block text-stone-200">&copy; 2026 <a href="https://www.techlahoma.org/" class="hover:bg-[#da6343] hover:text-stone-200 underline">Techlahoma Foundation</a></span>
+            <div class="flex flex-col sm:flex-row sm:gap-4">
+              <a class="block hover:bg-[#da6343] underline" href="mailto:200ok@techlahoma.org">Contact Us</a>
+              <a class="block hover:bg-[#da6343] underline" href="https://www.techlahoma.org/code-of-conduct/">Code of Conduct</a>
+            </div>
+          </div>
+          <div class="lg:ml-auto flex flex-col gap-4">
+            <a class="block lg:ml-auto" href="https://www.netlify.com">
+              <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" />
+            </a>
+
+            <span class="text-xs text-[#907d78]">Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="hover:bg-[#da6343] underline">Annie Spratt</a> on <a href="https://unsplash.com/photos/a-brown-paper-background-with-a-black-and-white-cat-sitting-on-top-of-it-xt79nQxc9Q0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="hover:bg-[#da6343] underline">Unsplash</a></span>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
