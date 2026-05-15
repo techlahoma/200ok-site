@@ -65,33 +65,89 @@
 				<a class="border-[#4a1d0f] hover:bg-[#da6343] hover:border-[#da6343] hover:text-stone-200 block border pt-3 pb-1 sm:px-4 md:px-6 rounded-2xl" href="mailto:dev@techlahoma.org">Sponsor Us</a>
 			</div>
 		</section>
-        <section id="schedule" class="font-instrument py-12">
+        <section id="guide" class="font-instrument py-12">
             <div class="container px-8 max-w-screen-xl text-[#4a1d0f]">
-                <h1 class="font-bold text-4xl md:text-5xl mb-8">Schedule</h1>
-                <div class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80">
-                    <ol class="grid gap-4 text-xl md:text-2xl">
-                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
-                            <time class="font-bold text-[#803c28]">8:00 AM</time>
-                            <span>Registration and breakfast</span>
-                        </li>
-                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
-                            <time class="font-bold text-[#803c28]">9:00 AM</time>
-                            <span>Welcome and morning talks</span>
-                        </li>
-                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
-                            <time class="font-bold text-[#803c28]">12:00 PM</time>
-                            <span>Lunch break</span>
-                        </li>
-                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
-                            <time class="font-bold text-[#803c28]">1:00 PM</time>
-                            <span>Afternoon talks and community sessions</span>
-                        </li>
-                        <li class="grid gap-1 sm:grid-cols-[7rem_1fr] sm:gap-6">
-                            <time class="font-bold text-[#803c28]">5:00 PM</time>
-                            <span>Closing remarks</span>
-                        </li>
-                    </ol>
-                    <p class="text-lg md:text-xl mt-6 italic text-[#803c28]">Full talk order will be announced as the speaker lineup is finalized.</p>
+                <h1 class="font-bold text-4xl md:text-5xl mb-8">Guide</h1>
+                <div class="grid gap-8">
+                    <section class="border border-[#4a1d0f] rounded-3xl p-4 md:p-6 bg-[#f4efe8]/80" aria-labelledby="floor-1-map-heading">
+                        <h2 id="floor-1-map-heading" class="font-bold text-3xl md:text-4xl mb-4">Floor 1 Map</h2>
+                        <div class="overflow-x-auto">
+                            <img
+                                class="block w-full min-w-[48rem] max-w-none border border-[#b99583] bg-[#ded8d1] md:min-w-0 md:max-w-full"
+                                src="/assets/map/200ok-floor-1.svg"
+                                width="1440"
+                                height="810"
+                                alt="Floor 1 visual map. The Forum, The Cube, The Cafe, Check-in, Kitchen, restrooms, and Mother's Room are labeled.">
+                        </div>
+                    </section>
+                    <section id="schedule" class="border border-[#4a1d0f] rounded-3xl p-6 md:p-8 bg-[#f4efe8]/80 scroll-mt-6" aria-labelledby="schedule-heading">
+                        <div class="flex flex-col gap-2 md:flex-row md:items-end md:justify-between mb-6">
+                            <h2 id="schedule-heading" class="font-bold text-3xl md:text-4xl">Schedule</h2>
+                            <p class="text-lg md:text-xl italic text-[#803c28]">All times Central Time.</p>
+                        </div>
+                        <ol class="text-xl md:text-2xl" aria-label="Conference schedule">
+                            <li class="hidden border-b border-[#b99583] pb-3 font-bold uppercase tracking-wide text-[#803c28] md:grid md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <span>Time</span>
+                                <span>Room</span>
+                                <span>Session</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T08:00">8:00-9:00 AM</time>
+                                <span class="font-bold uppercase tracking-wide">Check-in / Cafe</span>
+                                <span>Registration, breakfast and coffee</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T09:00">9:00-9:15 AM</time>
+                                <span class="font-bold uppercase tracking-wide">The Forum</span>
+                                <span>Welcome</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T09:15">9:15-10:15 AM</time>
+                                <span class="font-bold uppercase tracking-wide">The Forum</span>
+                                <span>Luke Crouch - Opening keynote</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T10:15">10:15-10:35 AM</time>
+                                <span class="font-bold uppercase tracking-wide">Check-in / Cafe</span>
+                                <span>Coffee break</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T10:35">10:35-11:35 AM</time>
+                                <span class="font-bold uppercase tracking-wide">The Forum</span>
+                                <span>April Dunnam - Morning keynote</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T11:35">11:35 AM-12:55 PM</time>
+                                <span class="font-bold uppercase tracking-wide">Food Hall</span>
+                                <span>Lunch</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T12:55">12:55-1:55 PM</time>
+                                <span class="font-bold uppercase tracking-wide">The Forum</span>
+                                <span>Greg - Parallel breakout</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T12:55">12:55-1:55 PM</time>
+                                <span class="font-bold uppercase tracking-wide">The Cube</span>
+                                <span>Shacole Hamlett - Parallel breakout</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T13:55">1:55-3:20 PM</time>
+                                <span class="font-bold uppercase tracking-wide">Kitchen</span>
+                                <span>Snack, hallway track and recharge</span>
+                            </li>
+                            <li class="grid gap-1 border-b border-[#b99583] py-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T16:00">4:00-5:00 PM</time>
+                                <span class="font-bold uppercase tracking-wide">The Forum</span>
+                                <span>Kevin Griffin, Ph.D. - Closing keynote</span>
+                            </li>
+                            <li class="grid gap-1 pt-3 md:grid-cols-[14rem_13rem_1fr] md:gap-6">
+                                <time class="font-bold text-[#803c28]" datetime="2026-05-15T17:00">5:00-5:15 PM</time>
+                                <span class="font-bold uppercase tracking-wide">The Forum</span>
+                                <span>Closing remarks</span>
+                            </li>
+                        </ol>
+                    </section>
                 </div>
             </div>
         </section>
@@ -248,6 +304,21 @@
         </div>
     </footer>
     <script>
+        const syncHashScroll = () => {
+            const targetId = window.location.hash.slice(1);
+            const target = targetId ? document.getElementById(targetId) : null;
+
+            if (target) {
+                target.scrollIntoView();
+            }
+        };
+
+        window.addEventListener('load', () => {
+            window.requestAnimationFrame(syncHashScroll);
+            window.setTimeout(syncHashScroll, 250);
+            window.setTimeout(syncHashScroll, 1000);
+        });
+
         (() => {
             const maxLines = 4;
             const bios = Array.from(document.querySelectorAll('[data-speaker-bio]'));

@@ -16,6 +16,12 @@
   force = true
 
 [[redirects]]
+  from = "/guide"
+  to = "/#guide"
+  status = 302
+  force = true
+
+[[redirects]]
   from = "/tickets"
   to = "https://ti.to/techlahoma/200ok-2026"
   status = 302
