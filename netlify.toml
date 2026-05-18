@@ -1,7 +1,7 @@
 [build]
-  base = "."
-  publish = "public/"
-  command = "make deploy"
+  base = "./static-2025"
+  publish = ""
+  command = ""
 
 # https://cli.netlify.com/netlify-dev#netlifytoml-dev-block
 [dev]
@@ -16,6 +16,12 @@
   force = true
 
 [[redirects]]
+  from = "/submit"
+  to = "https://sessionize.com/200ok-2025/"
+  status = 302
+  force = true
+
+[[redirects]]
   from = "/tickets"
   to = "https://www.techlahoma.org/tickets-arent-available"
   status = 302
@@ -23,7 +29,7 @@
 
 [[redirects]]
   from = "/survey"
-  to = "https://docs.google.com/forms/d/e/1FAIpQLSdggrJUmqeYB89Ph811NylZz3IP6CHtmSx6XZLTxPK46BS85Q/viewform"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSe85ht7bkrJ8UuNVl02Gl6tHz4KAM_DzDFrVGyufyhYXJt_bA/viewform?usp=header"
   status = 302
   force = true
 

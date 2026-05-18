@@ -1,0 +1,23 @@
+.background {
+    background-image: url("background.gif");
+    background-size: cover;
+    background-position: center center;
+}
+
+    /* @media (prefers-reduced-motion) {
+    .background {
+    background-image: url("https://media.giphy.com/media/7OmrG0CnLHXbTmhLaS/giphy.gif");
+    }  
+} */
+
+@media (prefers-color-scheme: dark) {
+    .background {
+        background-image: url("background-dark.gif");
+    }  
+}
+
+@media (prefers-reduced-motion) {
+    .background {
+    background-image: none !important;
+    }  
+}
