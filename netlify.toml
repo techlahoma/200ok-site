@@ -22,6 +22,11 @@
   force = true
 
 [[redirects]]
+  from = "/2027"
+  to = "/waitlist/"
+  status = 302
+
+[[redirects]]
   from = "/tickets"
   to = "https://ti.to/techlahoma/200ok-2026"
   status = 302
