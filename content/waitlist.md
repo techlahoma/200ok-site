@@ -7,8 +7,8 @@ contentMaxWidth: max-w-5xl
 eventDateText: 2027 details forming now
 eventVenueText: Tulsa, OK
 eventVenueAddress: Tulsa, Oklahoma
-eventCtaHref: "#waitlist-form"
-eventCtaLabel: Join the Waitlist
+eventCtaHref: "https://ti.to/techlahoma/200ok-2027"
+eventCtaLabel: Join on Tito
 eventCtaTarget: _self
 image: https://200ok.us/assets/video/2026/posters/200ok-2026-logo.jpg
 ---
@@ -86,64 +86,15 @@ image: https://200ok.us/assets/video/2026/posters/200ok-2026-logo.jpg
   </div>
 </section>
 
-<section id="waitlist-form" class="mt-12 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,28rem)] lg:items-start">
+<section id="waitlist-form" class="mt-12 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,28rem)] lg:items-center">
   <div>
-    <h2 class="mb-4 twokay-font-freshman uppercase tracking-widest text-3xl leading-none sm:text-4xl">Join the list</h2>
+    <h2 class="mb-4 twokay-font-freshman uppercase tracking-widest text-3xl leading-none sm:text-4xl">Join the 2027 early list</h2>
     <p class="max-w-2xl text-lg leading-7 text-[#f9f3e6]/85">
-      We will use this list for 200OK 2027 updates only. The planning questions help us understand demand before tickets, speakers, and sponsors are finalized.
+      Sign up on Tito with your name and email to get 200OK 2027 updates. Joining the early list does not reserve a ticket.
     </p>
   </div>
 
-  <form
-    class="rounded-lg bg-[#f9f3e6] p-5 text-stone-900"
-    name="200ok-2027-waitlist"
-    method="POST"
-    action="/waitlist-success/"
-    data-netlify="true"
-    netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="200ok-2027-waitlist">
-    <p class="hidden">
-      <label>Do not fill this out: <input name="bot-field"></label>
-    </p>
-
-    <div class="grid gap-4">
-      <label class="block">
-        <span class="mb-1 block font-bold">Name</span>
-        <input class="w-full rounded border-2 border-stone-900 bg-white px-3 py-2 text-stone-950" type="text" name="name" autocomplete="name" required>
-      </label>
-
-      <label class="block">
-        <span class="mb-1 block font-bold">Email</span>
-        <input class="w-full rounded border-2 border-stone-900 bg-white px-3 py-2 text-stone-950" type="email" name="email" autocomplete="email" required>
-      </label>
-
-      <label class="block">
-        <span class="mb-1 block font-bold">Company or community</span>
-        <input class="w-full rounded border-2 border-stone-900 bg-white px-3 py-2 text-stone-950" type="text" name="organization" autocomplete="organization">
-      </label>
-
-      <fieldset>
-        <legend class="mb-2 font-bold">What are you interested in?</legend>
-        <div class="grid gap-2 text-base">
-          <label class="flex gap-2"><input class="mt-1" type="checkbox" name="interest" value="tickets"> Tickets</label>
-          <label class="flex gap-2"><input class="mt-1" type="checkbox" name="interest" value="speaking"> Speaking</label>
-          <label class="flex gap-2"><input class="mt-1" type="checkbox" name="interest" value="sponsoring"> Sponsoring</label>
-          <label class="flex gap-2"><input class="mt-1" type="checkbox" name="interest" value="volunteering"> Volunteering</label>
-          <label class="flex gap-2"><input class="mt-1" type="checkbox" name="interest" value="bringing-a-team"> Bringing a team</label>
-        </div>
-      </fieldset>
-
-      <label class="block">
-        <span class="mb-1 block font-bold">What should 200OK cover in 2027?</span>
-        <textarea class="min-h-28 w-full rounded border-2 border-stone-900 bg-white px-3 py-2 text-stone-950" name="topics"></textarea>
-      </label>
-
-      <label class="flex gap-2 text-sm leading-5">
-        <input class="mt-1" type="checkbox" name="email-consent" value="yes" required>
-        <span>Email me about 200OK 2027 and related Techlahoma conference updates.</span>
-      </label>
-
-      <button class="button w-full text-center text-[#f9f3e6]" type="submit">Join Waitlist</button>
-    </div>
-  </form>
+  <div class="lg:flex lg:justify-end">
+    <a class="button inline-flex min-h-12 w-full items-center justify-center px-6 text-center text-[#f9f3e6] sm:w-auto" href="https://ti.to/techlahoma/200ok-2027">Join the 2027 early list on Tito</a>
+  </div>
 </section>
