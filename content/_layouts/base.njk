@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
 <head>
+  {% set pageDescription = description or "200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics." %}
+  {% set pageImage = image or "https://200ok.us/assets/images/share-2024.jpg" %}
   <meta charset="utf-8">
   <title>{{ title or metadata.title }}{{ ' | ' if title or metadata.title }}200OK - Tulsa’s Web Developer Conference</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
+  <meta name="description" content="{{ pageDescription }}">
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
   <!-- OG Tags -->
-  <meta property="og:title" content="200OK Web Developer Conference">
+  <meta property="og:title" content="{{ title or "200OK Web Developer Conference" }}">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
+  <meta property="og:description" content="{{ pageDescription }}">
   <meta property="og:url" content="https://200ok.us/">
-  <meta property="og:image" content="https://200ok.us/assets/images/share-2024.jpg">
+  <meta property="og:image" content="{{ pageImage }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@200okconf">
-  <meta name="twitter:title" content="200OK Web Developer Conference">
-  <meta name="twitter:description" content="200OK is Tulsa’s Web Developer Conference. Hear from some of the best speakers across the globe for a day of presentations about leading web technology topics.">
-  <meta name="twitter:image" content="https://200ok.us/assets/images/share-2024.jpg">
+  <meta name="twitter:title" content="{{ title or "200OK Web Developer Conference" }}">
+  <meta name="twitter:description" content="{{ pageDescription }}">
+  <meta name="twitter:image" content="{{ pageImage }}">
 
   <!-- Fonts -->
   <script src="https://kit.fontawesome.com/7ceac86829.js" crossorigin="anonymous"></script>
@@ -37,7 +39,7 @@
 
 <body class="min-w-min bg-[#f9f3e6] p-4 sm:p-6">
   <div class="bg-stone-900 twokay-bg-image bg-repeat relative py-4 sm:py-16 sm:px-8 md:px-16 rounded-t-lg">
-    <div class="max-w-screen-sm mx-auto mt-4 sm:mt-16 px-4 pb-0 md:pb-24 text-[#f9f3e6] twokay-font-rokkitt">
+    <div class="{{ contentMaxWidth or 'max-w-screen-sm' }} mx-auto mt-4 sm:mt-16 px-4 pb-0 md:pb-24 text-[#f9f3e6] twokay-font-rokkitt">
       <header class="text-center text-[#f9f3e6] twokay-font-freshman uppercase px-4">
         <a href="/" class="block">
           <h1>
@@ -54,13 +56,18 @@
 
         <div class="text-center text-[#f9f3e6] twokay-font-freshman uppercase mb-16">
           <h3 class="block text-2xl sm:text-3xl tracking-widest mb-8">
-            <span>Friday,</span>
-            <span class="inline-block">May 17, 2024</span>
+            <span class="inline-block">{{ eventDateText or "Friday, May 17, 2024" }}</span>
             <br/>
-            <span class="cursor-help inline-block" title="15 N Cheyenne Ave, Tulsa, OK 74103">Atlas School</span>
+            <span class="cursor-help inline-block" title="{{ eventVenueAddress or "15 N Cheyenne Ave, Tulsa, OK 74103" }}">{{ eventVenueText or "Atlas School" }}</span>
           </h3>
           <div class="flex gap-4 flex-col sm:flex-row max-w-xs sm:max-w-none mx-auto justify-center">
-            <a tabindex="0" role="link" class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdjhTI5IWXEmWM2vbRsokIorOiSasbBDb0VCB1eB0ZJjndg0A/viewform" target="_blank">Event Feedback</a>
+            <a
+              tabindex="0"
+              role="link"
+              class="button"
+              href="{{ eventCtaHref or "https://docs.google.com/forms/d/e/1FAIpQLSdjhTI5IWXEmWM2vbRsokIorOiSasbBDb0VCB1eB0ZJjndg0A/viewform" }}"
+              target="{{ eventCtaTarget or "_blank" }}"
+              {% if (eventCtaTarget or "_blank") == "_blank" %}rel="noopener"{% endif %}>{{ eventCtaLabel or "Event Feedback" }}</a>
           </div>
         </div>
 
@@ -69,6 +76,7 @@
           <a class="hover:text-[#ef493c]" href="/#location">Location</a>
           <a class="hover:text-[#ef493c]" href="/#sponsors">Sponsors</a>
           <a class="hover:text-[#ef493c]" href="/#speakers">Speakers</a>
+          <a class="hover:text-[#ef493c]" href="/waitlist/">2027 Waitlist</a>
         </nav>
 
         <section class="">

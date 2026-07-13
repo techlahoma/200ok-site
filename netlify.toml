@@ -1,7 +1,7 @@
-[build]
-  base = "."
-  publish = "public/"
-  command = "make deploy"
+# [build]
+#   base = "."
+#   publish = "public/"
+#   command = "make deploy"
 
 # https://cli.netlify.com/netlify-dev#netlifytoml-dev-block
 [dev]
@@ -16,8 +16,25 @@
   force = true
 
 [[redirects]]
+  from = "/guide"
+  to = "/#recap"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/2027"
+  to = "/waitlist/"
+  status = 302
+
+[[redirects]]
   from = "/tickets"
-  to = "https://www.techlahoma.org/tickets-arent-available"
+  to = "https://ti.to/techlahoma/200ok-2027"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/slack"
+  to = "https://join.slack.com/t/techlahoma/shared_invite/zt-3xuk5u8rr-OdXhYTHVpwXQxSa4riYDxw"
   status = 302
   force = true
 
@@ -28,19 +45,7 @@
   force = true
 
 [[redirects]]
-  from = "/network"
-  to = "https://zoom.us/j/92474087693"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/watch"
-  to = "https://youtu.be/2R5k0Q_sZt0"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/stream"
-  to = "https://youtu.be/2R5k0Q_sZt0"
+  from = "/volunteer"
+  to = "https://forms.gle/tP4THE8bUM7jjiUq9"
   status = 302
   force = true
