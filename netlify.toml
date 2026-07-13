@@ -17,7 +17,7 @@
 
 [[redirects]]
   from = "/guide"
-  to = "/#guide"
+  to = "/#recap"
   status = 302
   force = true
 
@@ -28,7 +28,7 @@
 
 [[redirects]]
   from = "/tickets"
-  to = "https://ti.to/techlahoma/200ok-2026"
+  to = "https://ti.to/techlahoma/200ok-2027"
   status = 302
   force = true
 
